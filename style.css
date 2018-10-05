@@ -1,0 +1,359 @@
+body {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+}
+
+.header {
+  width: 100%;
+  background: -webkit-clip-path: polygon(0 0, 100% 0%, 100% 65%, 0% 100%);
+  clip-path: polygon(0 0, 100% 0%, 100% 65%, 0% 100%);
+  position: relative;
+  height: 1000px;
+  background-image: linear-gradient(150deg, #7e00ff 10%, #05d5ff 75%, #a6ffcb 94%);
+  display: flex;
+  flex-direction: row;
+}
+
+.left_header_block {
+  width: 50%;
+  height: 1000px;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.left_top_block {
+  width: 50%;
+  height: 200px;
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  text-align: left;
+}
+
+.paralelogram {
+  width: 25%;
+  height: 250px;
+  position: relative;
+  float: left;
+  background: -webkit-clip-path: polygon(0 0, 100% 0%, 100% 57%, 0 77%);
+  clip-path: polygon(0 0, 100% 0%, 100% 57%, 0 77%);
+  background-color: #7e00ff;
+  margin: 0;
+}
+
+.triangle {
+  width: 70%;
+  height: 250px;
+  margin: 0;
+  -webkit-clip-path: polygon(0 0, 100% 0%, 100% 0, 0 57%);
+  clip-path: polygon(0 0, 100% 0%, 100% 0, 0 57%);
+  background-color: #6e00ff;
+}
+
+.button_paralelogram {
+  -webkit-clip-path: polygon(0 35%, 100% 5%, 99% 67%, 0 100%);
+  clip-path: polygon(0 35%, 100% 5%, 99% 67%, 0 100%);
+  background-image: linear-gradient(150deg, #0ac3ff, #298cff);
+  width: 30%;
+  height: 290px;
+  position: absolute;
+  bottom: 0px;
+  transform: rotate(-2deg);
+}
+
+.average_header_block {
+  width: 50%;
+  margin-left: 300px;
+  text-align: left;
+  position: relative;
+}
+
+.logo_header {
+  width: 100%;
+  height: 100px;
+  margin-top: 40px;
+}
+
+.info_header_block {
+  text-align: left;
+  height: 500px;
+  margin-top: 150px;
+}
+
+.right_header_block {
+  width: 50%;
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+}
+
+.header_button {
+  width: 50%;
+  text-align: right;
+  margin-top: 20px;
+  margin-right: 0;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+
+.button_android {
+  width: 50%;
+  position: relative;
+}
+
+.button_ios {
+  width: 50%;
+  position: relative;
+}
+
+.android_img {
+  width: 80%;
+  height: auto;
+}
+
+.ios_img {
+  width: 80%;
+  height: auto;
+}
+
+.image_header_block {
+  text-align: right;
+  height: 900px;
+  margin-top: 270px;
+  margin-right: 150px;
+  transform: rotate(-0.1deg);
+  position: absolute;
+}
+
+.header_image {
+  transform: rotate(-11deg);
+}
+
+.content {
+  width: 100%;
+  height: auto;
+  ;
+}
+
+.wrapp_info_section {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 300px;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.app_info_section {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  margin-top: 250px;
+}
+
+.screen {
+  width: 50%;
+}
+
+.text {
+  width: 50%;
+  margin: 90px;
+  margin-top: 200px;
+}
+
+.text_left {
+  width: 45%;
+  padding-left: 5%;
+  margin-top: 200px;
+}
+
+.info_text {
+  color: black;
+  font-size: 35px;
+}
+
+p {
+  color: black;
+  font-size: 20px;
+}
+
+img {
+  width: 100%;
+}
+
+h1 {
+  color: white;
+  letter-spacing: 4px;
+  font-size: 25px;
+}
+
+h2 {
+  color: white;
+  font-size: 30px;
+}
+
+h3 {
+  color: white;
+  font-size: 20px;
+  line-height: 1.4;
+  word-spacing: 2px;
+}
+
+footer {
+  height: 350px;
+  width: 100%;
+  background-image: linear-gradient(150deg, #7e00ff 10%, #05d5ff 75%, #a6ffcb 94%);
+  display: flex;
+  flex-direction: row;
+}
+
+.left_block {
+  width: 25%;
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+  margin-left: 70px;
+  margin-top: 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+.left_block:before {
+  content: ' ';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 70%;
+  height: 100%;
+  z-index: 1;
+  opacity: 0.2;
+  background-image: url('/home/diana/Desktop/sites/kor/logo.png');
+  background-repeat: no-repeat;
+  text-align: left;
+  background-position: 50% 0;
+  background-position: left;
+}
+
+.menu_footer_block {
+  width: 45%;
+  height: auto;
+  position: relative;
+  margin-left: 0px;
+  margin-top: 14px;
+  text-align: left;
+}
+
+.logo_footer {
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+  position: relative;
+}
+
+.logo_img-f {
+  width: 27px;
+  height: 25px;
+  text-align: left;
+  position: relative;
+  margin-right: 10px;
+  margin-top: 19px;
+}
+
+.menu_items {
+  display: flex;
+  flex-direction: column;
+  margin-top: 35px;
+  margin-left: 35px;
+}
+
+.menu_item {
+  margin-left: 35px;
+}
+
+.left_footer_block {
+  text-align: left;
+  width: 100%;
+  height: 310px;
+  margin-top: 25px;
+  position: relative;
+}
+
+.info_block {
+  margin-top: 30px;
+  position: relative;
+  text-align: left;
+}
+
+.contact_block {
+  position: relative;
+  margin-top: 110px;
+}
+
+.right_block {
+  width: 35%;
+  text-align: right;
+}
+
+.follow_block {
+  width: 50%;
+  float: right;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.follow_us {
+  width: 40%;
+  text-align: left;
+  height: 50px;
+  margin-left: 15%;
+}
+
+.follow_items {
+  width: 40%;
+  display: flex;
+  flex-direction: row;
+  text-align: right;
+}
+
+.follow_item {
+  margin-left: 40px;
+  text-align: right;
+}
+
+.foolow_img {
+  height: 25px;
+  width: 25px;
+}
+
+.h1-f {
+  color: white;
+  font-size: 27px;
+}
+
+.h2-f {
+  color: white;
+  font-size: 17px;
+  letter-spacing: 1.5px;
+}
+
+.h3-f {
+  color: white;
+  font-size: 16px;
+  line-height: 23px;
+}
+
+.h4-f {
+  font-size: 13px;
+  color: white;
+}
