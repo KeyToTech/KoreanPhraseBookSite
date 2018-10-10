@@ -48,7 +48,7 @@ class Header extends Component {
 
     <div className="image_header_block">
       <div className="header_image">
-        <img src={ stubImage } />
+        <img className='app-illustration' src={ stubImage } />
       </div>
     </div>
 

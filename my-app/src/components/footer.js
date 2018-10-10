@@ -3,7 +3,7 @@ import appLogo from '../res/logo.png';
 import icFacebook from '../res/ic-facebook.png';
 import icInstagram from '../res/ic-instagram.png';
 import icTwitter from '../res/ic-twitter.png';
-
+import './footer.css';
 
 class Footer extends Component{
     render(){
@@ -12,7 +12,7 @@ class Footer extends Component{
             <div className="left_block">
               <div className="left_footer_block">
                 <div className="logo_footer">
-                  <img className="logo_img-f" src={ appLogo }/>
+                  <img className="logo_img" src={ appLogo }/>
                   <h1 className="h1-f">Korean phrases</h1>
                 </div>
                 <div className="info_block">
@@ -60,7 +60,6 @@ class Footer extends Component{
           </div>
         
         </div>
-        
           </footer>
         );
     }
