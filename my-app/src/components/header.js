@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import stubImage from '../res/stub_image.jpg';
 import googlePlayBadge from '../res/google-play-badge.png';
 import iosBadge from '../res/ios.svg';
+import koreanImg from '../res/korea.jpg';
 
 import './header.css';
 
@@ -48,7 +49,7 @@ class Header extends Component {
 
     <div className="image_header_block">
       <div className="header_image">
-        <img className='app-illustration' src={ stubImage } />
+        <img className='app-illustration' src={ koreanImg } />
       </div>
     </div>
 

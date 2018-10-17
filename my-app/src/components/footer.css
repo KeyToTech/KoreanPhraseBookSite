@@ -3,11 +3,12 @@ footer {
     width: 100%;
     background-image: linear-gradient(150deg, #7e00ff 10%, #05d5ff 75%, #a6ffcb 94%);
     display: flex;
-    flex-direction: row;position: relative;
+    flex-direction: row;
+    position: relative;
   }
   
   .left_block {
-    width: 25%;
+    width: 20%;
     text-align: left;
     display: flex;
     flex-direction: row;
@@ -27,7 +28,7 @@ footer {
     height: 100%;
     z-index: 1;
     opacity: 0.2;
-    background-image: url('/home/diana/Desktop/sites/kor/logo.png');
+    background-image: url('/home/diana/Developer/KeyToTech/KoreanPhraseBook/my-app/src/res/logo.png');
     background-repeat: no-repeat;
     text-align: left;
     background-position: 50% 0;
@@ -38,73 +39,76 @@ footer {
     width: 45%;
     height: auto;
     position: relative;
-    margin-left: 0px;
-    margin-top: 14px;
+    margin-left: 10px;
+    margin-top: 15px;
     text-align: left;
   }
   
   .logo_footer {
+    width: 100%;
     margin: 0;
     display: flex;
     flex-direction: row;
-    height: 50px;
+    height: auto;
     position: relative;
   
   }
   
-  .logo_img-f {
+  .logo_img {
     width: 27px;
     height: 25px;
     text-align: left;
     position: relative;
     margin-right: 10px;
-    margin-top: 19px;
-    max-height: 150px;
-  max-width: 200px
+    margin-top: 15px;
   }
   
   .menu_items {
     display: flex;
     flex-direction: column;
-    margin-top: 35px;
+    margin-top: 40px;
     margin-left: 35px;
   }
   
   .menu_item {
     margin-left: 35px;
+    line-height: 1;
   }
   
   .left_footer_block {
     text-align: left;
-    width: 50px;
-    height: 310px;
+    width: 100%;
+    height: 100%;
     margin-top: 25px;
     position: relative;
   }
   
   .info_block {
-    margin-top: 30px;
+    width: 100%;
     position: relative;
     text-align: left;
+    margin-top: 35px;
+    margin-left: 0px;
   }
   
   .contact_block {
     position: relative;
-    margin-top: 110px;
+    margin-top: 85px;
   }
   
   .right_block {
-    width: 35%;
+    width: 30%;
     text-align: right;
   }
   
   .follow_block {
     width: 50%;
-    float: right;
-    margin-top: 50px;
     display: flex;
     flex-direction: column;
     position: relative;
+    float: right;
+    margin-top: 50px;
+    margin-right: 10px;
   }
   
   .follow_us {
@@ -131,24 +135,24 @@ footer {
     width: 25px;
   }
   
-  .h1-f {
+  h1{
     color: white;
-    font-size: 27px;
+    font-size: 23px;
   }
   
-  .h2-f {
+  h2{
     color: white;
     font-size: 17px;
     letter-spacing: 1.5px;
   }
   
-  .h3-f {
+  h3{
     color: white;
-    font-size: 16px;
+    font-size: 13px;
     line-height: 23px;
   }
   
-  .h4-f {
+  h4{
     font-size: 13px;
     color: white;
   }
