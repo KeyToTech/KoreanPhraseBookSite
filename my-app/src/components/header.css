@@ -54,6 +54,7 @@
   }
   
   .button_paralelogram {
+border: red solid;
     clip-path: polygon(0 35%, 100% 8%, 99% 70%, 0 100%);
     background-image: linear-gradient(150deg, #0ac3ff, #298cff);
     width: 30%;
