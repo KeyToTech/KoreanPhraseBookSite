@@ -94,7 +94,7 @@
   .header_button {
     width: 50%;
     text-align: right;
-    margin-top: 20px;
+    margin-top: 0px;
     margin-right: 0;
     height: auto;
     display: flex;
@@ -103,25 +103,20 @@
   }
   
   .button_android {
-    width: 50%;
+    width: 40%;
     position: relative;
+    margin-right: 7%;
   }
   
   .button_ios {
-    width: 50%;
+    width: 40%;
     position: relative;
   }
   
   .android_img {
-    width: 200px;
-    height:150px;;
-    height: auto;
   }
   
   .ios_img {
-    width: 150px;
-    height:100px;;
-    height: auto;
   }
   
   .image_header_block {

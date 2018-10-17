@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import stubImage from '../res/stub_image.jpg';
-import googlePlayBadge from '../res/google-play-badge.png';
-import iosBadge from '../res/ios.svg';
 import koreanImg from '../res/korea.jpg';
+import googlePlayBottom from '../res/google-store.png';
+import iosStoreBottom from '../res/ios-store.png';
 
 import './header.css';
 
@@ -41,10 +41,10 @@ class Header extends Component {
           <div className="right_header_block">
             <div className="header_button">
               <div className="button_android">
-                <img className="android_img" src={googlePlayBadge}/>
+                <img className="android_img" src={googlePlayBottom}/>
               </div>
               <div className="button_ios">
-                <img className="ios_img" src={iosBadge}/>
+                <img className="ios_img" src={iosStoreBottom}/>
               </div>
             </div>
 
