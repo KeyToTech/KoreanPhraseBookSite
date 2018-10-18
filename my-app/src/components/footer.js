@@ -13,7 +13,7 @@ class Footer extends Component{
               <div className="left_footer_block">
                 <div className="logo_footer">
                   <img className="logo_img" src={ appLogo }/>
-                  <h1>Korean phrases</h1>
+                  <h1 className='app-name'>Корейський розмовник</h1>
                 </div>
                 <div className="info_block">
                   <h3>Every time you sign up <br/> a friend to VITAL you earn 4 referral points.  <br/> You also get 2 referral points for people your....</h3>
@@ -28,7 +28,7 @@ class Footer extends Component{
         <div className="right_block">
           <div className="follow_block">
             <div className="follow_us">
-              <h2>Follow</h2>
+              <h2 className='follow_heading'>Follow</h2>
             </div>
           <div className="follow_items">
             <div className="follow_item">
