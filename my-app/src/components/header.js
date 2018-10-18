@@ -39,7 +39,7 @@ class Header extends Component {
         </div>
 
           <div className="right_header_block">
-            <div className="header_button">
+            <div className="button_wrap">
               <div className="button_android">
                 <img className="android_img" src={googlePlayBottom}/>
               </div>
