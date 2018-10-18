@@ -25,42 +25,31 @@ class Footer extends Component{
             </div>
         
         
-            <div className="menu_footer_block">
-              <div className="menu_items">
-                <div className="menu_item">
-                  <h2>About</h2>
-                </div>
-                <div className="menu_item">
-                  <h2>Price</h2>
-                </div>
-                <div className="menu_item">
-                  <h2>Features</h2>
-                </div>
-              </div>
-            </div>
-        
-        
-        
         <div className="right_block">
           <div className="follow_block">
             <div className="follow_us">
               <h2>Follow</h2>
             </div>
-            <div className="follow_items">
+          <div className="follow_items">
+            <div className="follow_item">
+              <a href="http://www.keytotech.com/" class="active">                 
+               <img className="foolow_img" src={icFacebook}/>
+               </a>
+             </div>
+             <div className="follow_item">
+                <a href="http://www.keytotech.com/" class="active">                 
+                  <img className="foolow_img" src={icTwitter}/>
+                 </a>
+                </div>
               <div className="follow_item">
-              <img className="foolow_img" src={icFacebook}/>
-            </div>
-              <div className="follow_item">
-                <img className="foolow_img" src={icTwitter}/>
-              </div>
-                <div className="follow_item">
-                  <img className="foolow_img" src={icInstagram}/>
+                <a href="http://www.keytotech.com/" class="active">                
+                 <img className="foolow_img" src={icInstagram}/>
+                  </a>
+                </div>
             </div>
           </div>
-          </div>
-        
         </div>
-          </footer>
+      </footer>
         );
     }
 }

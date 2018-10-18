@@ -3,7 +3,6 @@ import stubImage from '../res/stub_image.jpg';
 import koreanImg from '../res/korea.jpg';
 import googlePlayBottom from '../res/google-store.png';
 import iosStoreBottom from '../res/ios-store.png';
-
 import './header.css';
 
 class Header extends Component {
@@ -26,14 +25,12 @@ class Header extends Component {
 
           <div className="average_header_block">
               <div className="logo_header">
-                <h1>Korean Phrases</h1>
+                <h1 className='app-name'>Корейський розмовник</h1>
               </div>
 
             <div className="info_header_block">
-              <div className="info_block">
-                <h2>The Korean Phrases.....</h2>
-                <h3>Every time you sign up <br/> a friend to VITAL you earn 4 referral points. <br/>You also get 2 referral points for people your....</h3>
-              </div>
+                <h2 className='title'>The Korean Phrases.....</h2>
+                <h3 className='subtitle'>Every time you sign up <br/> a friend to VITAL you earn 4 referral points. <br/>You also get 2 referral points for people your....</h3>
             </div>
           </div>
         </div>
