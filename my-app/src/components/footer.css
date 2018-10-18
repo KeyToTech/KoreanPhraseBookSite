@@ -5,6 +5,7 @@ footer {
     display: flex;
     flex-direction: row;
     position: relative;
+    margin-top: 250px;
   }
   
   .left_block {
@@ -24,16 +25,19 @@ footer {
     position: absolute;
     left: 0;
     top: 0;
-    width: 70%;
+    width: 100%;
     height: 100%;
     z-index: 1;
     opacity: 0.2;
-    background-image: url('/home/diana/Developer/KeyToTech/KoreanPhraseBook/my-app/src/res/logo.png');
+    background-image: url('../res/logo.png');
     background-repeat: no-repeat;
-    text-align: left;
     background-position: 50% 0;
-    background-position: left;
-  }
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: 85%;
+}
   
   .menu_footer_block {
     width: 45%;
@@ -81,6 +85,7 @@ footer {
     height: 100%;
     margin-top: 25px;
     position: relative;
+    
   }
   
   .info_block {
@@ -93,7 +98,7 @@ footer {
   
   .contact_block {
     position: relative;
-    margin-top: 85px;
+    margin-top: 110px;
   }
   
   .right_block {
