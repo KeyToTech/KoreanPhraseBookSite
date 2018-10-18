@@ -148,9 +148,10 @@ footer {
   
   .develop-block{
     width: 100%;
-    height: auto;
+    height: 40px;
     margin-top: 175px;
     margin-left: -700px;
+    margin-bottom: 0;
     position: relative;
   }
 
