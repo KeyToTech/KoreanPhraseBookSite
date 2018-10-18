@@ -47,6 +47,9 @@ class Footer extends Component{
                   </a>
                 </div>
             </div>
+            <div className='develop-block'>
+            <h2>Developed by: <a href="http://www.keytotech.com/" class="active">KeyToTech</a></h2>
+            </div>
           </div>
         </div>
       </footer>

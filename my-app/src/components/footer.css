@@ -140,6 +140,19 @@ footer {
     width: 25px;
   }
   
+  .develop-block{
+    width: 100%;
+    height: auto;
+    margin-top: 175px;
+    margin-left: -700px;
+    position: relative;
+  }
+
+  a{
+    text-decoration: none;
+    letter-spacing: 1px;
+    }
+
   h1{
     color: white;
     font-size: 23px;
