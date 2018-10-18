@@ -438,7 +438,6 @@
 @media only screen and (max-width: 365px) {
 
     .header {
-        border: pink solid;
         height: 900px;
         position: relative;
         margin: 0;
@@ -492,7 +491,6 @@
     }
 
     .button_paralelogram {
-        border: red solid;
         clip-path: polygon(0 35%, 100% 8%, 99% 70%, 0 100%);
         background-image: linear-gradient(150deg, #0ac3ff, #298cff);
         width: 30%;
@@ -503,8 +501,8 @@
     }
 
     .average_header_block {
-        width: 50%;
-        margin-left: 300px;
+        width: 230px;
+        margin-left: 20%;
         text-align: left;
         position: relative;
     }
@@ -518,7 +516,7 @@
     .info_header_block {
         text-align: left;
         height: 500px;
-        margin-top: 150px;
+        margin-top: 30px;
     }
 
     .right_header_block {
@@ -528,16 +526,19 @@
         flex-direction: column;
         position: relative;
         margin: 0;
+        padding-top: 5%;
+        padding-left: 20px;
     }
 
     .header_button {
-        width: 50%;
+        width: 80%;
         text-align: right;
         margin-top: 0px;
         margin-right: 0;
         height: auto;
         display: flex;
         flex-direction: row;
+        justify-content: space-around;
         position: relative;
     }
 
@@ -559,10 +560,10 @@
     }
 
     .image_header_block {
-        width: 47%;
+        width: 58%;
         height: auto;
-        margin-top: -700px;
-        margin-left: 50%;
+        margin-top: -550px;
+        margin-left: 25%;
         position: absolute;
         text-align: right;
     }
