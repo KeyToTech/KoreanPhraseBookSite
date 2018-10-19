@@ -82,6 +82,10 @@
         margin-top: 150px;
     }
 
+    .info_head_block{
+        text-align: left;
+    }
+
     .right_header_block {
         width: 50%;
         text-align: right;
@@ -371,6 +375,10 @@
         margin-top: 30px;
     }
 
+    .info_head_block{
+        text-align: left;
+    }
+
     .right_header_block {
         width: 50%;
         text-align: right;
@@ -436,7 +444,6 @@
 
 
 @media only screen and (max-width: 365px) {
-
     .header {
         height: 900px;
         position: relative;
@@ -517,6 +524,10 @@
         text-align: left;
         height: 500px;
         margin-top: 30px;
+    }
+
+    .info_head_block{
+        text-align: left;
     }
 
     .right_header_block {

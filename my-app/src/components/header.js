@@ -30,7 +30,7 @@ class Header extends Component {
                             </div>
 
                             <div className="info_header_block">
-                                <div className="info_block">
+                                <div className="info_head_block">
                                     <h2>The Korean Phrases.....</h2>
                                     <h3>Every time you sign up <br/> a friend to VITAL you earn 4 referral points. <br/>You
                                         also get 2 referral points for people your....</h3>

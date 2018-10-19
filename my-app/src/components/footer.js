@@ -26,21 +26,6 @@ class Footer extends Component {
                 </div>
 
 
-                <div className="menu_footer_block">
-                    <div className="menu_items">
-                        <div className="menu_item">
-                            <h2>About</h2>
-                        </div>
-                        <div className="menu_item">
-                            <h2>Price</h2>
-                        </div>
-                        <div className="menu_item">
-                            <h2>Features</h2>
-                        </div>
-                    </div>
-                </div>
-
-
                 <div className="right_block">
                     <div className="follow_block">
                         <div className="follow_us">
