@@ -28,6 +28,11 @@
         width: 50%;
     }
 
+    .screen img {
+        width: 338px;
+        height: 600px;
+    }
+
     .text {
         width: 60%;
         font-size: 500px;
