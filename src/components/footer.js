@@ -8,7 +8,7 @@ import './footer.css';
 class Footer extends Component {
     render() {
         return (
-            <footer>
+            <footer>                
                 <div className="left_block">
                     <div className="left_footer_block">
                         <div className="logo_footer">
@@ -20,7 +20,7 @@ class Footer extends Component {
                                 also get 2 referral points for people your....</h3>
                         </div>
                         <div className="contact_block">
-                            <h3>Copyright © 2018 KeyToTech | All Rights Reserved</h3>
+                            Copyright © 2018 <a href="https://keytotech.com">KeyToTech</a> | All Rights Reserved
                         </div>
                     </div>
                 </div>

@@ -6,6 +6,8 @@ import iosStoreBottom from '../res/ios-store.png';
 
 import './header.css';
 
+const ANDROID_APP_LINK = 'https://play.google.com/store/apps/details?id=com.keytotech.koreanphrasebook';
+
 class Header extends Component {
     render() {
         return (
@@ -41,11 +43,11 @@ class Header extends Component {
 
                     <div className="right_header_block">
                         <div className="header_button">
-                            <div className="button_android">
-                                <img className="android_img" src={googlePlayBottom}/>
+                            <div className="button_android">                            
+                                <a href={ANDROID_APP_LINK}><img className="android_img" src={googlePlayBottom}/></a>
                             </div>
                             <div className="button_ios">
-                                <img className="ios_img" src={iosStoreBottom}/>
+                                <a href="https://keytotech.com"><img className="ios_img" src={iosStoreBottom}/></a>
                             </div>
                         </div>
 
