@@ -1,0 +1,594 @@
+@media only screen and (min-width: 922px) {
+
+    .header {
+        height: 900px;
+        position: relative;
+        margin: 0;
+    }
+
+    .header-block {
+        width: 100%;
+        height: 900px;
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        margin: 0;
+        background-image: linear-gradient(150deg, #7e00ff 10%, #05d5ff 75%, #a6ffcb 94%);
+        clip-path: polygon(0 0, 100% 0%, 100% 65%, 0% 100%);
+    }
+
+    .left_header_block {
+        width: 50%;
+        height: 1000px;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .left_top_block {
+        width: 50%;
+        height: 200px;
+        display: flex;
+        flex-direction: row;
+        position: absolute;
+        text-align: left;
+    }
+
+    .paralelogram {
+        width: 25%;
+        height: 250px;
+        position: relative;
+        float: left;
+        clip-path: polygon(0 0, 100% 0%, 100% 60%, 0 79%);
+        background-color: #7e00ff;
+        margin: 0;
+    }
+
+    .triangle {
+        width: 70%;
+        height: 250px;
+        position: relative;
+        margin: 0;
+        clip-path: polygon(0 0, 100% 0%, 100% 0, 0 57%);
+        background-color: #6e00ff;
+    }
+
+    .button_paralelogram {
+        clip-path: polygon(0 35%, 100% 8%, 99% 70%, 0 100%);
+        background-image: linear-gradient(150deg, #0ac3ff, #298cff);
+        width: 30%;
+        height: 290px;
+        position: absolute;
+        bottom: 0px;
+        transform: rotate(-2deg);
+    }
+
+    .average_header_block {
+        width: 50%;
+        margin-left: 47%;
+        text-align: left;
+        position: relative;
+    }
+
+    .logo_header {
+        width: 100%;
+        height: 100px;
+        margin-top: 40px;
+    }
+
+    .info_header_block {
+        text-align: left;
+        height: 500px;
+        margin-top: 150px;
+    }
+
+    .info_head_block{
+        text-align: left;
+    }
+
+    .right_header_block {
+        width: 50%;
+        text-align: right;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        margin: 0;
+    }
+
+    .header_button {
+        width: 50%;
+        text-align: right;
+        margin-top: 0px;
+        margin-right: 0;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        position: relative;
+    }
+
+    .button_android {
+        width: 40%;
+        position: relative;
+        margin-right: 7%;
+    }
+
+    .button_ios {
+        width: 40%;
+        position: relative;
+    }
+
+    .android_img {
+    }
+
+    .ios_img {
+    }
+
+    .image_header_block {
+        width: 47%;
+        height: auto;
+        margin-top: -700px;
+        margin-left: 50%;
+        position: absolute;
+        text-align: right;
+    }
+
+    .header_image {
+        width: 100%;
+        position: relative;
+        margin: 0;
+    }
+
+    .app-illustration {
+        width: 100%;
+        height: auto;
+        margin: 0;
+        transform: rotate(-9deg);
+    }
+}
+
+@media only screen and (max-width: 922px) {
+
+    .header {
+        height: 900px;
+        position: relative;
+        margin: 0;
+    }
+
+    .header-block {
+        width: 100%;
+        height: 900px;
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        margin: 0;
+        background-image: linear-gradient(150deg, #7e00ff 10%, #05d5ff 75%, #a6ffcb 94%);
+        clip-path: polygon(0 0, 100% 0%, 100% 65%, 0% 100%);
+    }
+
+    .left_header_block {
+        width: 50%;
+        height: 1000px;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .left_top_block {
+        width: 50%;
+        height: 200px;
+        display: flex;
+        flex-direction: row;
+        position: absolute;
+        text-align: left;
+    }
+
+    .paralelogram {
+        width: 25%;
+        height: 250px;
+        position: relative;
+        float: left;
+        clip-path: polygon(0 0, 100% 0%, 100% 60%, 0 79%);
+        background-color: #7e00ff;
+        margin: 0;
+    }
+
+    .triangle {
+        width: 70%;
+        height: 250px;
+        position: relative;
+        margin: 0;
+        clip-path: polygon(0 0, 100% 0%, 100% 0, 0 57%);
+        background-color: #6e00ff;
+    }
+
+    .button_paralelogram {
+        clip-path: polygon(0 35%, 100% 8%, 99% 70%, 0 100%);
+        background-image: linear-gradient(150deg, #0ac3ff, #298cff);
+        width: 30%;
+        height: 290px;
+        position: absolute;
+        bottom: 0px;
+        transform: rotate(-2deg);
+    }
+
+    .average_header_block {
+        width: 70%;
+        margin-left: 20%;
+        text-align: left;
+        position: relative;
+    }
+
+    .logo_header {
+        width: 100%;
+        height: 100px;
+        margin-top: 40px;
+    }
+
+    .info_header_block {
+        text-align: left;
+        height: 500px;
+        margin-top: 150px;
+    }
+
+    .right_header_block {
+        width: 50%;
+        text-align: right;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        margin: 0;
+    }
+
+    .header_button {
+        width: 50%;
+        text-align: right;
+        margin-top: 0px;
+        margin-right: 0;
+        margin-left: 15%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        position: relative;
+    }
+
+    .button_android {
+        width: 40%;
+        position: relative;
+        margin-right: 7%;
+    }
+
+    .button_ios {
+        width: 40%;
+        position: relative;
+    }
+
+    .android_img {
+    }
+
+    .ios_img {
+    }
+
+    .image_header_block {
+        width: 47%;
+        height: auto;
+        margin-top: -700px;
+        margin-left: 50%;
+        position: absolute;
+        text-align: right;
+    }
+
+    .header_image {
+        width: 100%;
+        position: relative;
+        margin: 0;
+    }
+
+    .app-illustration {
+        width: 100%;
+        height: auto;
+        margin: 0;
+        transform: rotate(-9deg);
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+    .header {
+        height: 900px;
+        position: relative;
+        margin: 0;
+    }
+
+    .header-block {
+        width: 100%;
+        height: 900px;
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        margin: 0;
+        background-image: linear-gradient(150deg, #7e00ff 10%, #05d5ff 75%, #a6ffcb 94%);
+        clip-path: polygon(0 0, 100% 0%, 100% 65%, 0% 100%);
+    }
+
+    .left_header_block {
+        width: 50%;
+        height: 1000px;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .left_top_block {
+        width: 50%;
+        height: 200px;
+        display: flex;
+        flex-direction: row;
+        position: absolute;
+        text-align: left;
+    }
+
+    .paralelogram {
+        width: 25%;
+        height: 250px;
+        position: relative;
+        float: left;
+        clip-path: polygon(0 0, 100% 0%, 100% 60%, 0 79%);
+        background-color: #7e00ff;
+        margin: 0;
+    }
+
+    .triangle {
+        width: 70%;
+        height: 250px;
+        position: relative;
+        margin: 0;
+        clip-path: polygon(0 0, 100% 0%, 100% 0, 0 57%);
+        background-color: #6e00ff;
+    }
+
+    .button_paralelogram {
+        clip-path: polygon(0 35%, 100% 8%, 99% 70%, 0 100%);
+        background-image: linear-gradient(150deg, #0ac3ff, #298cff);
+        width: 30%;
+        height: 290px;
+        position: absolute;
+        bottom: 0px;
+        transform: rotate(-2deg);
+    }
+
+    .average_header_block {
+        width: 230px;
+        margin-left: 20%;
+        text-align: left;
+        position: relative;
+    }
+
+    .logo_header {
+        width: 100%;
+        height: 100px;
+        margin-top: 40px;
+    }
+
+    .info_header_block {
+        text-align: left;
+        height: 500px;
+        margin-top: 30px;
+    }
+
+    .info_head_block{
+        text-align: left;
+    }
+
+    .right_header_block {
+        width: 50%;
+        text-align: right;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        margin: 0;
+        padding-top: 5%;
+        padding-left: 20px;
+    }
+
+    .header_button {
+        width: 80%;
+        text-align: right;
+        margin-top: 0px;
+        margin-right: 0;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        position: relative;
+    }
+
+    .button_android {
+        width: 40%;
+        position: relative;
+        margin-right: 7%;
+    }
+
+    .button_ios {
+        width: 40%;
+        position: relative;
+    }
+
+    .android_img {
+    }
+
+    .ios_img {
+    }
+
+    .image_header_block {
+        width: 58%;
+        height: auto;
+        margin-top: -550px;
+        margin-left: 25%;
+        position: absolute;
+        text-align: right;
+    }
+
+    .header_image {
+        width: 100%;
+        position: relative;
+        margin: 0;
+    }
+
+    .app-illustration {
+        width: 100%;
+        height: auto;
+        margin: 0;
+        transform: rotate(-9deg);
+    }
+}
+
+
+@media only screen and (max-width: 365px) {
+    .header {
+        height: 900px;
+        position: relative;
+        margin: 0;
+    }
+
+    .header-block {
+        width: 100%;
+        height: 900px;
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        margin: 0;
+        background-image: linear-gradient(150deg, #7e00ff 10%, #05d5ff 75%, #a6ffcb 94%);
+        clip-path: polygon(0 0, 100% 0%, 100% 65%, 0% 100%);
+    }
+
+    .left_header_block {
+        width: 50%;
+        height: 1000px;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .left_top_block {
+        width: 50%;
+        height: 200px;
+        display: flex;
+        flex-direction: row;
+        position: absolute;
+        text-align: left;
+    }
+
+    .paralelogram {
+        width: 25%;
+        height: 250px;
+        position: relative;
+        float: left;
+        clip-path: polygon(0 0, 100% 0%, 100% 60%, 0 79%);
+        background-color: #7e00ff;
+        margin: 0;
+    }
+
+    .triangle {
+        width: 70%;
+        height: 250px;
+        position: relative;
+        margin: 0;
+        clip-path: polygon(0 0, 100% 0%, 100% 0, 0 57%);
+        background-color: #6e00ff;
+    }
+
+    .button_paralelogram {
+        clip-path: polygon(0 35%, 100% 8%, 99% 70%, 0 100%);
+        background-image: linear-gradient(150deg, #0ac3ff, #298cff);
+        width: 30%;
+        height: 290px;
+        position: absolute;
+        bottom: 0px;
+        transform: rotate(-2deg);
+    }
+
+    .average_header_block {
+        width: 230px;
+        margin-left: 20%;
+        text-align: left;
+        position: relative;
+    }
+
+    .logo_header {
+        width: 100%;
+        height: 100px;
+        margin-top: 40px;
+    }
+
+    .info_header_block {
+        text-align: left;
+        height: 500px;
+        margin-top: 30px;
+    }
+
+    .info_head_block{
+        text-align: left;
+    }
+
+    .right_header_block {
+        width: 50%;
+        text-align: right;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        margin: 0;
+        padding-top: 5%;
+        padding-left: 20px;
+    }
+
+    .header_button {
+        width: 80%;
+        text-align: right;
+        margin-top: 0px;
+        margin-right: 0;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        position: relative;
+    }
+
+    .button_android {
+        width: 40%;
+        position: relative;
+        margin-right: 7%;
+    }
+
+    .button_ios {
+        width: 40%;
+        position: relative;
+    }
+
+    .android_img {
+    }
+
+    .ios_img {
+    }
+
+    .image_header_block {
+        width: 58%;
+        height: auto;
+        margin-top: -550px;
+        margin-left: 25%;
+        position: absolute;
+        text-align: right;
+    }
+
+    .header_image {
+        width: 100%;
+        position: relative;
+        margin: 0;
+    }
+
+    .app-illustration {
+        width: 100%;
+        height: auto;
+        margin: 0;
+        transform: rotate(-9deg);
+    }
+}

@@ -1,0 +1,598 @@
+@media only screen and (min-width: 922px) {
+
+    footer {
+        height: auto;
+        width: 100%;
+        background-image: linear-gradient(150deg, #7e00ff 10%, #05d5ff 75%, #a6ffcb 94%);
+        display: flex;
+        flex-direction: row;
+        position: relative;
+    }
+
+    .left_block {
+        width: 70%;
+    }
+
+    .left_block:before {
+        content: ' ';
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 70%;
+        height: 100%;
+        z-index: 1;
+        opacity: 0.2;
+        background-image: url('/my-app/src/res/logo.png');
+        background-repeat: no-repeat;
+        text-align: left;
+        background-position: 50% 0;
+        background-position: left;
+    }
+
+    .menu_footer_block {
+        width: 45%;
+        height: auto;
+        position: relative;
+        margin-left: 10px;
+        margin-top: 15px;
+        text-align: left;
+    }
+
+    .logo_footer {
+        width: 40%;
+        margin: 0;
+        display: flex;
+        flex-direction: row;
+        position: relative;
+    }
+
+    .logo_img {
+        width: 27px;
+        height: 25px;
+        text-align: left;
+        position: relative;
+        margin-right: 10px;
+        margin-top: 15px;
+    }
+
+    .menu_item {
+        margin-left: 35px;
+        line-height: 1;
+    }
+
+    .left_footer_block {
+        width: 70%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+    }
+
+    .info_block {
+        text-align: center;
+        width: 90%;
+        position: relative;
+        margin-top: 30px;
+    }
+
+    .contact_block {
+        text-align: center;
+        position: relative;
+        width: 70%;
+        margin-top: 30px;
+    }
+
+    .right_block {
+        width: 50%;
+        text-align: right;
+        display: flex;
+        align-items: center;
+    }
+
+    .follow_block {
+        text-align: center;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+
+    }
+
+    .follow_us {
+        width: 40%;
+        text-align: left;
+        display: flex;
+        justify-content: center;
+        height: 50px;
+    }
+
+    .follow_items {
+        width: 60%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        text-align: right;
+    }
+
+    .follow_item {
+
+    }
+
+    .foolow_img {
+        height: 25px;
+        width: 25px;
+    }
+
+    h1 {
+        color: white;
+        font-size: 23px;
+    }
+
+    h2 {
+        color: white;
+        font-size: 17px;
+        letter-spacing: 1.5px;
+    }
+
+    h3 {
+        color: white;
+        font-size: 13px;
+        line-height: 23px;
+    }
+
+    h4 {
+        font-size: 13px;
+        color: white;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 922px) {
+
+    footer {
+        height: auto;
+        width: 100%;
+        background-image: linear-gradient(150deg, #7e00ff 10%, #05d5ff 75%, #a6ffcb 94%);
+        display: flex;
+        flex-direction: row;
+        position: relative;
+    }
+
+    .left_block {
+        width: 70%;
+    }
+
+    .left_block:before {
+        content: ' ';
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 70%;
+        height: 100%;
+        z-index: 1;
+        opacity: 0.2;
+        background-image: url('/my-app/src/res/logo.png');
+        background-repeat: no-repeat;
+        text-align: left;
+        background-position: 50% 0;
+        background-position: left;
+    }
+
+    .menu_footer_block {
+        width: 45%;
+        height: auto;
+        position: relative;
+        margin-left: 10px;
+        margin-top: 15px;
+        text-align: left;
+    }
+
+    .logo_footer {
+        width: 40%;
+        margin: 0;
+        display: flex;
+        flex-direction: row;
+        position: relative;
+    }
+
+    .logo_img {
+        width: 27px;
+        height: 25px;
+        text-align: left;
+        position: relative;
+        margin-right: 10px;
+        margin-top: 15px;
+    }
+
+    .menu_item {
+        margin-left: 35px;
+        line-height: 1;
+    }
+
+    .left_footer_block {
+        width: 70%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+    }
+
+    .info_block {
+        text-align: center;
+        width: 90%;
+        position: relative;
+        margin-top: 30px;
+    }
+
+    .contact_block {
+        text-align: center;
+        position: relative;
+        width: 70%;
+        margin-top: 30px;
+    }
+
+    .right_block {
+        width: 50%;
+        text-align: right;
+        display: flex;
+        align-items: center;
+    }
+
+    .follow_block {
+        text-align: center;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+
+    }
+
+    .follow_us {
+        width: 40%;
+        text-align: left;
+        display: flex;
+        justify-content: center;
+        height: 50px;
+    }
+
+    .follow_items {
+        width: 60%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        text-align: right;
+    }
+
+    .follow_item {
+
+    }
+
+    .foolow_img {
+        height: 25px;
+        width: 25px;
+    }
+
+    h1 {
+        color: white;
+        font-size: 23px;
+    }
+
+    h2 {
+        color: white;
+        font-size: 17px;
+        letter-spacing: 1.5px;
+    }
+
+    h3 {
+        color: white;
+        font-size: 13px;
+        line-height: 23px;
+    }
+
+    h4 {
+        font-size: 13px;
+        color: white;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+    footer {
+        height: 450px;
+        width: 100%;
+        background-image: linear-gradient(150deg, #7e00ff 10%, #05d5ff 75%, #a6ffcb 94%);
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+        position: relative;
+    }
+
+    .left_block {
+        width: 90%;
+        margin: 0;
+    }
+
+    /*.left_block:before {*/
+    /*content: ' ';*/
+    /*display: block;*/
+    /*position: absolute;*/
+    /*left: 0;*/
+    /*top: 0;*/
+    /*width: 70%;*/
+    /*height: 100%;*/
+    /*z-index: 1;*/
+    /*opacity: 0.2;*/
+    /*background-image: url('/my-app/src/res/logo.png');*/
+    /*background-repeat: no-repeat;*/
+    /*text-align: left;*/
+    /*background-position: 50% 0;*/
+    /*background-position: left;*/
+    /*}*/
+    .logo_footer {
+        width: 35%;
+        margin: 0;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .logo_img {
+        width: 27px;
+        height: 25px;
+        text-align: left;
+        margin-right: 10px;
+        margin-top: 15px;
+    }
+
+    .menu_items {
+        display: flex;
+        flex-direction: column;
+        margin-top: 40px;
+        margin-left: 35px;
+    }
+
+    .menu_item {
+        margin-left: 35px;
+        line-height: 1;
+    }
+
+    .left_footer_block {
+        text-align: left;
+        width: 100%;
+        height: 100%;
+        margin-top: 25px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .info_block {
+        text-align: center;
+        width: 90%;
+        margin: 0;
+    }
+
+    .contact_block {
+        text-align: center;
+        margin: 0;
+        width: 90%;
+    }
+
+    .right_block {
+        width: 60%;
+        text-align: right;
+        display: flex;
+        justify-content: center;
+    }
+
+    .follow_block {
+        text-align: center;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+    }
+
+    .follow_us {
+        width: 40%;
+        text-align: left;
+        display: flex;
+        justify-content: center;
+        height: 50px;
+    }
+
+    .follow_items {
+        width: 60%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        text-align: right;
+    }
+
+    .follow_item {
+
+    }
+
+    .foolow_img {
+        height: 25px;
+        width: 25px;
+    }
+
+    h1 {
+        color: white;
+    }
+
+    h2 {
+        color: white;
+        font-size: 17px;
+        letter-spacing: 1.5px;
+    }
+
+    h3 {
+        color: white;
+        font-size: 13px;
+        line-height: 23px;
+    }
+
+    h4 {
+        font-size: 13px;
+        color: white;
+    }
+}
+
+@media only screen and (max-width: 365px) {
+
+    footer {
+        height: 450px;
+        width: 100%;
+        background-image: linear-gradient(150deg, #7e00ff 10%, #05d5ff 75%, #a6ffcb 94%);
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+        position: relative;
+    }
+
+    .left_block {
+        width: 90%;
+        margin: 0;
+    }
+
+    /*.left_block:before {*/
+    /*content: ' ';*/
+    /*display: block;*/
+    /*position: absolute;*/
+    /*left: 0;*/
+    /*top: 0;*/
+    /*width: 70%;*/
+    /*height: 100%;*/
+    /*z-index: 1;*/
+    /*opacity: 0.2;*/
+    /*background-image: url('/my-app/src/res/logo.png');*/
+    /*background-repeat: no-repeat;*/
+    /*text-align: left;*/
+    /*background-position: 50% 0;*/
+    /*background-position: left;*/
+    /*}*/
+    .logo_footer {
+        width: 35%;
+        margin: 0;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .logo_img {
+        width: 27px;
+        height: 25px;
+        text-align: left;
+        margin-right: 10px;
+        margin-top: 15px;
+    }
+
+    .menu_items {
+        display: flex;
+        flex-direction: column;
+        margin-top: 40px;
+        margin-left: 35px;
+    }
+
+    .menu_item {
+        margin-left: 35px;
+        line-height: 1;
+    }
+
+    .left_footer_block {
+        text-align: left;
+        width: 100%;
+        height: 100%;
+        margin-top: 25px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .info_block {
+        text-align: center;
+        width: 90%;
+        margin: 0;
+    }
+
+    .contact_block {
+        text-align: center;
+        margin: 0;
+        width: 90%;
+    }
+
+    .right_block {
+        width: 60%;
+        text-align: right;
+        display: flex;
+        justify-content: center;
+    }
+
+    .follow_block {
+        text-align: center;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+    }
+
+    .follow_us {
+        width: 40%;
+        text-align: left;
+        display: flex;
+        justify-content: center;
+        height: 50px;
+    }
+
+    .follow_items {
+        width: 60%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        text-align: right;
+    }
+
+    .follow_item {
+
+    }
+
+    .foolow_img {
+        height: 25px;
+        width: 25px;
+    }
+
+    h1 {
+        color: white;
+    }
+
+    h2 {
+        color: white;
+        font-size: 17px;
+        letter-spacing: 1.5px;
+    }
+
+    h3 {
+        color: white;
+        font-size: 13px;
+        line-height: 23px;
+    }
+
+    h4 {
+        font-size: 13px;
+        color: white;
+    }
+}
+  

@@ -1,0 +1,332 @@
+@media only screen and (min-width: 922px) {
+
+    .content {
+        width: 100%;
+        height: auto;
+        margin: 0;
+    }
+
+    .wrapp_info_section {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .app_info_section {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        margin: 0;
+        margin-top: 250px;
+    }
+
+    .screen {
+        width: 50%;
+    }
+
+    .screen img {
+        width: 338px;
+        height: 600px;
+    }
+
+    .text {
+        width: 60%;
+        font-size: 500px;
+        margin: 7%;
+        margin-top: 100px;
+    }
+
+    .text_left {
+        width: 45%;
+        padding-left: 5%;
+        margin-top: 200px;
+    }
+
+    .info_text {
+        color: black;
+        font-size: 35px;
+    }
+
+    p {
+        color: black;
+        font-size: 20px;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    h1 {
+        color: white;
+        letter-spacing: 4px;
+        font-size: 25px;
+    }
+
+    h2 {
+        color: white;
+        font-size: 30px;
+    }
+
+    h3 {
+        color: white;
+        font-size: 20px;
+        line-height: 1.4;
+        word-spacing: 2px;
+    }
+}
+
+@media only screen and (max-width: 922px) {
+
+    .content {
+        width: 100%;
+        height: auto;
+        margin: 0;
+    }
+
+    .wrapp_info_section {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .app_info_section {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        margin: 0;
+        margin-top: 250px;
+    }
+
+    .screen {
+        width: 50%;
+    }
+
+    .text {
+        width: 60%;
+        font-size: 500px;
+        margin: 7%;
+        margin-top: 40px;
+    }
+
+    .text_left {
+        width: 45%;
+        padding-left: 5%;
+        margin-top: 130px;
+    }
+
+    .info_text {
+        color: black;
+        font-size: 35px;
+    }
+
+    .description {
+        font-size: 15px;
+    }
+
+    p {
+        color: black;
+        font-size: 10px;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    h1 {
+        color: white;
+        letter-spacing: 4px;
+        font-size: 25px;
+    }
+
+    h2 {
+        color: white;
+        font-size: 30px;
+    }
+
+    h3 {
+        color: white;
+        font-size: 20px;
+        line-height: 1.4;
+        word-spacing: 2px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+    .content {
+        width: 100%;
+        margin: 0;
+    }
+
+    .wrapp_info_section {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .app_info_section {
+        height: 580px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        margin: 0;
+        margin-top: 250px;
+    }
+
+    .screen {
+        width: 65%;
+    }
+
+    .text {
+        text-align: center;
+        width: 80%;
+        font-size: 500px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+    }
+
+    .text_left {
+        height: auto;
+        width: 80%;
+        padding-left: 5%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+    }
+
+    .info_text {
+        width: 80%;
+        text-align: center;
+        color: black;
+        font-size: 27px;
+    }
+
+    p {
+        color: black;
+        font-size: 20px;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    h1 {
+        color: white;
+        letter-spacing: 4px;
+        font-size: 25px;
+    }
+
+    h2 {
+        color: white;
+        font-size: 30px;
+    }
+
+    h3 {
+        color: white;
+        font-size: 20px;
+        line-height: 1.4;
+        word-spacing: 2px;
+    }
+}
+
+@media only screen and (max-width: 365px) {
+
+    .content {
+        width: 100%;
+        margin: 0;
+    }
+
+    .wrapp_info_section {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .app_info_section {
+        height: 580px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        margin: 0;
+        margin-top: 250px;
+    }
+
+    .screen {
+        width: 65%;
+    }
+
+    .text {
+        text-align: center;
+        width: 80%;
+        font-size: 500px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+    }
+
+    .text_left {
+        height: auto;
+        width: 80%;
+        padding-left: 5%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+    }
+
+    .info_text {
+        width: 80%;
+        text-align: center;
+        color: black;
+        font-size: 27px;
+    }
+
+    p {
+        color: black;
+        font-size: 20px;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    h1 {
+        color: white;
+        letter-spacing: 4px;
+        font-size: 25px;
+    }
+
+    h2 {
+        color: white;
+        font-size: 30px;
+    }
+
+    h3 {
+        color: white;
+        font-size: 20px;
+        line-height: 1.4;
+        word-spacing: 2px;
+    }
+}
