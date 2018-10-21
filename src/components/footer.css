@@ -33,7 +33,7 @@
         height: 100%;
         z-index: 1;
         opacity: 0.2;
-        background-image: url('/my-app/src/res/logo.png');
+        background-image: url('/src/res/logo.png');
         background-repeat: no-repeat;
         text-align: left;
         background-position: 50% 0;
@@ -185,7 +185,7 @@
         height: 100%;
         z-index: 1;
         opacity: 0.2;
-        background-image: url('/my-app/src/res/logo.png');
+        background-image: url('/src/res/logo.png');
         background-repeat: no-repeat;
         text-align: left;
         background-position: 50% 0;

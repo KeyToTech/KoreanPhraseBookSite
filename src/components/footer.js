@@ -5,6 +5,10 @@ import icInstagram from '../res/ic-instagram.png';
 import icTwitter from '../res/ic-twitter.png';
 import './footer.css';
 
+const FACEBOOK_URL = '';
+const TWITTER_URL = '';
+const INSTAGRAM_URL = '';
+
 class Footer extends Component {
     render() {
         return (
@@ -12,19 +16,17 @@ class Footer extends Component {
                 <div className="left_block">
                     <div className="left_footer_block">
                         <div className="logo_footer">
-                            <img className="logo_img" src={appLogo}/>
-                            <h1>Korean phrases</h1>
+                            <img className="logo_img" src={ appLogo }/>
+                            <h1 className='app-name'>Корейський розмовник</h1>
                         </div>
                         <div className="info_block">
-                            <h3>Every time you sign up <br/> a friend to VITAL you earn 4 referral points. <br/> You
-                                also get 2 referral points for people your....</h3>
+                            <h3>Завантажуйте Корейський розмовник <br/> та спілкуйтесь корейською легко та ефективно!</h3>
                         </div>
                         <div className="contact_block">
-                            Copyright © 2018 <a href="https://keytotech.com">KeyToTech</a> | All Rights Reserved
+                                    Copyright © 2018 <a href="https://keytotech.com">KeyToTech</a> | All Rights Reserved
                         </div>
                     </div>
                 </div>
-
 
                 <div className="right_block">
                     <div className="follow_block">
@@ -33,13 +35,13 @@ class Footer extends Component {
                         </div>
                         <div className="follow_items">
                             <div className="follow_item">
-                                <img className="foolow_img" src={icFacebook}/>
+                                <a href={FACEBOOK_URL}><img className="foolow_img" src={icFacebook}/></a>
                             </div>
                             <div className="follow_item">
-                                <img className="foolow_img" src={icTwitter}/>
+                                <a href={TWITTER_URL}><img className="foolow_img" src={icTwitter}/></a>
                             </div>
                             <div className="follow_item">
-                                <img className="foolow_img" src={icInstagram}/>
+                                <a href={INSTAGRAM_URL}><img className="foolow_img" src={icInstagram}/></a>
                             </div>
                         </div>
                     </div>
