@@ -24,7 +24,6 @@ class Header extends Component {
 
 
                         <div className="average_header_block">
-
                             <div className="info_header_block">
                                 <h2 className='title'>Корейський розмовник</h2>
                                 <h3 className='subtitle'>Завантажуйте Корейський розмовник та спілкуйтесь корейською
@@ -47,15 +46,14 @@ class Header extends Component {
                             </div>
                         </div>
 
+                        <div className="image_header_block">
+                            <div className="header_image">
+                                <img className='app-illustration' src={koreanImg}/>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
-
-                <div className="image_header_block">
-                    <div className="header_image">
-                        <img className='app-illustration' src={koreanImg}/>
-                    </div>
-                </div>
-
             </div>
         );
     }
