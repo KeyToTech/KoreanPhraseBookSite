@@ -35,7 +35,7 @@ class Header extends Component {
           <div className="right_header_block">
             <div className="button_wrap">
               <div className="button_android">
-              <a href="http://www.keytotech.com/" class="active">                 
+              <a href="https://play.google.com/store/apps/details?id=com.keytotech.koreanphrasebook" class="active">                 
                 <img className="android_img" src={googlePlayBottom}/>
                 </a>
               </div>
