@@ -19,7 +19,7 @@ class Footer extends Component{
                   <h3>Every time you sign up <br/> a friend to VITAL you earn 4 referral points.  <br/> You also get 2 referral points for people your....</h3>
                 </div>
                 <div className="contact_block">
-                  <h3>Copyright © 2018 KeyToTech | All Rights Reserved</h3>
+                 <a href="http://www.keytotech.com/"><h3>Copyright © 2018 KeyToTech | All Rights Reserved</h3></a> 
                 </div>
               </div>
             </div>
