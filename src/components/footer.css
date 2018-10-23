@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans'); 
+
 footer {
     height: 370px;
     width: 100%;
@@ -164,25 +166,30 @@ footer {
   h1{
     color: white;
     font-size: 23px;
+    font-family: 'Open Sans', sans-serif;
   }
   
   h2{
     color: white;
     font-size: 17px;
     letter-spacing: 1.5px;
+    font-family: 'Open Sans', sans-serif;
   }
   
   h3{
     color: white;
     font-size: 13px;
     line-height: 23px;
+    font-family: 'Open Sans', sans-serif;
   }
   
   h4{
     font-size: 13px;
     color: white;
+    font-family: 'Open Sans', sans-serif;
   }
   
   .follow_heading{
     font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
   }

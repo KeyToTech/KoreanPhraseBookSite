@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import stubImage from '../res/stub_image.jpg';
-import koreanImg from '../res/korea.jpg';
+import koreanImg from '../res/korean2.png';
 import googlePlayBottom from '../res/google-store.png';
 import iosStoreBottom from '../res/ios-store.png';
 import './header.css';
