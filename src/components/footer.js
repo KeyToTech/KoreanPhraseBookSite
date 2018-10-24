@@ -33,17 +33,17 @@ class Footer extends Component{
           <div className="follow_items">
             <div className="follow_item">
               <a href="http://www.keytotech.com/" class="active">                 
-               <img className="foolow_img" src={icFacebook}/>
+               <img className="follow_img" src={icFacebook}/>
                </a>
              </div>
              <div className="follow_item">
                 <a href="http://www.keytotech.com/" class="active">                 
-                  <img className="foolow_img" src={icTwitter}/>
+                  <img className="follow_img" src={icTwitter}/>
                  </a>
                 </div>
               <div className="follow_item">
                 <a href="http://www.keytotech.com/" class="active">                
-                 <img className="foolow_img" src={icInstagram}/>
+                 <img className="follow_img" src={icInstagram}/>
                   </a>
                 </div>
             </div>

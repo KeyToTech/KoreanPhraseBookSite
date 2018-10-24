@@ -1,4 +1,5 @@
 .header {
+    overflow: hidden;
     height: 900px;
     position: relative;
     margin: 0;
