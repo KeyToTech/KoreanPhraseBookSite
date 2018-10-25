@@ -5,6 +5,10 @@ import googlePlayBottom from '../res/google-store.png';
 import iosStoreBottom from '../res/ios-store.png';
 import './header.css';
 
+
+
+document.title = 'Корейський розмовник'; // New title :)
+
 class Header extends Component {
     render() {
         return (          
