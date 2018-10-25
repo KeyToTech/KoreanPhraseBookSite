@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, {Component} from 'react';
 import stubImage from '../res/stub_image.jpg';
 import koreanImg from '../res/korean2.png';
 import googlePlayBottom from '../res/google-store.png';
@@ -7,9 +7,8 @@ import './header.css';
 
 class Header extends Component {
     render() {
-        return (
-          
-<div className="header">
+        return (          
+            <div className="header">
     <div className='header-block'>
         <div className="left_header_block">
           <div className="left_top_block">
