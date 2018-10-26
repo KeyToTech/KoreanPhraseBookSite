@@ -5,6 +5,10 @@ import icInstagram from '../res/ic-instagram.png';
 import icTwitter from '../res/ic-twitter.png';
 import './footer.css';
 
+const KTT_WEB_SITE = 'http://www.keytotech.com/';
+const Copyright = 'Copyright © 2018 KeyToTech | All Rights Reserved';
+const APP_DESCRIPTION = 'Завантажуйте Корейський розмовник та спілкуйтесь корейською легко та ефективно!';
+
 class Footer extends Component{
     render(){
         return(
@@ -16,14 +20,13 @@ class Footer extends Component{
                   <h1 className='app-name'>Корейський розмовник</h1>
                 </div>
                 <div className="info_block">
-                  <h3>Every time you sign up <br/> a friend to VITAL you earn 4 referral points.  <br/> You also get 2 referral points for people your....</h3>
+                  <h3>{APP_DESCRIPTION}</h3>                  
                 </div>
                 <div className="contact_block">
-                  <h3>Copyright © 2018 KeyToTech | All Rights Reserved</h3>
+                 <a href={KTT_WEB_SITE}><h3>{Copyright} </h3></a> 
                 </div>
               </div>
             </div>
-        
         
         <div className="right_block">
           <div className="follow_block">
@@ -32,23 +35,23 @@ class Footer extends Component{
             </div>
           <div className="follow_items">
             <div className="follow_item">
-              <a href="http://www.keytotech.com/" class="active">                 
+              <a href="" class="active">                 
                <img className="follow_img" src={icFacebook}/>
                </a>
              </div>
              <div className="follow_item">
-                <a href="http://www.keytotech.com/" class="active">                 
+                <a href={KTT_WEB_SITE} class="active">                 
                   <img className="follow_img" src={icTwitter}/>
                  </a>
                 </div>
               <div className="follow_item">
-                <a href="http://www.keytotech.com/" class="active">                
+                <a href={KTT_WEB_SITE} class="active">                
                  <img className="follow_img" src={icInstagram}/>
                   </a>
                 </div>
             </div>
             <div className='develop-block'>
-            <h2>Developed by: <a href="http://www.keytotech.com/" class="active">KeyToTech</a></h2>
+            <h2>Developed by: <a href={KTT_WEB_SITE} class="active">KeyToTech</a></h2>
             </div>
           </div>
         </div>

@@ -1,4 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans'); 
 
+@media only screen and (min-width: 922px) {
 .content {
 
     width: 100%;
@@ -45,6 +47,13 @@
     font-size: 35px;
 }
 
+.description {
+    color: #666666;
+    font-size: 25px;
+    line-height: 40px;
+    font-family: 'Open Sans', sans-serif;
+}
+
 p {
     color: black;
     font-size: 20px;
@@ -71,6 +80,7 @@ h3 {
     line-height: 1.4;
     word-spacing: 2px;
 }
+}
 
 @media only screen and (max-width: 922px) {
 
@@ -94,7 +104,31 @@ h3 {
     }
 
     .description {
-        text-align: center;
+        color: #666666;
+        font-size: 30px;
+        font-family: 'Thin pro';
+    }
+
+    img {
+        width: 100%;
+    }
+
+    h1 {
+        color: white;
+        letter-spacing: 4px;
+        font-size: 25px;
+    }
+
+    h2 {
+        color: white;
+        font-size: 30px;
+    }
+
+    h3 {
+        color: white;
+        font-size: 20px;
+        line-height: 1.4;
+        word-spacing: 2px;
     }
 }
 
@@ -105,7 +139,91 @@ h3 {
     }
 
     .screen {
+        width: 65%;
+    }
+
+    .text {
+        text-align: center;
+        width: 80%;
+        font-size: 500px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+    }
+
+
+    .text_left {
+        height: auto;
+        width: 80%;
+        padding-left: 5%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+    }
+
+    .info_text {
+        width: 80%;
+        text-align: center;
+        color: black;
+        font-size: 27px;
+    }
+
+    .description {
+        color: #666666;
+        font-size: 30px;
+        font-family: 'Thin pro';
+    }
+
+    img {
+        width: 100%;
+    }
+
+    h1 {
+        color: white;
+        letter-spacing: 4px;
+        font-size: 25px;
+    }
+
+    h2 {
+        color: white;
+        font-size: 30px;
+    }
+
+    h3 {
+        color: white;
+        font-size: 20px;
+        line-height: 1.4;
+        word-spacing: 2px;
+    }
+}
+
+@media only screen and (max-width: 365px) {
+
+    .content {
+        width: 100%;
+        margin: 0;
+    }
+
+    .wrapp_info_section {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .app_info_section {
+        height: 580px;        
         width: 338px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        margin: 0;
+        margin-top: 250px; 
         margin: auto;
     }
 
@@ -114,12 +232,42 @@ h3 {
     }
 
     .text {
-        width: 100%;
-        margin: auto;
+        text-align: center;
+        width: 80%;
+        font-size: 500px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+    }
+
+    .text_left {
+        height: auto;
+        width: 80%;
+        padding-left: 5%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+    }
+
+    .info_text {
+        width: 80%;
+        text-align: center;
+        color: black;
+        font-size: 27px;
     }
 
     .description {
+        color: #666666;
+        font-size: 30px;
+        font-family: 'Thin pro';
         text-align: center;
+    }
+
+    img {
+        width: 100%;
+        margin: auto;
     }
 }
 

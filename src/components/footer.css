@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
 footer {
     height: 370px;
     width: 100%;
@@ -6,6 +8,11 @@ footer {
     flex-direction: row;
     position: relative;
     margin-top: 250px;
+}
+
+.contact_block h3 {
+    color: white;
+    font-size: 10px;
 }
 
 .left_block {
@@ -72,6 +79,8 @@ footer {
     width: 100%;
     position: relative;
     text-align: left;
+    margin-top: 25px;
+    margin-left: 0px;
 }
 
 .contact_block {
@@ -115,9 +124,6 @@ footer {
     margin-top: 5px;
 }
 
-.follow_item {
-}
-
 .follow_img {
     height: 25px;
     width: 25px;
@@ -139,12 +145,32 @@ a {
 h1 {
     color: white;
     font-size: 23px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 h2 {
     color: white;
-    font-size: 17px;
+    font-size: 14px;
     letter-spacing: 1.5px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h3 {
+    color: white;
+    font-size: 12px;
+    line-height: 25px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h4 {
+    font-size: 13px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.follow_heading {
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 h3 {
@@ -251,7 +277,6 @@ h4 {
     }
 
     .follow_block {
-
         height: 200px;
         margin: 0;
     }
@@ -260,10 +285,3 @@ h4 {
         width: 130%;
     }
 }
-
-@media only screen and (max-width: 365px) {
-    footer {
-        border: red solid;
-    }
-}
-
