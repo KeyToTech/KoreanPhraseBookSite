@@ -6,59 +6,62 @@ import iosStoreBottom from '../res/ios-store.png';
 import './header.css';
 
 
-
 document.title = 'Корейський розмовник'; // New title :)
 
 class Header extends Component {
     render() {
-        return (          
+        return (
             <div className="header">
-    <div className='header-block'>
-        <div className="left_header_block">
-          <div className="left_top_block">
-          <div className="paralelogram">
-          </div>
-          <div className="triangle">
-          </div>
-        </div>
+                <div className='header-block'>
+                    <div className="left_header_block">
+                        <div className="left_top_block">
+                            <div className="paralelogram">
+                            </div>
+                            <div className="triangle">
+                            </div>
+                        </div>
 
-        <div className="button_paralelogram">
-        </div>
+                        <div className="button_paralelogram">
+                        </div>
 
 
-          <div className="average_header_block">
+                        <div className="average_header_block">
 
-            <div className="info_header_block">
-                <h2 className='title'>Корейський розмовник</h2>
-                <h3 className='subtitle'>Завантажуйте Корейський розмовник та спілкуйтесь корейською легко та ефективно!</h3>
-            </div>
-          </div>
-        </div>
+                            <div className="info_header_block">
+                                <h2 className='title'>Корейський розмовник</h2>
+                                <h3 className='subtitle'>Завантажуйте Корейський розмовник та спілкуйтесь корейською
+                                    легко та ефективно!</h3>
+                            </div>
+                        </div>
+                    </div>
 
-          <div className="right_header_block">
-            <div className="button_wrap">
-              <div className="button_android">
-              <a href="https://play.google.com/store/apps/details?id=com.keytotech.koreanphrasebook" class="active">                 
-                <img className="android_img" src={googlePlayBottom}/>
-                </a>
-              </div>
-              <div className="button_ios">
-              <a href="http://www.keytotech.com/" class="active">                 
-                <img className="ios_img" src={iosStoreBottom}/>
-                </a>
-              </div>
-            </div>
+                    <div className="right_header_block">
 
-          </div>
-      </div>
 
-        <div className="image_header_block">
-                <div className="header_image">
-                  <img className='app-illustration' src={ koreanImg } />
+                    </div>
                 </div>
-              </div>
 
-</div>
+                <div className="button_wrap">
+                    <div className="button_android">
+                        <a href="https://play.google.com/store/apps/details?id=com.keytotech.koreanphrasebook"
+                           className="active">
+                            <img className="android_img" src={googlePlayBottom}/>
+                        </a>
+                    </div>
+                    <div className="button_ios">
+                        <a href="http://www.keytotech.com/" className="active">
+                            <img className="ios_img" src={iosStoreBottom}/>
+                        </a>
+                    </div>
+                </div>
+
+                <div className="image_header_block">
+                    <div className="header_image">
+                        <img className='app-illustration' src={koreanImg}/>
+                    </div>
+                </div>
+
+            </div>
         );
     }
 }

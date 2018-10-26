@@ -1,41 +1,41 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans'); 
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
 .header {
     width: 100%;
     height: 1000px;
     position: relative;
     margin: 0;
-  }
+}
 
-  .header-block{
+.header-block {
     width: 100%;
     height: 830px;
     display: flex;
     flex-direction: row;
     position: relative;
     margin: 0;
-    background-image:  linear-gradient(150deg, #7e00ff 10%, #05d5ff 75%, #a6ffcb 94%);
+    background-image: linear-gradient(150deg, #7e00ff 10%, #05d5ff 75%, #a6ffcb 94%);
     clip-path: polygon(0 0, 100% 0%, 100% 65%, 0% 100%);
-  }
-  
-  .left_header_block {
+}
+
+.left_header_block {
     width: 50%;
     height: 1000px;
     margin: 0;
     display: flex;
     flex-direction: column;
-  }
-  
-  .left_top_block {
+}
+
+.left_top_block {
     width: 50%;
     height: 200px;
     display: flex;
     flex-direction: row;
     position: absolute;
     text-align: left;
-  }
-  
-  .paralelogram {
+}
+
+.paralelogram {
     width: 25%;
     height: 250px;
     position: relative;
@@ -43,122 +43,96 @@
     clip-path: polygon(0 0, 100% 0%, 100% 60%, 0 79%);
     background-color: #7e00ff;
     margin: 0;
-  }
-  
-  .triangle {
+}
+
+.triangle {
     width: 70%;
     height: 250px;
     position: relative;
     margin: 0;
     clip-path: polygon(0 0, 100% 0%, 100% 0, 0 57%);
     background-color: #6e00ff;
-  }
-  
-  .button_paralelogram {
+}
+
+.button_paralelogram {
     clip-path: polygon(0 40%, 100% 13%, 100% 86%, 0 97%);
-        background-image: linear-gradient(150deg, #0ac3ff, #298cff);
+    background-image: linear-gradient(150deg, #0ac3ff, #298cff);
     width: 30%;
     height: 290px;
     position: absolute;
     bottom: 0px;
     transform: rotate(-2deg);
-  }
-  
-  .average_header_block {
+}
+
+.average_header_block {
     width: 50%;
     margin-left: 250px;
     text-align: left;
     position: absolute;
-  }
-  
-  .logo_header {
-    width: 100%;
-    height: 100px;
-    margin-top: 40px;
-    margin-left: 30px;
-  }
-  
-  .info_header_block {
+}
+
+.info_header_block {
     width: 70%;
     height: 600px;
-    margin-top: 250px;;
-    margin-left: -80px;
+    margin-top: 130px;;
+    margin-left: -100px;
     position: relative;
-  }
-  
-  .right_header_block {
+}
+
+.right_header_block {
     width: 50%;
     text-align: right;
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    margin: 0;
-  }
-  
-  .button_wrap {
-    width: 50%;
+}
+
+.button_wrap {
+    width: 300px;
     height: 130px;
+    position: absolute;
+    top: 10px;
+    right: 20px;
     text-align: center;
-    margin-top: -10px;
-    margin-right: 0;
-    margin-left: 300px;
     display: flex;
     flex-direction: row;
-    position: absolute;
-  }
-  
-  .button_android {
+    justify-content: space-around;
+    float: right;
+}
+
+.button_android {
+    width: 37%;
+}
+
+.button_ios {
     width: 37%;
     position: relative;
-    margin-right: 10%;
-    margin-top: -20px;
-  }
-  
-  .button_ios {
-    width: 37%;
-    position: relative;
-    margin-top: -20px;
-  }
+}
 
-  .android_img{
-    position: relative;
-  }
-
-  .ios_img{
-    position: relative;
-  }
-  
-  .image_header_block {
-    width: 47%;
+.image_header_block {
+    width: 43%;
     height: auto;
-    margin-top: -520px;
-    margin-left: 40%;
     position: absolute;
-    text-align: right;
-  }
+    top: 250px;
+    left: 55%;
+}
 
-  .header_image{
+.header_image {
     width: 100%;
-    position: relative;
-    margin: 0;
-  }
-  
-  .app-illustration {
-    width: 125%;
-    height: auto;
-    margin: 0;
-  }
+}
 
-  .title {
+.app-illustration {
+    width: 100%;
+}
+
+.title {
     color: white;
+    width: 120%;
     font-size: 45px;
     word-spacing: 1.9px;
     letter-spacing: 2px;
-    font-weight:600;
+    font-weight: 600;
     font-family: 'Open Sans', sans-serif;
-  }
-  
-  .subtitle {
+}
+
+.subtitle {
     color: white;
     font-size: 30px;
     font-weight: 200;
@@ -166,4 +140,102 @@
     word-spacing: 2px;
     letter-spacing: 1.9px;
     font-family: 'Open Sans', sans-serif;
-  }
+}
+
+@media only screen and (max-width: 922px) {
+
+    .info_header_block {
+        margin-left: -200px;
+    }
+
+    .title {
+        font-size: 35px;
+    }
+
+    .subtitle {
+        font-size: 20px;
+    }
+
+    .image_header_block {
+        width: 49%;
+        left: 50%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+    .average_header_block {
+        width: 80%;
+        margin-left: 0;
+        text-align: left;
+        position: absolute;
+    }
+
+    .info_header_block {
+        width: 100%;
+        margin-top: 120px;;
+        margin-left: 12%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .right_header_block {
+        width: 30%;
+        text-align: right;
+    }
+
+    .button_wrap {
+        width: 50%;
+        top: 30px;
+        left: 27%;
+    }
+
+    .android_img {
+        width: 90px;
+    }
+
+    .ios_img {
+        width: 90px;
+    }
+
+    .image_header_block {
+        width: 80%;
+        height: 18%;
+        position: absolute;
+        top: 35%;
+        left: 10%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .header_image {
+        width: 400px;
+    }
+
+    .title {
+        width: 100%;
+        font-size: 100%;
+        text-align: center;
+        margin: 0;
+        margin-top: 50px;
+    }
+
+    .subtitle {
+        width: 100%;
+        font-size: 90%;
+        text-align: center;
+    }
+
+    .triangle {
+        z-index: -1;
+    }
+}
+
+@media only screen and (max-width: 365px) {
+
+    .header {
+        border: black solid;
+    }
+
+}
