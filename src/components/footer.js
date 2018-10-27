@@ -23,7 +23,7 @@ class Footer extends Component {
                             <h3 className='subtitle_footer'>{APP_DESCRIPTION}</h3>
                         </div>
                         <div className="contact_block">
-                            <a href={KTT_WEB_SITE}><h3 className="refer">{Copyright} </h3></a>
+                            <a href={KTT_WEB_SITE}><h1 className="refer">{Copyright} </h1></a>
                         </div>
                     </div>
                 </div>

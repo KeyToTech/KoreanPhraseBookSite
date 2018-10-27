@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
 footer {
-    border: red solid;
     height: 370px;
     width: 100%;
     background-image: linear-gradient(150deg, #7e00ff 10%, #05d5ff 75%, #a6ffcb 94%);
@@ -18,13 +17,11 @@ footer {
 }
 
 .left_block {
-    border: aqua solid;
-    width: 40%;
+    width: 45%;
     text-align: left;
     display: flex;
     flex-direction: row;
     margin-left: 5%;
-    margin-top: 15px;
     position: relative;
 }
 
@@ -38,28 +35,26 @@ footer {
     background-image: url('../res/logo.png');
     background-repeat: no-repeat;
     background-position-x: 60%;
-    background-position-y: 60%;
+    background-position-y: 30%;
     -ms-background-size: cover;
     -o-background-size: cover;
     -moz-background-size: cover;
     -webkit-background-size: cover;
-    background-size: 70%;
+    background-size: 320px;
 }
 
 .left_footer_block {
-    border: green solid;
     text-align: left;
     width: 100%;
     height: 100%;
     display: flex;
     flex-direction: column;
-align-items: center;
+    align-items: center;
     justify-content: space-between;
 }
 
 .logo_footer {
     margin-top: 20px;
-    border: red solid;
     height: auto;
     width: 100%;
     display: flex;
@@ -70,14 +65,12 @@ align-items: center;
 }
 
 .logo_img {
-    border: #0ac3ff solid;
     width: 27px;
     height: 25px;
     position: relative;
 }
 
 .app-name {
-    border: #0ac3ff solid;
     color: white;
     width: 370px;
     text-align: center;
@@ -98,29 +91,24 @@ align-items: center;
 }
 
 .info_block {
-    border: black solid;
-    width: 100%;
+    width: 80%;
     position: relative;
     text-align: left;
 }
 
 .contact_block {
-    border: purple solid;
-    width: 80%;
+    width: 100%;
     position: relative;
 }
 
 .refer {
-    border: red solid;
-    height: 50px;
     text-align: center;
-font-size:20px;
+    font-size: 80%;
     letter-spacing: 1px;
     font-family: 'Open Sans', sans-serif;
 }
 
 .right_block {
-    border: black solid;
     width: 30%;
     text-align: right;
     padding-right: 5%;
@@ -128,7 +116,7 @@ font-size:20px;
 
 .follow_block {
     height: 270px;
-    width: 50%;
+    width: 80%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -150,7 +138,7 @@ font-size:20px;
 
 .follow_items {
     height: auto;
-    width: 60%;
+    width: 80%;
     display: flex;
     flex-direction: row;
     text-align: right;
@@ -164,36 +152,10 @@ font-size:20px;
 }
 
 .develop-block {
-    width: 90%;
+    width: 100%;
     margin-top: 30px;
     text-align: center;
     position: relative;
-}
-
-a {
-    text-decoration: none;
-    letter-spacing: 1px;
-    color: white;
-}
-
-h1 {
-    color: white;
-    font-size: 23px;
-    font-family: 'Open Sans', sans-serif;
-}
-
-h2 {
-    color: white;
-    font-size: 14px;
-    letter-spacing: 1.5px;
-    font-family: 'Open Sans', sans-serif;
-}
-
-h3 {
-    color: white;
-    font-size: 52px;
-    line-height: 25px;
-    font-family: 'Open Sans', sans-serif;
 }
 
 .follow_heading {
@@ -203,102 +165,74 @@ h3 {
 
 @media only screen and (max-width: 922px) {
 
-    footer {
-        justify-content: space-around;
-    }
-
     .left_block {
-        width: 40%;
-        margin-left: 3%;
+        width: 55%;
     }
 
-    .contact_block {
-        width: 115%;
-        text-align: center;
+    .left_block:before {
+        background-size: 300px;
+    }
+
+    .info_block {
+        height: 250px;
+    }
+
+    .app-name {
+        width: 300px;
+        font-size: 22px;
+    }
+
+    .subtitle_footer {
+        font-size: 130%;
     }
 
     .right_block {
         width: 40%;
-        text-align: right;
-        padding-right: 5%;
+        padding-right: 0;
     }
 
     .follow_block {
-        width: 50%;
+        width: 100%;
+        margin-right: 0;
     }
 
     .follow_items {
-        width: 80%;
-    }
+        width: 60%;
+        }
 
 }
 
 @media only screen and (max-width: 768px) {
+
     footer {
-        height: 600px;
+        height: 570px;
         flex-direction: column;
-        align-items: center;
     }
 
     .left_block {
-        height: 400px;
+        height: 390px;
         width: 100%;
-        margin: auto;
+        margin-left: 0;
     }
 
     .left_block:before {
-
-        width: 100%;
-        height: 100%;
-        background-size: 50%;
-    }
-
-    .left_footer_block {
-        justify-content: space-around;
-    }
-
-    .logo_footer {
-        width: 70%;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        align-items: center;
-        height: auto;
-        position: relative;
-    }
-
-    .app-name {
-        width: 70%;
-        margin: 0;
-        text-align: left;
-        font-size: 19px;
-    }
-
-    .logo_img {
-        width: 27px;
-        height: 25px;
-        position: relative;
-    }
-
-    .info_block {
-        width: 90%;
-        position: relative;
-        text-align: center;
+        background-size: 350px;
     }
 
     .right_block {
-        width: 80%;
-        display: flex;
-        justify-content: center;
-        padding: 0;
+        width: 100%;
+    }
+
+    .info_block {
+        height: 150px;
+        text-align: center;
     }
 
     .follow_block {
-        height: 200px;
-        margin: 0;
-    }
-
-    .follow_items {
-        width: 130%;
+        height: 170px;
+        width: 100%;
+        float: none;
+        margin-top: 0;
+        margin-right: 0;
     }
 }
