@@ -1,5 +1,5 @@
 
-@media only screen and (min-width: 922px) {
+
 
 @import url('https://fonts.googleapis.com/css?family=Open+Sans'); 
 
@@ -170,11 +170,46 @@
     font-family: 'Open Sans', sans-serif;
   }
 
+
+
+@media only screen and (max-width: 922px) {
+
+  .header {
+   border: red solid;
+  }
+
+  .average_header_block {
+    margin-left: 10px;
+    }
+
+  .title {
+   font-size: 170%;
+  }
+
+  .subtitle {
+      font-size: 25px;
+  }
+
 }
 
-@media only screen and (min-width: 922px) {
 
-  
+@media only screen and (max-width: 768px) {
+
+  .header {
+   border: green solid;
+   height: 1700px;
+  }
+
+
 }
 
+
+@media only screen and (max-width: 365px) {
+
+  .header {
+   border: yellow solid;
+  }
+
+
+}
 
