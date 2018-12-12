@@ -12,22 +12,22 @@
     clip-path: polygon(0 0, 100% 0%, 100% 65%, 0% 100%);
   }
 
- 
-  
-  .left_header_block {
-    width: 50%;
-    height: 1000px;
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-  }
-  
+ .figure-block {
+
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
   .top-figure {
     width: 50%;
     height: 200px;
     display: flex;
     flex-direction: row;
-    position: absolute;
     text-align: left;
   }
   
@@ -50,97 +50,37 @@
     background-color: #6e00ff;
   }
   
+  .bottom-figure{
+   
+  }
+
   .bottom-paralelogram {
     clip-path: polygon(0 40%, 100% 13%, 100% 86%, 0 97%);
-        background-image: linear-gradient(150deg, #0ac3ff, #298cff);
+    background-image: linear-gradient(150deg, #0ac3ff, #298cff);
     width: 30%;
     height: 290px;
-    position: absolute;
-    bottom: 0px;
     transform: rotate(-2deg);
   }
-  
-  .average_header_block {
-    width: 50%;
-    margin-left: 80px;
-    text-align: left;
-    position: absolute;
-  }
-  
-  .logo_header {
-    width: 100%;
-    height: 100px;
-    margin-top: 40px;
-    margin-left: 30px;
-  }
-  
-  .info_header_block {
-    width: 100%;
-    height: 600px;
-    margin-top: 150px;;
-    position: relative;
-  }
-  
-  .right_header_block {
-    width: 50%;
-    text-align: right;
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    margin: 0;
-  }
-  
-  .button_wrap {
-    width: 300px;
-    height: 130px;
-    text-align: center;
+
+  .main-block {
+    height: 100%;
     display: flex;
     flex-direction: row;
-    position: relative;
-    top: 3%;
-    left: 30%;
-  }
-  
-  .button_android {
-    width: 37%;
-    position: relative;
-    margin-right: 10%;
-    margin-top: -20px;
-  }
-  
-  .button_ios {
-    width: 37%;
-    position: relative;
-    margin-top: -20px;
   }
 
-  .android_img{
-    position: relative;
+  .content-header {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
   }
 
-  .ios_img{
-    position: relative;
-  }
-  
-  .image_header_block {
-    width: 33%;
-    height: auto;
-    position: relative;
-    left: 55%;
-    bottom: 55%;
-    text-align: right;
-  }
-
-  .header_image{
-    width: 100%;
-    position: relative;
-    margin: 0;
-  }
-  
-  .app-illustration {
-    width: 125%;
-    height: auto;
-    margin: 0;
+  .info-header{
+    height: 300px;
+    width: 80%;
+    margin-left: 50px;
+    margin-bottom: 250px;
   }
 
   .title {
@@ -154,8 +94,8 @@
   
   .subtitle {
     color: white;
-    width: 80%;
-    font-size: 30px;
+    width: 75%;
+    font-size: 160%;
     font-weight: 200;
     line-height: 1.6;
     word-spacing: 2px;
@@ -163,5 +103,112 @@
     font-family: 'Open Sans', sans-serif;
   }
 
+
+  .social-networks-block{
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .button_wrap {
+    width: 270px;
+    height: 130px;
+    text-align: center;
+    margin-top: 45px; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   }
+  
+  .button_android {
+    width: 120px;
+  }
+  
+  .button_ios {
+    width: 120px;
+  }
+
+  .android_img{
+    position: relative;
+  }
+
+  .ios_img{
+    position: relative;
+  }
+  
+ 
+  .image-header{
+    height: 45%;
+    width: 45%;
+    position: absolute;
+    top: 370px;
+    right: 30px;
+
+  }
+
+ .app-illustration {
+    width: 100%;
+    height: auto;
+    margin: 0;
+  }
+
+  @media only screen and (max-width: 922px) {
+
+    .header{
+      border: red solid;
+    }
+
+    .button_wrap {
+      width: 70%;
+    }
+
+     .button_android {
+      width: 100px;
+    }
+    
+    .button_ios {
+      width: 100px;
+    }
+
+    .content-header {
+      width: 60%;
+    }
+  
+    .info-header{
+      width: 100%;
+      margin-left: 30px;
+      margin-bottom: 350px;
+    }
+  
+   .image-header{
+      height: 450px;
+      width: 450px;
+      top: 400px;
+      right: 30px;
+    }
+
+  }
+
+
+  @media only screen and (max-width: 768px) {
+
+    .header{
+      border: yellow solid;
+    }
+
+    .main-block {
+      border: red solid;
+      height: 100%;
+      display: flex;
+      flex-direction: column-reverse;
+    }
+
+    .content-header{
+      border: black solid;
+    }
+    
+
+  }
 
 
