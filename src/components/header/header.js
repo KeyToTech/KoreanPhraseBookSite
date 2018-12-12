@@ -1,13 +1,15 @@
 import React, { Component } from 'react';
-import stubImage from '../res/stub_image.jpg';
-import koreanImg from '../res/korean2.png';
-import googlePlayBottom from '../res/google-store.png';
-import iosStoreBottom from '../res/ios-store.png';
+import stubImage from '../../res/stub_image.jpg';
+import koreanImg from '../../res/korean2.png';
+import googlePlayBottom from '../../res/google-store.png'
+import iosStoreBottom from '../../res/ios-store.png';
 import './header.css';
 
 
-
 document.title = 'Корейський розмовник'; // New title :)
+
+var title = "Корейський розмовник";
+var subtitle = "Завантажуйте Корейський розмовник та спілкуйтесь корейською легко та ефективно!";
 
 class Header extends Component {
   render() {
@@ -29,8 +31,8 @@ class Header extends Component {
             <div className="average_header_block">
 
               <div className="info_header_block">
-                <h2 className='title'>Корейський розмовник</h2>
-                <h3 className='subtitle'>Завантажуйте Корейський розмовник та спілкуйтесь корейською легко та ефективно!</h3>
+                <h2 className='title'>{title}</h2>
+                <h3 className='subtitle'>{subtitle}</h3>
               </div>
             </div>
           </div>
