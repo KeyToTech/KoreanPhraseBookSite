@@ -8,18 +8,11 @@
     height: 1000px;
     position: relative;
     margin: 0;
-  }
-
-  .header-block{
-    width: 100%;
-    height: 830px;
-    display: flex;
-    flex-direction: row;
-    position: relative;
-    margin: 0;
     background:  linear-gradient(150deg, #7e00ff 10%, #05d5ff 75%, #a6ffcb 94%);
     clip-path: polygon(0 0, 100% 0%, 100% 65%, 0% 100%);
   }
+
+ 
   
   .left_header_block {
     width: 50%;
@@ -29,7 +22,7 @@
     flex-direction: column;
   }
   
-  .left_top_block {
+  .top-figure {
     width: 50%;
     height: 200px;
     display: flex;
@@ -57,7 +50,7 @@
     background-color: #6e00ff;
   }
   
-  .button_paralelogram {
+  .bottom-paralelogram {
     clip-path: polygon(0 40%, 100% 13%, 100% 86%, 0 97%);
         background-image: linear-gradient(150deg, #0ac3ff, #298cff);
     width: 30%;
@@ -169,97 +162,6 @@
     letter-spacing: 1.9px;
     font-family: 'Open Sans', sans-serif;
   }
-
-
-
-@media only screen and (max-width: 922px) {
-
- 
-  
-
-  .average_header_block {
-    margin-left: 10px;
-    }
-
-  .title {
-   font-size: 170%;
-  }
-
-  .subtitle {
-      font-size: 25px;
-  }
-
-}
-
-
-@media only screen and (max-width: 768px) {
-
-  .header {
-   height: 1700px;
-  }
-
-  .header-block{
-    height: 1000px;
-   }
-
-  .right_header_block {
-    height: 200px;
-    width: 100%;
-    position: absolute;
-    top: 0px;
-    left: 0px;
-  }
-
-  .button_wrap {
-    display: flex;
-   flex-direction: row;
-   justify-content: space-between;
-   top: 10px;
-    left: 0;
-    margin: 0 auto;
-    }
-
-  .average_header_block {
-    text-align: center;
-    width: 100%;
-    margin: 0;
-    top: 0px;
-  }
-
-  .info_header_block {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  
-  }
-
-  .title {
-    font-size: 150%;
-  }
-  
-  .subtitle {
-    
-    color: white;
-    width: 80%;
-    font-size: 20px;
- }
-
- .image_header_block {
-  width: 73%;
-  height: auto;
-  position: relative;
-  left: 0;
-  bottom: 550px;
-    margin: 0 auto;
-  text-align: center;
-}
-
-.app-illustration {
-  width: 100%;
- }
-
-}
-
 
 
 
