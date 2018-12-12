@@ -1,10 +1,10 @@
 import React, {Component} from 'react';
-import chaptersAndroid from '../res/screenshots/android/rozdil_framed.png';
-import dictAndroid from '../res/screenshots/android/dict_framed.png';
-import favAndroid from '../res/screenshots/android/favourite_framed.png';
-import dialogsAndroid from '../res/screenshots/android/dialogs_android.png';
+import chaptersAndroid from '../../res/screenshots/android/rozdil_framed.png';
+import dictAndroid from '../../res/screenshots/android/dict_framed.png';
+import favAndroid from '../../res/screenshots/android/favourite_framed.png';
+import dialogsAndroid from '../../res/screenshots/android/dialogs_android.png';
 import AppInfo from "./appInfo";
-import './content.css'
+import '../content/content.css'
 
 const INFO = [
     {
