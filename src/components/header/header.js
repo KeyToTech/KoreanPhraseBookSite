@@ -4,7 +4,7 @@ import koreanImg from '../../res/korean2.png';
 import googlePlayBottom from '../../res/google-store.png'
 import iosStoreBottom from '../../res/ios-store.png';
 import './header.css';
-
+import './headerScalingMobile.css';
 
 document.title = 'Корейський розмовник'; // New title :)
 
@@ -58,57 +58,5 @@ class Header extends Component {
     );
   }
 }
-
-
-// top-figuare
-
-{/* <d  iv className="left_top_block">
-<div className="paralelogram">
-</div>
-<div className="triangle">
-</div>
-</div> */}
-
-// bottom-figure
-
-{/* <div className="button_paralelogram"></div> */ }
-
-
-
-// content-header
-
-{/* <div className="average_header_block">
-
-  <div className="info_header_block">
-    <h2 className='title'>{title}</h2>
-    <h3 className='subtitle'>{subtitle}</h3>
-  </div>
-</div> */}
-
-
-// social-networks-block
-
-{/* <div className="right_header_block">
-  <div className="button_wrap">
-    <div className="button_android">
-      <a href="https://play.google.com/store/apps/details?id=com.keytotech.koreanphrasebook" class="active">
-        <img className="android_img" src={googlePlayBottom} />
-      </a>
-    </div>
-    <div className="button_ios">
-      <a href="http://www.keytotech.com/" class="active">
-        <img className="ios_img" src={iosStoreBottom} />
-      </a>
-    </div>
-  </div>
-</div> */}
-
-// image-header
-
-{/* <div className="image_header_block">
-  <div className="header_image">
-    <img className='app-illustration' src={koreanImg} />
-  </div>
-</div> */}
 
 export default Header;
