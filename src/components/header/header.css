@@ -342,3 +342,37 @@ justify-content: space-between;
   }
 
 
+  @media only screen and (max-width: 365px) {
+
+    .header {
+      height: 1400px;
+      }
+
+    .main-block {
+      height: 700px;
+      justify-content: flex-end;
+      margin-bottom: 0px;
+    }
+
+    .content-header{
+      margin-top: 80px;
+    }
+
+    .info-header{
+     height: 300px;
+     justify-content: space-around;
+    }
+
+    .social-networks-block {
+      margin-top: 80px;
+    }
+
+    .title {
+      font-size: 150%;
+    }
+
+    .subtitle {
+      font-size: 100%;
+    }
+ }
+
