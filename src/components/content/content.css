@@ -1,21 +1,19 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans'); 
 
-@media only screen and (min-width: 922px) {
-.content {
+@media only screen and (min-width: 768px) {
 
-    width: 100%;
+.content {
+    width: 65%;
     height: auto;
-    margin: 0;
+    margin: 0 auto;
     margin-bottom: 80px;
 }
 
 .wrapp_info_section {
-    width: 90%;
     display: flex;
     flex-direction: column;
     margin-top: 50px;
-    padding-left: 5%;
-    padding-right: 5%;
+
 }
 
 .app_info_section {
@@ -26,18 +24,22 @@
 }
 
 .screen {
-    width: 40%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .screen img {
     width: 338px;
     height: 600px;
+    margin: 0 auto;
 }
 
 .text {
-    width: 60%;
+    width: 50%;
     font-size: 500px;
-    margin: 7%;
+    margin: 5%;
     padding-top: 5%;
 }
 
@@ -80,117 +82,115 @@ h3 {
     line-height: 1.4;
     word-spacing: 2px;
 }
+
 }
 
-@media only screen and (max-width: 922px) {
+@media only screen and (min-width: 768px) and (max-width: 1500px) {
+
+    .content {
+        border: orchid solid;
+        width: 80%;
+     }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 922px) {
+
+    .content {
+        border: green solid;
+        width: 90%;
+    }
+
+    .wrapp_info_section {
+        padding: 0;
+    }
 
     .app_info_section {
         width: 100%;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        margin-top: 80px;
-    }
-
-    .screen {
-        width: 338px;
-    }
-
-    .text {
-        width: 40%;
-        font-size: 500px;
-        margin: 0;
-        padding-top: 5%;
-    }
-
-    .description {
-        color: #666666;
-        font-size: 30px;
-        font-family: 'Thin pro';
-    }
-
-    img {
-        width: 100%;
-    }
-
-    h1 {
-        color: white;
-        letter-spacing: 4px;
-        font-size: 25px;
-    }
-
-    h2 {
-        color: white;
-        font-size: 30px;
-    }
-
-    h3 {
-        color: white;
-        font-size: 20px;
-        line-height: 1.4;
-        word-spacing: 2px;
     }
 }
 
 @media only screen and (max-width: 768px) {
 
-    .app_info_section {
+    .content {
+        width: 90%;
+        height: auto;
+        margin: 0 auto;
+        margin-bottom: 80px;
+    }
+    
+    .wrapp_info_section {
+  
+        display: flex;
         flex-direction: column;
+        margin-top: 50px;
+    
     }
-
+    
+    .app_info_section {
+ 
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 80px;
+    }
+    
     .screen {
-        width: 65%;
+      
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
-
+    
+    .screen img {
+       
+        width: 338px;
+        height: 600px;
+        margin: 0 auto;
+    }
+    
     .text {
-        text-align: center;
+       
         width: 80%;
         font-size: 500px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin: 0;
+        margin: 5%;
+        padding-top: 5%;
     }
-
-
-    .text_left {
-        height: auto;
-        width: 80%;
-        padding-left: 5%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin: 0;
-    }
-
+    
     .info_text {
-        width: 80%;
-        text-align: center;
         color: black;
-        font-size: 27px;
+        text-align: center;
+        font-size: 35px;
     }
-
+    
     .description {
         color: #666666;
-        font-size: 30px;
-        font-family: 'Thin pro';
+        font-size: 25px;
+        line-height: 40px;
+        font-family: 'Open Sans', sans-serif;
     }
-
+    
+    p {
+        color: black;
+        font-size: 20px;
+    }
+    
     img {
         width: 100%;
     }
-
+    
     h1 {
         color: white;
         letter-spacing: 4px;
         font-size: 25px;
     }
-
+    
     h2 {
         color: white;
         font-size: 30px;
     }
-
+    
     h3 {
         color: white;
         font-size: 20px;
@@ -202,243 +202,8 @@ h3 {
 @media only screen and (max-width: 365px) {
 
     .content {
-        width: 100%;
-        margin: 0;
+        border: black solid;
     }
 
-    .wrapp_info_section {
-        width: 90%;
-        display: flex;
-        flex-direction: column;
-        margin-top: 50px;
-        padding-left: 5%;
-        padding-right: 5%;
-    }
 
-    .app_info_section {
-        height: 580px;        
-        width: 338px;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        align-items: center;
-        margin: 0;
-        margin-top: 250px; 
-        margin: auto;
-    }
-
-    .screen img {
-        width: 338px;
-    }
-
-    .text {
-        text-align: center;
-        width: 80%;
-        font-size: 500px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin: 0;
-    }
-
-    .text_left {
-        height: auto;
-        width: 80%;
-        padding-left: 5%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin: 0;
-    }
-
-    .info_text {
-        width: 80%;
-        text-align: center;
-        color: black;
-        font-size: 27px;
-    }
-
-    .description {
-        color: #666666;
-        font-size: 30px;
-        font-family: 'Thin pro';
-        text-align: center;
-    }
-
-    img {
-        width: 100%;
-        margin: auto;
-    }
 }
-
-/*@media only screen and (max-width: 768px) {*/
-
-/*.content {*/
-/*width: 100%;*/
-/*margin: 0;*/
-/*}*/
-
-/*.wrapp_info_section {*/
-/*width: 90%;*/
-/*display: flex;*/
-/*flex-direction: column;*/
-/*margin-top: 50px;*/
-/*padding-left: 5%;*/
-/*padding-right: 5%;*/
-/*}*/
-
-/*.app_info_section {*/
-/*height: 580px;*/
-/*width: 100%;*/
-/*display: flex;*/
-/*flex-direction: column;*/
-/*justify-content: space-around;*/
-/*align-items: center;*/
-/*margin: 0;*/
-/*margin-top: 250px;*/
-/*}*/
-
-/*.screen {*/
-/*width: 65%;*/
-/*}*/
-
-/*.text {*/
-/*text-align: center;*/
-/*width: 80%;*/
-/*font-size: 500px;*/
-/*display: flex;*/
-/*flex-direction: column;*/
-/*align-items: center;*/
-/*margin: 0;*/
-/*}*/
-
-/*.text_left {*/
-/*height: auto;*/
-/*width: 80%;*/
-/*padding-left: 5%;*/
-/*display: flex;*/
-/*flex-direction: column;*/
-/*align-items: center;*/
-/*margin: 0;*/
-/*}*/
-
-/*.info_text {*/
-/*width: 80%;*/
-/*text-align: center;*/
-/*color: black;*/
-/*font-size: 27px;*/
-/*}*/
-
-/*p {*/
-/*color: black;*/
-/*font-size: 20px;*/
-/*}*/
-
-/*img {*/
-/*width: 100%;*/
-/*}*/
-
-/*h1 {*/
-/*color: white;*/
-/*letter-spacing: 4px;*/
-/*font-size: 25px;*/
-/*}*/
-
-/*h2 {*/
-/*color: white;*/
-/*font-size: 30px;*/
-/*}*/
-
-/*h3 {*/
-/*color: white;*/
-/*font-size: 20px;*/
-/*line-height: 1.4;*/
-/*word-spacing: 2px;*/
-/*}*/
-/*}*/
-
-/*@media only screen and (max-width: 365px) {*/
-
-/*.content {*/
-/*width: 100%;*/
-/*margin: 0;*/
-/*}*/
-
-/*.wrapp_info_section {*/
-/*width: 90%;*/
-/*display: flex;*/
-/*flex-direction: column;*/
-/*margin-top: 50px;*/
-/*padding-left: 5%;*/
-/*padding-right: 5%;*/
-/*}*/
-
-/*.app_info_section {*/
-/*height: 580px;*/
-/*width: 100%;*/
-/*display: flex;*/
-/*flex-direction: column;*/
-/*justify-content: space-around;*/
-/*align-items: center;*/
-/*margin: 0;*/
-/*margin-top: 250px;*/
-/*}*/
-
-/*.screen {*/
-/*width: 65%;*/
-/*}*/
-
-/*.text {*/
-/*text-align: center;*/
-/*width: 80%;*/
-/*font-size: 500px;*/
-/*display: flex;*/
-/*flex-direction: column;*/
-/*align-items: center;*/
-/*margin: 0;*/
-/*}*/
-
-/*.text_left {*/
-/*height: auto;*/
-/*width: 80%;*/
-/*padding-left: 5%;*/
-/*display: flex;*/
-/*flex-direction: column;*/
-/*align-items: center;*/
-/*margin: 0;*/
-/*}*/
-
-/*.info_text {*/
-/*width: 80%;*/
-/*text-align: center;*/
-/*color: black;*/
-/*font-size: 27px;*/
-/*}*/
-
-/*p {*/
-/*color: black;*/
-/*font-size: 20px;*/
-/*}*/
-
-/*img {*/
-/*width: 100%;*/
-/*}*/
-
-/*h1 {*/
-/*color: white;*/
-/*letter-spacing: 4px;*/
-/*font-size: 25px;*/
-/*}*/
-
-/*h2 {*/
-/*color: white;*/
-/*font-size: 30px;*/
-/*}*/
-
-/*h3 {*/
-/*color: white;*/
-/*font-size: 20px;*/
-/*line-height: 1.4;*/
-/*word-spacing: 2px;*/
-/*}*/
-/*}*/
