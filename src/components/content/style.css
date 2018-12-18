@@ -1,7 +1,7 @@
 
 .main-container {
 
-border: red solid;
+
 height: 450px;
 
 
@@ -9,7 +9,7 @@ height: 450px;
 
 .row {
 
-    border: green solid;
+  
     height: 450px;
     display: flex;
     flex-direction: row;
@@ -21,6 +21,9 @@ height: 450px;
   border-radius: 15px;
   width: 350px;
   background: #85cc74;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 
 }
 
@@ -28,10 +31,48 @@ height: 450px;
     border-radius: 15px;
     width: 350px;
     background: #74bdcc;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 .collumn-red {
     border-radius: 15px;
     width: 350px;
     background: #ce6565;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.image {
+    border: #74bdcc solid;
+  height: 100px;
+}
+
+.content-text {
+
+ width: 100%;
+ margin: 0px;
+}
+
+.title {
+text-align: center;
+}
+
+.text {
+   
+    color: white;
+    width: 80%;
+    margin: 0;
+    font-size: 17px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.button {
+  
+ display: flex;
+ flex-direction: column;
+ align-items: center;   
 }
