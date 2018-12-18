@@ -1,0 +1,37 @@
+
+.main-container {
+
+border: red solid;
+height: 450px;
+
+
+}
+
+.row {
+
+    border: green solid;
+    height: 450px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.collumn-green {
+  border-radius: 15px;
+  width: 350px;
+  background: #85cc74;
+
+}
+
+.collumn-blue {
+    border-radius: 15px;
+    width: 350px;
+    background: #74bdcc;
+}
+
+.collumn-red {
+    border-radius: 15px;
+    width: 350px;
+    background: #ce6565;
+}
