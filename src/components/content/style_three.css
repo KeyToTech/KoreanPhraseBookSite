@@ -1,0 +1,86 @@
+.wrapp_info_section_three {
+    border: red solid;
+    height: 500px;
+    width: 100%;
+    margin-top: 150px;
+
+
+}
+
+.main-container-three {
+
+    border: yellow solid;
+    height: 500px;
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.text-component {
+  border: red solid;
+  height: 80%;
+  width: 60%;
+}
+
+.price-options {
+
+    
+    border-radius: 15px;
+    height: 80%;
+    width: 25%;
+    padding: 0;
+
+}
+
+.standart {
+ 
+    background: #8de097;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    height: 100px; 
+    margin: 0;
+    text-align: center;
+    line-height: 100px;
+}
+
+.standart-name {
+   
+    margin: 0;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+
+}
+
+.text-conten-three {
+
+    line-height: 1.2;
+    text-align: center;
+}
+
+.button-container-three {
+    position: relative;
+    bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+}
+
+.button-three {
+    background: #8de097;
+    border-radius: 70px;
+    height: 40px;
+    width: 170px;
+    text-align: center;
+    font-size: 15px;
+    line-height: 40px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    color: #fff;
+}
+
+
