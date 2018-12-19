@@ -5,6 +5,7 @@ import favAndroid from '../../res/screenshots/android/favourite_framed.png';
 import dialogsAndroid from '../../res/screenshots/android/dialogs_android.png';
 import '../content/content.css'
 import SectionOne from '../content/section_one/section_one.js';
+import SectionTwo from '../content/section_two/section_two.js';
 
 
 class Content extends Component {
@@ -13,6 +14,7 @@ class Content extends Component {
             <div className="content">
                 <div className="wrapp_info_section">
                    <SectionOne/>
+                   <SectionTwo/>
                 </div>
             </div>
             );

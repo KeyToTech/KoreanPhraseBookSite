@@ -1,4 +1,14 @@
 
+
+.wrapp_info_section_one {
+    border: gold solid;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
 .main-container {
 
 
@@ -13,7 +23,7 @@ height: 450px;
     height: 450px;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
 
 }
 
@@ -21,43 +31,55 @@ height: 450px;
   border-radius: 15px;
   width: 350px;
   background: #85cc74;
+  position: relative;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
-
+  justify-content: space-between;
+  align-items: center;
 }
 
 .collumn-blue {
     border-radius: 15px;
     width: 350px;
     background: #74bdcc;
+    position: relative;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .collumn-red {
     border-radius: 15px;
     width: 350px;
     background: #ce6565;
+    position: relative;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .image {
-    border: #74bdcc solid;
-  height: 100px;
+    position: relative;
+    top: 40px;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    background: #8894a8;
 }
 
 .content-text {
-
  width: 100%;
+ height: 150px;
  margin: 0px;
 }
 
 .title {
 text-align: center;
+font-size: 17px;
+font-weight: bold;
+font-family: sans-serif;
 }
 
 .text {
@@ -65,14 +87,34 @@ text-align: center;
     color: white;
     width: 80%;
     margin: 0;
-    font-size: 17px;
+    font-size: 14px;
     text-align: center;
     margin: 0 auto;
 }
 
+.button-container {
+  position: relative;
+  bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;   
+}
+
 .button {
-  
- display: flex;
- flex-direction: column;
- align-items: center;   
+    border: white solid 1px;
+    border-radius: 70px;
+    height: 40px;
+    width: 170px;
+    text-align: center;
+    font-size: 15px;
+    line-height: 40px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    color: #fff;
+}
+
+.button:hover {
+    color: black;
+    background: #fff;
+    mix-blend-mode: overlay;
 }
