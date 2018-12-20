@@ -30,7 +30,7 @@ class SectionThree extends Component {
                             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                             </p>
                         <div className="button-container-three">
-                            <a href="#" className="button-three">Buy now</a>
+                            <a href="https://fontawesome.com" className="button-three">Buy now</a>
                         </div>
                     </div>
                 </div>

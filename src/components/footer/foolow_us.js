@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import icFacebook from '../../res/ic-facebook.png';
 import icInstagram from '../../res/ic-instagram.png';
 import icTwitter from '../../res/ic-twitter.png';
@@ -14,7 +14,7 @@ function followButton(img, link){
     return ( 
       <div className="follow_item">
           <a href={link} class="active">                 
-          <img className="follow_img" src={img}/>
+          <img className="follow_img" alt="follow" src={img}/>
       </a>
     </div>
   )

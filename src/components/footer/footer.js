@@ -14,7 +14,7 @@ class Footer extends Component{
             <div className="left_block">
               <div className="left_footer_block">
                 <div className="logo_footer">
-                  <img className="logo_img" src={ appLogo }/>
+                  <img className="logo_img" alt='logo' src={ appLogo }/>
                   <h1 className='app-name'>Корейський розмовник</h1>
                 </div>
                 <div className="info_block">

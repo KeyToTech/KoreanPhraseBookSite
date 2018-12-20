@@ -20,7 +20,7 @@ class SectionOne extends Component {
                                 <p className="text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                             </div>
                             <div className="button-container">
-                                <a href="#" className="button">Learn More</a>
+                                <a href="https://fontawesome.com/icons/check?style=light" className="button">Learn More</a>
                             </div>
                         </div>
 
@@ -35,7 +35,7 @@ class SectionOne extends Component {
                             <div className="button-container">
                                 <a href="#" className="button">Learn More</a>
                             </div>
-                        </div>
+                      </div>
                         <div className="collumn-red">
                             <div className="image">
 
