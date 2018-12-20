@@ -19,8 +19,8 @@ class SectionOne extends Component {
                                 <h1 className="title">Email Marketing</h1>
                                 <p className="text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                             </div>
-                            <div className="button">
-                                <a href="#">Learn More</a>
+                            <div className="button-container">
+                                <a href="#" className="button">Learn More</a>
                             </div>
                         </div>
 
@@ -32,8 +32,8 @@ class SectionOne extends Component {
                                 <h1 className="title">Email Marketing</h1>
                                 <p className="text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                             </div>
-                            <div className="button">
-                                <a href="#">Learn More</a>
+                            <div className="button-container">
+                                <a href="#" className="button">Learn More</a>
                             </div>
                         </div>
                         <div className="collumn-red">
