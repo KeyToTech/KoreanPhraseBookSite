@@ -1,0 +1,46 @@
+.wrapp_info_section_four {
+
+    border: red solid;
+    background: url("../../res/korea.jpg") no-repeat center top/cover;
+    background-size: 500px 300px;
+    background-position: left center;
+    height: 600px;
+}
+
+.main-container-four {
+    
+    border: green solid;
+    margin: 0 auto;
+    height: 100%;
+    width: 60%;
+    position: relative;
+}
+
+.wrap-content {
+    border: red solid;
+    height: 100%;
+    width: 80%;
+    position: absolute;
+    right: 0px;
+}
+
+.title-four {
+    font-size: 43px;
+    line-height: 1.5;
+    margin: 0;
+}
+
+.content-four {
+    margin-top: 5%;
+    font-size: 17px;
+    color: #727984;
+    line-height: 2.0;
+    text-align: left;
+}
+
+.wrap-items {
+    height: 100px;
+}
+.left-items {
+    height: 100px;
+}
