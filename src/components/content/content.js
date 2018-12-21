@@ -8,6 +8,7 @@ import SectionOne from '../content/section_one/section_one.js';
 import SectionTwo from '../content/section_two/section_two.js';
 import SectionThree from '../content/section_three/section_three.js';
 import SectionFour from '../content/section_four/section_four.js';
+import Form from '../content/form/form.js';
 
 class Content extends Component {
     render() { 
@@ -18,6 +19,7 @@ class Content extends Component {
                    <SectionTwo/>
                    <SectionThree/>
                    <SectionFour/>
+                   <Form/>
                 </div>
             </div>
             );

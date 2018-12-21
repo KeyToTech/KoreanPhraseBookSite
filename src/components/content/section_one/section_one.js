@@ -33,7 +33,7 @@ class SectionOne extends Component {
                                 <p className="text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                             </div>
                             <div className="button-container">
-                                <a href="#" className="button">Learn More</a>
+                                <a href="https://www.google.com.ua/" className="button">Learn More</a>
                             </div>
                       </div>
                         <div className="collumn-red">
@@ -45,7 +45,7 @@ class SectionOne extends Component {
                                 <p className="text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                             </div>
                             <div className="button-container">
-                                <a href="#" className="button">Learn More</a>
+                                <a href="https://www.google.com.ua/" className="button">Learn More</a>
                             </div>
                         </div>
 

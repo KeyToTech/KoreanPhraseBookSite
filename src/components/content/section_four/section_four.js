@@ -26,22 +26,39 @@ class SectionFour extends Component {
                             <div className="left-items"> 
                             <ul>
                                 <li>
-                                    <span className="item"><i class="fal fa-check"></i></span>
+                                    <span className="item"><i class="fas fa-check"></i></span>
+                                    <span className="item">SEO Service</span>
+                                </li>
+                            </ul>
+                            <ul>
+                                <li>
+                                    <span className="item"><i class="fas fa-check"></i>WEB Analitics</span>
+                                </li>
+                            </ul>
+                            <ul>
+                                <li>
+                                    <span className="item"><i class="fas fa-check"></i>Owen</span>
+                                </li>
+                            </ul>
+                            </div>
+                            <div className="right-items">
+                            <ul>
+                                <li>
+                                    <span className="item"><i class="fas fa-check"></i></span>
                                     <span className="item">SEO Services</span>
                                 </li>
                             </ul>
                             <ul>
                                 <li>
-                                    <span className="item"><i class="fal fa-check"></i>dfgdgdsg</span>
+                                    <span className="item"><i class="fas fa-check"></i>dfgdgdsg</span>
                                 </li>
                             </ul>
                             <ul>
                                 <li>
-                                    <span className="item">Owen</span>
+                                    <span className="item"><i class="fas fa-check"></i>Owen</span>
                                 </li>
                             </ul>
                             </div>
-                            <div className="right-items"> </div>
                         </div>
 
                     </div>
