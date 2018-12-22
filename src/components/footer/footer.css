@@ -1,16 +1,159 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans'); 
 
 footer {
+    border: red solid;
     height: 370px;
     width: 100%;
-    background-image: linear-gradient(150deg, #7e00ff 10%, #05d5ff 75%, #a6ffcb 94%);
+    background: white;
     display: flex;
     flex-direction: row;
     position: relative;
-    
 }
 
-.contact_block h3 {
+.footer_content {
+
+    border: green solid;
+    height: 370px;
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.left_content_footer {
+    border: black solid;
+   
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.logo_footer {
+
+    border: purple solid;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo_img {
+
+    height: 30px;
+    width: 30px;
+    color: #1a1c1b;
+    background: #1a1c1b;
+
+}
+
+.app_name {
+    color: #3a3a3a;
+    margin: 0;
+    font-size: 20px;
+}
+
+.about_container {
+
+    border: red solid;
+    height: 250px;
+}
+
+.about_name_footer {
+    color: #3a3a3a;
+}
+
+.discription_footer {
+    color: #8e918f;
+}
+
+.right_content_footer {
+    border: yellow solid;
+    width: 55%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.contacts_container {
+    border: red solid;
+    height: 250px;
+    width: 50%;
+}
+
+.contact_name_footer {
+
+    color: #3a3a3a;
+
+}
+
+.contacts_container p {
+    color: #8e918f;
+    font-size: 19px ;
+}
+
+.contacts_container strong {
+    color: #3a3a3a;
+    font-size: 20px ;
+}
+
+.follow_container {
+    border: black solid;
+    height: 250px;
+    width: 50%;
+}
+
+.follow_block {
+
+    border: red solid;
+}
+
+.follow_us {
+    border: #1a1c1b solid;
+}
+
+.follow_heading {
+    color: #1a1c1b;
+}
+
+.follow_items {
+
+    border: green solid;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.follow_item {
+    border: yellow solid;
+    height: 50px;
+    width: 50px;
+
+}
+
+.btn {
+  height: 50px;
+  width: 50px;
+  background: #8e918f;
+}
+
+.btn i {
+    font-size: 20px;
+}
+
+.follow_img {
+
+    color: #1a1c1b;
+
+}
+
+
+/* .contact_block h3 {
     color: white;
     font-size: 10px;
 }
@@ -182,105 +325,4 @@ h3 {
 h4 {
     font-size: 13px;
     color: white;
-}
-
-@media only screen and (max-width: 922px) {
-
-    footer {
-        justify-content: space-around;
-    }
-
-    .left_block {
-        width: 40%;
-        margin-left: 3%;
-    }
-
-    .contact_block {
-        width: 115%;
-        text-align: center;
-    }
-
-    .right_block {
-        width: 40%;
-        text-align: right;
-        padding-right: 5%;
-    }
-
-    .follow_block {
-        width: 50%;
-    }
-
-    .follow_items {
-        width: 80%;
-    }
-
-}
-
-@media only screen and (max-width: 768px) {
-    footer {
-        height: 600px;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .left_block {
-        height: 400px;
-        width: 100%;
-        margin: auto;
-    }
-
-    .left_block:before {    
-        width: 300px;
-        height: 300px;
-        display: block;
-    }
-
-    .left_footer_block {
-        justify-content: space-around;
-    }
-
-    .logo_footer {
-        width: 70%;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        align-items: center;
-        height: auto;
-        position: relative;
-    }
-
-    .app-name {
-        width: 70%;
-        margin: 0;
-        text-align: left;
-        font-size: 19px;
-    }
-
-    .logo_img {
-        width: 27px;
-        height: 25px;
-        position: relative;
-    }
-
-    .info_block {
-        width: 90%;
-        position: relative;
-        text-align: left;
-    }
-
-    .right_block {
-        width: 80%;
-        display: flex;
-        justify-content: center;
-        padding: 0;
-    }
-
-    .follow_block {    
-        height: 200px;
-        margin: 0;
-    }
-
-    .follow_items {
-        width: 130%;
-    }
-}
+} */

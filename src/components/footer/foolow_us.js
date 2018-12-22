@@ -10,11 +10,11 @@ const INSTAGRAM_URL = 'https://www.instagram.com/korean_phrasebook/';
 const KTT_WEB_SITE = 'http://www.keytotech.com/';
 
 
-function followButton(img, link){
-    return ( 
-      <div className="follow_item">
-          <a href={link} class="active">                 
-          <img className="follow_img" alt="follow" src={img}/>
+function followButton(img, link) {
+  return (
+    <div className="follow_item">
+      <a href={link} class="btn">
+        {img}
       </a>
     </div>
   )
@@ -22,18 +22,18 @@ function followButton(img, link){
 
 const FollowUs = () => (
 
-        <div className="follow_block">
-            <div className="follow_us">
-              <h2 className='follow_heading'>Follow</h2>
-            </div>
-          <div className="follow_items">
-                {followButton(icFacebook, FACEBOOK_URL)}
-                {followButton(icTwitter, TWITTER_URL)}
-                {followButton(icInstagram, INSTAGRAM_URL)}
-            </div>
-            <div className='develop-block'>
-            <h2>Developed by: <a href={KTT_WEB_SITE} class="active">KeyToTech</a></h2>
-            </div>
-          </div>
+  <div className="follow_block">
+    <div className="follow_us">
+      <h2 className='follow_heading'>Follow</h2>
+    </div>
+    <div className="follow_items">
+      {followButton(<i class="fab fa-facebook-f"></i>, FACEBOOK_URL)}
+      {followButton(<i class="fab fa-twitter"></i>, TWITTER_URL)}
+      {followButton(<i class="fab fa-instagram"></i>, INSTAGRAM_URL)}
+    </div>
+    <div className='develop-block'>
+      <h2>Developed by: <a href={KTT_WEB_SITE} class="active">KeyToTech</a></h2>
+    </div>
+  </div>
 )
 export default FollowUs;
