@@ -156,23 +156,62 @@ footer {
 
 @media only screen and (min-width: 768px) and (max-width: 1200px)  {
 
-    footer {
-        border: red solid;
-    }
- 
     .footer_content {
-        border: red solid;
+     
         height: 100%;
         width: 80%;
-     }
+    }
+
+    .follow_item {
+       
+        height: 40px;
+        width: 40px;
+       
+    }
+
+    .btn i {
+        line-height: 40px;
+        height: 40px;
+        width: 40px;
+        font-size: 17px;
+    }
+
+
+    .develop_block h2 {
+        font-size: 15px;
+    }
 
 }
 
 @media screen and (min-width: 768px) and (max-width: 922px)  {
 
-    footer {
-        border: green solid;
+    .footer_content {
+      width: 90%;
+     }
+
+    .left_content_footer {
+        width: 30%;
+   }
+
+    .logo_footer {
+        height: 40px;
     }
 
+    .app_name {
+        font-size: 13px;
+        position: absolute;
+        left: 9%;
+    }
+
+    .discription_footer {
+      
+        font-size: 90%;
+    }
+    
+    .right_content_footer {
+      
+        width: 65%;
+    }    
+    
 
 }
