@@ -14,7 +14,7 @@ footer {
 
 .footer_content {
     height: 100%;
-    width: 60%;
+    width: 65%;
     margin: 0 auto;
     display: flex;
     flex-direction: row;
@@ -100,8 +100,8 @@ footer {
 }
 
 .follow_heading {
-    font-size: 120%;
-    color: #1a1c1b;
+    font-size: 17px;
+    color: #3a3a3a;
 }
 
 .follow_items {
@@ -112,9 +112,9 @@ footer {
 
 .follow_item {
     border-radius: 50%;
-    height: 50px;
-    width: 50px;
-    background: #f2f4f7;
+    height: 45px;
+    width: 45px;
+    background: #f4f5f7;
     text-align: center;
     box-shadow: 0 5px 15px -5px #00000070;
 }
@@ -125,9 +125,9 @@ footer {
 }
 
 .btn i {
-    line-height: 50px;
-    height: 50px;
-    width: 50px;
+    line-height: 45px;
+    height: 45px;
+    width: 45px;
     font-size: 20px;
     color: #3a3a3a;
 }
@@ -144,7 +144,7 @@ footer {
     margin: 0;
     margin-top: 30px;
     color: #3a3a3a;
-    font-size: 20px;
+    font-size: 17px;
 }
 
 .develop_block h2 a {
@@ -157,7 +157,6 @@ footer {
 @media only screen and (min-width: 768px) and (max-width: 1200px)  {
 
     .footer_content {
-     
         height: 100%;
         width: 80%;
     }
@@ -186,7 +185,7 @@ footer {
 @media screen and (min-width: 768px) and (max-width: 922px)  {
 
     .footer_content {
-      width: 90%;
+        width: 90%;
      }
 
     .left_content_footer {
@@ -238,6 +237,8 @@ footer {
     }
     
     .left_content_footer {
+        
+        height: 300px;
         width: 100%;
         display: flex;
         flex-direction: column;
@@ -266,6 +267,7 @@ footer {
     }
     
     .about_container {
+        
         height: 250px;
     }
     
@@ -292,22 +294,24 @@ footer {
     
     .contacts_container {
         
-        height: 250px;
-        width: 50%;
+        height: 270px;
+        width: 70%;
+        text-align: center;
     }
     
     .contact_name_footer {
         
         width: 70%;
         color: #3a3a3a;
-        font-size: 17px;
+        font-size: 25px;
         margin: 0 auto;
         text-align: center;
     }
     
     .contacts_container p {
+       
         color: #8e918f;
-        font-size: 15px ;
+        font-size: 20px ;
     }
     
     .contacts_container strong {
@@ -316,9 +320,15 @@ footer {
     }
     
     .follow_container {
-       
+        
         height: 250px;
-        width: 70%;
+        width: 80%;
+    }
+
+    .follow_block {
+       
+        width: 100%;
+
     }
     
     .follow_us {
@@ -326,8 +336,8 @@ footer {
     }
     
     .follow_heading {
-        font-size: 120%;
-        color: #1a1c1b;
+        font-size: 25px;
+        color: #3a3a3a  ;
     }
     
     .follow_items {
@@ -363,14 +373,16 @@ footer {
     }
     
     .develop_block {
+        
         text-align: center;
+        width: 100%;
     }
     
     .develop_block h2 {
         margin: 0;
         margin-top: 30px;
         color: #3a3a3a;
-        font-size: 20px;
+        font-size: 25px;
     }
     
     .develop_block h2 a {
@@ -382,7 +394,45 @@ footer {
 
 @media only screen and (max-width: 365px) {
 
+    .about_name_footer {
+        font-size: 17px;
+    }
 
+    .contacts_container {
+        height: 180px;
+        width: 85%;
+    }
 
+    .contact_name_footer {
+        font-size: 17px;
+    }
+
+    .contacts_container p {
+        font-size: 17px;
+    }
+
+    .follow_container {
+        height: 200px;
+        width: 95%;
+    }
+
+   .follow_heading {
+        font-size: 17px;
+    }
+
+   .follow_item {
+        height: 45px;
+        width: 45px;
+    }
+
+   .btn i {
+        line-height: 45px;
+        height: 45px;
+        width: 45px;
+    }
+
+    .develop_block h2 {
+        font-size: 17px;
+    }
 
 }
