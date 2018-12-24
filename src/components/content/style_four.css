@@ -1,8 +1,13 @@
+
+@media only screen and (min-width: 768px) {
+
 .wrapp_info_section_four {
+    
     background: url("../../res/korea.jpg") no-repeat center top/cover;
-    background-size: 500px 300px;
+    background-size: 30% 300px;
     background-position: left center;
     height: 600px;
+    position: relative;
 }
 
 .main-container-four {
@@ -58,3 +63,158 @@
 li {
     display: flex;
 }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1500px) {
+
+    .wrapp_info_section_four {
+       
+        background-size: 30% 300px;
+    
+    }
+
+    .main-container-four {
+
+       
+        width: 70%;
+    }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+
+    .wrapp_info_section_four {
+        
+        
+        background-size: 40% 300px;
+       
+    }
+
+    .main-container-four {
+
+        
+        width: 70%;
+        position: absolute;
+        right: 20px;
+    }
+
+    .title-four {
+        font-size: 37px;
+    }
+
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 922px) {
+
+    .wrapp_info_section_four {
+        
+        background-size: 40% 300px;
+        height: 500px;
+    }
+
+    .main-container-four {
+
+        
+        width: 65%;
+        position: absolute;
+        right: 20px;
+    }
+
+    .title-four {
+        font-size: 27px;
+    }
+
+    .content-four {
+        
+        font-size: 14px;
+    
+    }
+    
+    li {
+    
+        font-size: 15px;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+
+    .wrapp_info_section_four {
+        background: url("../../res/korea.jpg") no-repeat center top/cover;
+        background-size: 90% 300px;
+        background-position: center bottom;
+        height: 700px;
+        position: relative;
+    }
+    
+    .main-container-four {
+        
+        margin: 0 auto;
+        height: 100%;
+        width: 80%;
+        position: relative;
+    }
+    
+    .wrap-content {
+       
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        right: 0px;
+    }
+    
+    .title-four {
+        font-size: 25px;
+        line-height: 1.5;
+        margin: 0;
+        text-align: center;
+    }
+    
+    .content-four {
+        margin-top: 5%;
+        font-size: 15px;
+        color: #727984;
+        line-height: 2.0;
+        text-align: left;
+    }
+    
+    .wrap-items {
+      
+        margin-top: 70px;
+        height: 250px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    
+    }
+    .left-items {
+        height: 100%;
+       
+        padding: 0;
+    }
+    
+    .right-items {
+    
+        
+    }
+    
+    .fa-check{
+    
+        color: #95e59e;
+        margin-right: 20px;
+    }
+    
+    li {
+        display: flex;
+        color: white;
+        font-size: 15px;
+    }
+
+}
+
+@media only screen and (max-width: 365px) {
+
+}
+
