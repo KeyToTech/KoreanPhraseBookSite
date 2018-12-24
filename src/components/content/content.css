@@ -3,7 +3,7 @@
 @media only screen and (min-width: 768px) {
 
 .content {
-
+    border: red solid;
     width: 100%;
     height: auto;
     margin-left: 0px;
@@ -86,14 +86,16 @@ h3 {
 @media only screen and (min-width: 768px) and (max-width: 1500px) {
 
     .content {
-        width: 80%;
+        border: green solid;
+        width: 100%;
      }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 922px) {
 
     .content {
-        width: 90%;
+        border: yellow solid;
+        width: 100%;
     }
 
     .wrapp_info_section {

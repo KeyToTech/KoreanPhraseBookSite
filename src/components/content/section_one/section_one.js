@@ -8,7 +8,7 @@ class SectionOne extends Component {
         return (
             <section className="wrapp_info_section_one">
 
-                <div className="main-container">
+               
                     <div className="row">
 
                         <div className="collumn-green">
@@ -52,7 +52,7 @@ class SectionOne extends Component {
 
                     </div>
 
-                </div>
+                
 
             </section>
         );

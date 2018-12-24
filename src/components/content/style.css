@@ -1,7 +1,9 @@
 
 
+@media only screen and (min-width: 768px) {
+
 .wrapp_info_section_one {
-   
+    border: #85cc74 solid;
     width: 60%;
     display: flex;
     flex-direction: column;
@@ -9,18 +11,13 @@
     margin-top: 50px;
 }
 
-.main-container {
 
-
-height: 450px;
-
-
-}
 
 .row {
 
-  
+    border: red solid;
     height: 450px;
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -29,7 +26,7 @@ height: 450px;
 
 .collumn-green {
   border-radius: 15px;
-  width: 350px;
+  width: 32%;
   background: #85cc74;
   position: relative;
   display: flex;
@@ -40,7 +37,7 @@ height: 450px;
 
 .collumn-blue {
     border-radius: 15px;
-    width: 350px;
+    width: 32%;
     background: #74bdcc;
     position: relative;
     display: flex;
@@ -51,7 +48,7 @@ height: 450px;
 
 .collumn-red {
     border-radius: 15px;
-    width: 350px;
+    width: 32%;
     background: #ce6565;
     position: relative;
     display: flex;
@@ -93,6 +90,8 @@ font-family: sans-serif;
 }
 
 .button-container {
+    border: black solid;
+    width: 60%;
   position: relative;
   bottom: 30px;
   display: flex;
@@ -104,11 +103,12 @@ font-family: sans-serif;
     border: white solid 1px;
     border-radius: 70px;
     height: 40px;
-    width: 170px;
+    width: 100%;
     text-align: center;
     font-size: 15px;
     line-height: 40px;
     text-transform: uppercase;
+    text-decoration: none;
     font-family: sans-serif;
     color: #fff;
 }
@@ -117,4 +117,157 @@ font-family: sans-serif;
     color: black;
     background: #fff;
     mix-blend-mode: overlay;
+}
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1500px) {
+
+    .wrapp_info_section_one {
+        width: 75%;
+    }
+
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 922px) {
+
+    .wrapp_info_section_one {
+        width: 90%;
+    }
+
+
+}
+
+@media only screen and (max-width: 768px) {
+
+    .wrapp_info_section_one {
+        border: #85cc74 solid;
+        height: 1200px;
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+    
+    
+    
+    .row {
+    
+        border: red solid;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    
+    }
+    
+    .collumn-green {
+      border-radius: 15px;
+      height: 32%;
+      width: 70%;
+      background: #85cc74;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+    }
+    
+    .collumn-blue {
+        border-radius: 15px;
+        height: 32%;
+        width: 70%;
+        background: #74bdcc;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .collumn-red {
+        border-radius: 15px;
+        height: 32%;
+        width: 70%;
+        background: #ce6565;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .image {
+        position: relative;
+        top: 20px;
+        height: 130px;
+        width: 130px;
+        border-radius: 50%;
+        background: #8894a8;
+    }
+    
+    .content-text {
+     width: 100%;
+     height: 150px;
+     margin: 0px;
+    }
+    
+    .title {
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: sans-serif;
+    }
+    
+    .text {
+       
+        color: white;
+        width: 80%;
+        margin: 0;
+        font-size: 14px;
+        text-align: center;
+        margin: 0 auto;
+    }
+    
+    .button-container {
+        border: black solid;
+        width: 60%;
+      position: relative;
+      bottom: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;   
+    }
+    
+    .button {
+        border: white solid 1px;
+        border-radius: 70px;
+        height: 35px;
+        width: 100%;
+        text-align: center;
+        font-size: 15px;
+        line-height: 35px;
+        text-transform: uppercase;
+        text-decoration: none;
+        font-family: sans-serif;
+        color: #fff;
+    }
+    
+    .button:hover {
+        color: black;
+        background: #fff;
+        mix-blend-mode: overlay;
+    }
+    
+
+
+}
+
+@media only screen and (max-width: 365px) {
+
+
 }

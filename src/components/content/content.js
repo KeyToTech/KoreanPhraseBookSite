@@ -16,10 +16,10 @@ class Content extends Component {
             <div className="content">
                 <div className="wrapp_info_section">
                    <SectionOne/>
-                   <SectionTwo/>
+                   {/* <SectionTwo/>
                    <SectionThree/>
                    <SectionFour/>
-                   <Form/>
+                   <Form/> */}
                 </div>
             </div>
             );
