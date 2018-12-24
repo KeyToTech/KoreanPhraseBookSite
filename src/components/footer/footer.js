@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import appLogo from '../../res/logo.png';
 import FollowUs from './foolow_us';
 import './footer.css';
+import './mobile_scaling.css'
 
 // const KTT_WEB_SITE = 'http://www.keytotech.com/';
 // const Copyright = 'Copyright © 2018 KeyToTech | All Rights Reserved';
