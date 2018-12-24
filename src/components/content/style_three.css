@@ -1,5 +1,9 @@
+
+@media only screen and (min-width: 768px) {
+
 .wrapp_info_section_three {
    
+  
     height: 500px;
     width: 100%;
     margin-top: 150px;
@@ -8,6 +12,7 @@
 }
 
 .main-container-three {
+    
     height: 500px;
     width: 60%;
     margin: 0 auto;
@@ -19,7 +24,8 @@
 }
 
 .text-component {
-  height: 80%;
+ 
+  height: 85%;
   width: 60%;
   display: flex;
   flex-direction: column;
@@ -40,12 +46,16 @@
     text-align: left;
 }
 
-.price-options {    
+.price-options {  
+     
     border-radius: 15px;
-    height: 80%;
-    width: 25%;
+    height: 85%;
+    width: 27%;
     padding: 0;
-    box-shadow: 0 5px 25px -5px #00000070
+    box-shadow: 0 5px 25px -5px #00000070;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .standart {
@@ -77,7 +87,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;  
-    margin-top: 20%; 
+    margin-bottom: 10%; 
 }
 
 .button-three {
@@ -86,6 +96,7 @@
     height: 40px;
     width: 170px;
     text-align: center;
+    text-decoration: none;
     font-size: 15px;
     line-height: 40px;
     text-transform: uppercase;
@@ -95,4 +106,228 @@
 
 .button-three:hover {
     background: #bedbc0;
+}
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1500px) {
+
+    .main-container-three {
+        
+        width: 75%;
+    }
+
+    .text-component {
+
+
+    }
+
+    .title-three {
+
+        font-size: 30px;
+
+
+    }
+
+    .content-three {
+
+        font-size: 15px;
+
+    }
+
+    .price-options {
+
+
+    }
+
+    .text-conten-three {
+       
+        font-size: 15px;
+        padding: 10px;
+
+
+    }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+
+    .wrapp_info_section_three {
+
+        height: 500px;
+
+    }
+
+    .main-container-three {
+       
+       
+        width: 85%;
+    
+    
+    }
+
+    .text-component {
+        
+        width: 55%;
+        
+    }
+
+      .price-options { 
+
+        width: 30%;
+
+       }
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 922px) {
+
+    .main-container-three {
+       
+       
+       
+
+    
+    
+    }
+
+    .text-component {
+        
+        width: 50%;
+        
+    }
+
+    .title-three {
+
+        font-size: 25px;
+
+
+    }
+
+    .content-three {
+
+        font-size: 13px;
+
+    }
+
+      .price-options { 
+
+        width: 37%;
+
+       }
+
+}
+
+@media only screen and (max-width: 768px) {
+
+    .wrapp_info_section_three {
+   
+       
+        height: 900px;
+        width: 100%;
+        margin-top: 150px;
+    
+    
+    }
+    
+    .main-container-three {
+   
+        height: 100%;
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    
+    }
+    
+    .text-component {
+   
+      height: 45%;
+      width: 100%;
+    
+    }
+    
+    .title-three {
+        font-size: 30px;
+        line-height: 1.5;
+        margin: 0;
+    }
+    
+    .content-three {
+        margin-top: 50px;
+        font-size: 15px;
+        color: #727984;
+        line-height: 2.0;
+        text-align: left;
+    }
+    
+    .price-options {  
+        
+        border-radius: 15px;
+        height: 50%;
+        width: 60%;
+        padding: 0;
+        box-shadow: 0 5px 25px -5px #00000070;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .standart {
+        
+        background: #8de097;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        height: 100px; 
+        margin: 0;
+        text-align: center;
+        line-height: 100px;
+    }
+    
+    .standart-name {
+       
+        margin: 0;
+        color: white;
+        text-transform: uppercase;
+        font-weight: bold;
+    
+    }
+    
+    .text-conten-three {
+        font-size: 17px;
+        text-align: center;
+        padding: 5px;
+    }
+    
+    .button-container-three {
+        display: flex;
+        flex-direction: column;
+        align-items: center;  
+        margin-bottom: 10%; 
+    }
+    
+    .button-three {
+        background: #8de097;
+        border-radius: 70px;
+        height: 40px;
+        width: 170px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 15px;
+        line-height: 40px;
+        text-transform: uppercase;
+        font-family: sans-serif;
+        color: #fff;
+    }
+    
+    .button-three:hover {
+        background: #bedbc0;
+    }
+
+}
+
+@media only screen and (max-width: 365px) {
+
 }

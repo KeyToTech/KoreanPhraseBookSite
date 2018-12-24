@@ -1,5 +1,9 @@
 
+
+@media only screen and (min-width: 768px) {
+
 .wrapp_info_section_two{
+   
     background: url("../../res/korea1.png") no-repeat center top/cover;
     background-size: 500px 300px;
     background-position: left center;
@@ -8,10 +12,11 @@
 }
 
 .main-container-two{
+   
     padding-left: 50px;
     height: 500px;
     width: 52%;
-    margin-left: 28%;
+    margin-left: 32%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -33,4 +38,149 @@
 .item-section-two {
     font-size: 27px;
     line-height: 2.8;
+}
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1500px) {
+
+    .wrapp_info_section_two{
+        
+        
+        background-size: 30% 40%;
+     
+       
+    }
+
+    .main-container-two{
+       
+       
+        padding-left: 0px;
+        position: relative;
+        margin-left: 33%;
+    }
+
+    .title-section-two {
+        
+        font-size: 27px;
+        line-height: 1.5;
+    }
+
+    .text-section-two {
+        width: 65%;
+        font-size: 15px;
+        
+        line-height: 1.8;
+        
+    }
+    
+    .item-section-two {
+        font-size: 23px;
+        line-height: 2.0;
+    }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1300px) {
+    .wrapp_info_section_two{
+        
+        
+        background-size: 35% 200px;
+     
+       
+    }
+
+    .main-container-two{
+        width: 60%;
+        padding-left: 0px;
+        position: relative;
+        margin-left: 38%;
+    }
+
+    .title-section-two {
+       
+        font-size: 25px;
+        line-height: 1.5;
+    }
+
+    .text-section-two {
+        width: 65%;
+        font-size: 17px;
+        
+        line-height: 1.8;
+        
+    }
+    
+    .item-section-two {
+        font-size: 19px;
+        line-height: 2.0;
+    }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 922px) {
+
+    .title-section-two {
+        
+        font-size: 21px;
+        line-height: 1.5;
+    }
+
+    .text-section-two {
+        width: 65%;
+        font-size: 15px;
+        
+        line-height: 1.8;
+        
+    }
+    
+    .item-section-two {
+        font-size: 17px;
+        line-height: 2.0;
+    }
+
+
+}
+
+@media only screen and (max-width: 768px) {
+
+    .wrapp_info_section_two{
+        height: 550px;
+        width: 100%;
+        background: url("../../res/korea1.png") no-repeat center top/cover;
+        background-size: 500px 300px;
+        background-position: center bottom;
+        margin-top: 200px;
+    }
+    
+    .main-container-two{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    
+    .title-section-two {
+        text-align: center;
+        font-size: 20px;
+        line-height: 1.5;
+    }
+    
+    .text-section-two {
+        width: 100%;
+        font-size: 15px;
+        color: #727984;
+        line-height: 2.0;
+        text-align: left;
+    }
+    
+    .item-section-two {
+        font-size: 23px;
+        line-height: 2.0;
+    }
+}
+
+@media only screen and (max-width: 365px) {
+
 }
