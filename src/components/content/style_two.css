@@ -183,4 +183,16 @@
 
 @media only screen and (max-width: 365px) {
 
+    .title-section-two {
+        font-size: 17px;
+    }
+
+    .text-section-two {
+        font-size: 14px;
+    }
+
+    .item-section-two {
+        font-size: 20px;
+        line-height: 1.8;
+    }
 }
