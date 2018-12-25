@@ -19,7 +19,7 @@ class Content extends Component {
                    <SectionTwo/>
                    <SectionThree/>
                    <SectionFour/>
-                   {/* <Form/> */}
+                   <Form/>
                 </div>
             </div>
             );

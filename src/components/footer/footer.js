@@ -32,11 +32,13 @@ class Footer extends Component {
           <div className="right_content_footer">
             <div className="contacts_container">
               <h1 className="contact_name_footer">Contact Us</h1>
-              <p><strong>Office Address</strong><br />
-                16 Collins Street West
-              </p>
-              <p><strong>Phone:</strong> +38093-98-98-671</p>
-              <p><strong>Email:</strong> luisowen11@gmail.com</p>
+              <div className="wrap_address">
+                <p className="top_item"><strong>Office Address</strong><br />
+                  16 Collins Street West
+                </p>
+                <p><strong>Phone:</strong> +38093-98-98-671</p>
+                <p><strong>Email:</strong> luisowen11@gmail.com</p>
+              </div>
             </div>
             <div className="follow_container">
               <FollowUs />

@@ -111,9 +111,7 @@
     }
 
     .follow_block {
-       
         width: 100%;
-
     }
     
     .follow_us {
@@ -126,6 +124,8 @@
     }
     
     .follow_items {
+        width: 65%;
+        margin: 0 auto;
         display: flex;
         flex-direction: row;
         justify-content: space-around;
@@ -133,8 +133,8 @@
     
     .follow_item {
         border-radius: 50%;
-        height: 50px;
-        width: 50px;
+        height: 55px;
+        width: 55px;
         background: #f2f4f7;
         text-align: center;
         box-shadow: 0 5px 15px -5px #00000070;
@@ -146,9 +146,9 @@
     }
     
     .btn i {
-        line-height: 50px;
-        height: 50px;
-        width: 50px;
+        line-height: 55px;
+        height: 55px;
+        width: 55px;
         font-size: 20px;
         color: #3a3a3a;
     }
