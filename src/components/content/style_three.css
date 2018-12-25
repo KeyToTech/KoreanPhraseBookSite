@@ -330,4 +330,15 @@
 
 @media only screen and (max-width: 365px) {
 
+    .wrapp_info_section_three {
+        height: 1000px;;
+    }
+
+    .title-three {
+        font-size: 20px;
+    }
+
+    .price-options {
+        width: 90%;
+    }
 }
