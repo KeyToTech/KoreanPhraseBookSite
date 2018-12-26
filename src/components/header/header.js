@@ -27,14 +27,28 @@ class Header extends Component {
           </div>
         </div>
 
+        <nav>
+        <div class="logo">
+           
+        </div>
+
+        <ul class="menu-item">
+            <li><a href='#' class="active">Home</a></li>
+            <li><a href='#section-2'>About</a></li>
+            <li><a href='#'>Services</a></li>
+            <li><a href='#'>Portfolio</a></li>
+            <li><a href='#'>Team</a></li>
+            <li><a href='#'>Contacts</a></li>
+        </ul>
+    </nav>
+
         <div className="main-block">
           <div className="content-header">
             <div className="info-header">
               <h2 className='title'>{title}</h2>
               <h3 className='subtitle'>{subtitle}</h3>
             </div>
-          </div>
-          <div className="social-networks-block">
+
             <div className="button_wrap">
               <div className="button_android">
                 <a href="https://play.google.com/store/apps/details?id=com.keytotech.koreanphrasebook" class="active">
@@ -47,7 +61,9 @@ class Header extends Component {
                 </a>
               </div>
             </div>
+            
           </div>
+          
         </div>
 
         <div className="image-header">
