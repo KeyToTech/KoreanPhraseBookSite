@@ -83,7 +83,8 @@ nav {
 }
 
 .menu-item {
-  width: 30%;
+  border: green solid;
+  width: 40%;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -122,14 +123,16 @@ nav {
 }
 
 .content-header {
+  border: white solid;
   width: 60%;
   display: flex;
   flex-direction: column;
-  align-items: center;
   padding-top: 100px;
+  padding-left: 5%;
 }
 
 .info-header{
+  border: red solid;
   height: 200px;
   width: 80%;
 }
@@ -155,23 +158,24 @@ nav {
 }
 
 .button_wrap {
-  width: 50%;
+  border: red solid;
+  width: 40%;
   height: 100px;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .button_android {
-   width: 35%;
+   width: 150px;
 }
 
 .button_ios {
-  width: 35%;
+  width: 150px;
 }
 
 .android_img{
- 
+ position: relative;
 }
 
 .ios_img{
@@ -180,10 +184,10 @@ nav {
 
 
 .image-header{
-  height: 650px;
-  width: 650px;
+  height: 600px;
+  width: 600px;
   position: absolute;
-  top: 30%;
+  top: 370px;
   right: 10%;
 
 }
@@ -196,8 +200,39 @@ nav {
 
 }
 
+@media only screen and (min-width: 768px) and (max-width: 1500px)  {
+
+  .menu-item {
+
+    width: 40%;
+  
+  }
+
+  .info-header{
+    height: 250px;
+  }
+
+  .button_wrap {
+    width: 45%;
+  }
+
+  .button_android {
+    width: 140px;
+  }
+ 
+  .button_ios {
+   width: 140px;
+  }
+
+
+}
+
 
 @media only screen and (min-width: 768px) and (max-width: 1200px)  {
+
+    .menu-item li a {
+      font-size: 12px;
+    }
 
     .image-header{
       height: 45%;
@@ -205,12 +240,56 @@ nav {
       top: 370px;
       right: 30px;
     }
+
+    .info-header{
+      height: 280px;
+      width: 90%;
+    }
+
+    .subtitle {
+      font-size: 25px;
+    }
+
+    .button_wrap {
+      width: 55%;
+    }
+  
+    .button_android {
+      width: 130px;
+    }
+   
+    .button_ios {
+     width: 130px;
+    }
 }
 
   @media screen and (min-width: 768px) and (max-width: 922px)  {
 
+    .menu-item {
+       width: 60%;
+    }
+
+    .menu-item li a {
+       font-size: 12px;
+    }
+
+    .content-header {
+      border: white solid;
+      width: 60%;
+      display: flex;
+      flex-direction: column;
+      padding-top: 30px;
+      
+    }
+
+    .info-header{
+      border: red solid;
+      height: 250px;
+      width: 100%;
+    }
+
     .button_wrap {
-      width: 85%;
+      width: 60%;
     }
 
      .button_android {
@@ -221,16 +300,7 @@ nav {
       width: 120px;
     }
 
-    .content-header {
-      width: 60%;
-    }
-  
-    .info-header{
-      width: 100%;
-      margin-left: 30px;
-      margin-bottom: 350px;
-    }
-  
+ 
    .image-header{
       height: 450px;
       width: 450px;

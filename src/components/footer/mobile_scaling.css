@@ -52,12 +52,10 @@
     }
     
     .about_container {
-        
         height: 250px;
     }
     
     .about_name_footer {
-        
         color: #3a3a3a;
         font-size: 120%;
         text-align: center;
@@ -69,7 +67,6 @@
     }
     
     .right_content_footer {
-        
         width: 100%;
         display: flex;
         flex-direction: column;
@@ -78,14 +75,12 @@
     }
     
     .contacts_container {
-        
         height: 270px;
         width: 70%;
         text-align: center;
     }
     
     .contact_name_footer {
-        
         width: 70%;
         color: #3a3a3a;
         font-size: 25px;
@@ -94,7 +89,6 @@
     }
     
     .contacts_container p {
-       
         color: #8e918f;
         font-size: 20px ;
     }
@@ -105,7 +99,6 @@
     }
     
     .follow_container {
-        
         height: 250px;
         width: 80%;
     }
@@ -158,7 +151,6 @@
     }
     
     .develop_block {
-        
         text-align: center;
         width: 100%;
     }
@@ -219,5 +211,4 @@
     .develop_block h2 {
         font-size: 17px;
     }
-
 }

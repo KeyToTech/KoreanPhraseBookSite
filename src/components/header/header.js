@@ -33,12 +33,12 @@ class Header extends Component {
         </div>
 
         <ul class="menu-item">
-            <li><a href='#' class="active">Home</a></li>
-            <li><a href='#section-2'>About</a></li>
-            <li><a href='#'>Services</a></li>
-            <li><a href='#'>Portfolio</a></li>
-            <li><a href='#'>Team</a></li>
-            <li><a href='#'>Contacts</a></li>
+            <li><a href='https://uk.wikipedia.org/wiki/Lorem_ipsum' class="active">Home</a></li>
+            <li><a href='https://www.behance.net/gallery/73501583/SEOland-Landing-Page'>About</a></li>
+            <li><a href='https://www.behance.net/gallery/73501583/SEOland-Landing-Page'>Services</a></li>
+            <li><a href='https://www.behance.net/gallery/73501583/SEOland-Landing-Page'>Portfolio</a></li>
+            <li><a href='https://www.behance.net/gallery/73501583/SEOland-Landing-Page'>Team</a></li>
+            <li><a href='https://www.behance.net/gallery/73501583/SEOland-Landing-Page'>Contacts</a></li>
         </ul>
     </nav>
 

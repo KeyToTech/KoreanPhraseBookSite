@@ -12,17 +12,13 @@ class Footer extends Component {
   render() {
     return (
       <footer className="section_footer">
-
         <div className="footer_content">
           <div className="left_content_footer">
             <div className="logo_footer">
-
               <img className="logo_img" alt='logo' src={appLogo} />
               <h1 className='app_name'>Корейський розмовник</h1>
-
             </div>
             <div className="about_container">
-
               <h1 className="about_name_footer">About Us</h1>
               <p className="discription_footer">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
@@ -45,7 +41,6 @@ class Footer extends Component {
             </div>
           </div>
         </div>
-
       </footer>
     );
   }
