@@ -2,7 +2,7 @@
 
     .header {
       width: 100%;
-      height: 1400px;
+      height: 1730px;
       position: relative;
       margin: 0;
       background:  linear-gradient(150deg, #7e00ff 10%, #05d5ff 75%, #a6ffcb 94%);
@@ -57,7 +57,7 @@
     }
 
     nav {
-      border: gold solid;
+    
       
       height: 450px;
       width: 100%;
@@ -76,9 +76,9 @@
     }
     
     .menu-item {
-      border: green solid;
+    
       height: 350px;
-      width: 40%;
+      width: 50%;
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -88,8 +88,8 @@
     
     .menu-item li {
       margin: 0;
-      border: black solid;
-       list-style: none;
+     
+      list-style: none;
     }
     
     .menu-item li a {
@@ -98,7 +98,7 @@
       color: white;
       text-decoration: none;
       text-transform: uppercase;
-      font-size: 25px;
+      font-size: 20px;
     }
     
     
@@ -108,17 +108,23 @@
     }
     
     .main-block {
-      border: green solid;
-      height: 570px;
+     
+      height: 400px;
+      display: flex;
+     
+    }
+
+    .content-header {
+      width: 100%;
       display: flex;
       flex-direction: column;
       align-items: center;
-      margin-bottom: 50px;
     }
     
     .info-header{
-      border: red solid;
+     
       display: flex;
+      width: 70%;
       flex-direction: column;
       align-items: center;
       text-align: center;
@@ -126,7 +132,7 @@
     
     .title {
       color: white;
-      font-size: 200%;
+      font-size: 25px;
       word-spacing: 1.9px;
       letter-spacing: 2px;
       font-weight:600;
@@ -136,7 +142,7 @@
     .subtitle {
       color: white;
       width: 75%;
-      font-size: 160%;
+      font-size: 20px;
       font-weight: 200;
       line-height: 1.6;
       word-spacing: 2px;
@@ -145,22 +151,21 @@
     }
     
     .button_wrap {
-      border: red solid;
-      width: 270px;
+    
+      width: 55%;
       height: 130px;
       text-align: center;
-      margin-top: 45px; 
       display: flex;
       flex-direction: row;
       justify-content: space-between;
      }
     
     .button_android {
-      width: 120px;
+      width: 40%;
     }
     
     .button_ios {
-      width: 120px;
+      width: 40%;
     }
     
     .android_img{
@@ -173,9 +178,11 @@
     
     
     .image-header{
-      height: 85%;
-      width: 85%;
+      
+      height: 15%;
+      width: 70%;
       margin: 0 auto;
+      margin-top: 70px;
     }
     
     .app-illustration {

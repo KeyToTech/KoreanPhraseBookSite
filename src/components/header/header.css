@@ -15,7 +15,7 @@
 }
 
 .figure-block {
-border: red solid;
+
 height: 100%;
 width: 100%;
 position: absolute;
@@ -83,7 +83,7 @@ nav {
 }
 
 .menu-item {
-  border: green solid;
+ 
   width: 40%;
   display: flex;
   flex-direction: row;
@@ -111,7 +111,7 @@ nav {
 }
 
 .main-block {
-  border: 5px green solid;
+  
   height: 90%;
   width: 100%;
   display: flex;
@@ -123,7 +123,7 @@ nav {
 }
 
 .content-header {
-  border: white solid;
+  
   width: 60%;
   display: flex;
   flex-direction: column;
@@ -132,7 +132,7 @@ nav {
 }
 
 .info-header{
-  border: red solid;
+ 
   height: 200px;
   width: 80%;
 }
@@ -158,7 +158,7 @@ nav {
 }
 
 .button_wrap {
-  border: red solid;
+  
   width: 40%;
   height: 100px;
   display: flex;
@@ -274,7 +274,7 @@ nav {
     }
 
     .content-header {
-      border: white solid;
+     
       width: 60%;
       display: flex;
       flex-direction: column;
@@ -283,7 +283,7 @@ nav {
     }
 
     .info-header{
-      border: red solid;
+      
       height: 250px;
       width: 100%;
     }

@@ -44,22 +44,26 @@ class Header extends Component {
 
         <div className="main-block">
           <div className="content-header">
+          
             <div className="info-header">
               <h2 className='title'>{title}</h2>
               <h3 className='subtitle'>{subtitle}</h3>
             </div>
 
             <div className="button_wrap">
+
               <div className="button_android">
                 <a href="https://play.google.com/store/apps/details?id=com.keytotech.koreanphrasebook" class="active">
                   <img className="android_img" alt="android_img" src={googlePlayBottom} />
                 </a>
               </div>
+
               <div className="button_ios">
                 <a href="http://www.keytotech.com/" class="active">
                   <img className="ios_img" alt="ios_img" src={iosStoreBottom} />
                 </a>
               </div>
+
             </div>
             
           </div>
