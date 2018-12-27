@@ -2,7 +2,7 @@
 @media only screen and (min-width: 768px) {
 
 .wrapp_info_section_four {
-    
+    border: purple solid;
     background: url("../../res/korea.jpg") no-repeat center top/cover;
     background-size: 30% 300px;
     background-position: left center;

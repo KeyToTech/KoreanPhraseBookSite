@@ -12,50 +12,67 @@ class SectionFour extends Component {
                     <div className="wrap-content">
 
                         <div className="title-four">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Зручний пошук
                          </div>
 
                         <div className="content-four">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                           Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                         </div>
+                        Всього лише за мить допоможе знайти потрібне  вам слово чи фразу
+                          шукайте всюди: 
+
+                        </div>
 
                         <div className="wrap-items">
                             <div className="left-items"> 
                             <ul>
                                 <li>
-                                    <span className="item"><i class="fas fa-check"></i></span>
-                                    <span className="item">SEO Service</span>
+                                    <span className="item"><i class="fas fa-check"></i>Основні вирази</span>
                                 </li>
                             </ul>
                             <ul>
                                 <li>
-                                    <span className="item"><i class="fas fa-check"></i>WEB Analitics</span>
+                                    <span className="item"><i class="fas fa-check"></i>Числа</span>
                                 </li>
                             </ul>
                             <ul>
                                 <li>
-                                    <span className="item"><i class="fas fa-check"></i>Owen</span>
+                                    <span className="item"><i class="fas fa-check"></i>Їжа</span>
+                                </li>
+                            </ul>
+                            <ul>
+                                <li>
+                                    <span className="item"><i class="fas fa-check"></i>Покупки</span>
+                                </li>
+                            </ul>
+                            <ul>
+                                <li>
+                                    <span className="item"><i class="fas fa-check"></i>Університет</span>
                                 </li>
                             </ul>
                             </div>
                             <div className="right-items">
                             <ul>
                                 <li>
-                                    <span className="item"><i class="fas fa-check"></i></span>
-                                    <span className="item">SEO Services</span>
+                                    <span className="item"><i class="fas fa-check"></i>Транспорт</span>
                                 </li>
                             </ul>
                             <ul>
                                 <li>
-                                    <span className="item"><i class="fas fa-check"></i>dfgdgdsg</span>
+                                    <span className="item"><i class="fas fa-check"></i>Час</span>
                                 </li>
                             </ul>
                             <ul>
                                 <li>
-                                    <span className="item"><i class="fas fa-check"></i>Owen</span>
+                                    <span className="item"><i class="fas fa-check"></i>Зв’язок</span>
+                                </li>
+                            </ul>
+                            <ul>
+                                <li>
+                                    <span className="item"><i class="fas fa-check"></i>Додаткові матеріали</span>
+                                </li>
+                            </ul>
+                            <ul>
+                                <li>
+                                    <span className="item"><i class="fas fa-check"></i>Словник</span>
                                 </li>
                             </ul>
                             </div>

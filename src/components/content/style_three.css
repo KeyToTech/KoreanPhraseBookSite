@@ -3,12 +3,9 @@
 
 .wrapp_info_section_three {
    
-  
+    border: yellow solid;
     height: 500px;
     width: 100%;
-    margin-top: 150px;
-
-
 }
 
 .main-container-three {

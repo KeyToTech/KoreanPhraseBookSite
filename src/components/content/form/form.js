@@ -7,12 +7,12 @@ class Form extends Component {
             <section className="form">
 
                 <div className="form-container">
-                    <h1 className="subscrive">Subscrive</h1>
-                    <p className="discription">Receive our updates with offers and plans</p>
+                    <h1 className="subscrive">Підписатися</h1>
+                    <p className="discription">Отримуйте наші оновлення з пропозиціями та планами</p>
 
                     <form className="subscrive-form">
-                        <input className="search-txt" type="text" placeholder="Enter You Email" />
-                        <input className="search-btn" type="submit" value="subscrive" href="#" />
+                        <input className="search-txt" type="text" placeholder="Введіть електронну пошту" />
+                        <input className="search-btn" type="submit" value="Підписатися" href="#" />
                     </form>
                 </div>
             </section>

@@ -3,12 +3,11 @@
 @media only screen and (min-width: 768px) {
 
 .wrapp_info_section_two{
-   
+    border: black solid;
     background: url("../../res/korea1.png") no-repeat center top/cover;
     background-size: 500px 300px;
     background-position: left center;
     height: 500px;
-    margin-top: 200px;
 }
 
 .main-container-two{

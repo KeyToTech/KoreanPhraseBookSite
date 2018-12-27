@@ -1,6 +1,7 @@
 @media only screen and (max-width: 768px) {
 
     .header {
+      border: green solid;
       width: 100%;
       height: 1730px;
       position: relative;
@@ -197,33 +198,31 @@
   @media only screen and (max-width: 365px) {
 
     .header {
-      height: 1400px;
-      }
-
-    .main-block {
-      height: 700px;
-      justify-content: flex-end;
-      margin-bottom: 0px;
-    }
-
-    .content-header{
-      margin-top: 80px;
+      height: 1430px;
     }
 
     .info-header{
-     height: 300px;
-     justify-content: space-around;
-    }
-
-    .social-networks-block {
-      margin-top: 80px;
-    }
-
-    .title {
-      font-size: 150%;
+      width: 100%;
     }
 
     .subtitle {
-      font-size: 100%;
+      width: 90%;
     }
+
+    .button_wrap {
+      width: 75%;
+    }
+
+    .button_android {
+      width: 45%;
+    }
+    
+    .button_ios {
+      width: 45%;
+    }
+
+    .image-header{
+      margin-top: -20px;
+    }
+    
  }
