@@ -11,15 +11,15 @@ class SectionFour extends Component {
 
                    
 
-                        <div className="title-four">
+                        <h2 className="title-four">
                             Зручний пошук
-                        </div>
+                        </h2>
 
-                        <div className="content-four">
+                        <h3 className="content-four">
                         Всього лише за мить допоможе знайти потрібне  вам слово чи фразу
                           шукайте всюди: 
 
-                        </div>
+                        </h3>
 
                         <div className="wrap-items">
                             <div className="left-items"> 

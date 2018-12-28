@@ -1,4 +1,6 @@
 
+@import url('https://fonts.googleapis.com/css?family=Open+Sans'); 
+
 @media only screen and (min-width: 768px) {
 
 .form {
@@ -17,14 +19,20 @@
 }
 
 .subscrive {
-   
-    color: black;
+    font-family: 'Open Sans', sans-serif;
+    color: #3a3a3a;
     font-size: 40px;
+    word-spacing: 1.9px;
+    letter-spacing: 2px;
 }
 
 .discription {
-  
-    font-size: 22px;
+    font-size: 25px;
+    color: #727984;
+    font-weight: 200;
+    line-height: 1.6;
+    word-spacing: 2px;
+    letter-spacing: 1.9px;
 }
 
 .subscrive-form {

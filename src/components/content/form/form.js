@@ -7,7 +7,7 @@ class Form extends Component {
             <section className="form">
 
                 <div className="form-container">
-                    <h1 className="subscrive">Підписатися</h1>
+                    <h2 className="subscrive">Підписатися</h2>
                     <p className="discription">Отримуйте наші оновлення з пропозиціями та планами</p>
 
                     <form className="subscrive-form">

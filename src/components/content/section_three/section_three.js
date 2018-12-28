@@ -8,14 +8,14 @@ class SectionThree extends Component {
                 <div className="main-container-three">
                     <div className="text-component">
 
-                        <div className="title-three">
+                        <h2 className="title-three">
                         Для початківців у розмовнику є Корейський алфавіт
-                        </div>
+                        </h2>
 
-                        <div className="content-three">
+                        <h3 className="content-three">
                         Вважається, що корейський алфавіт можна вивчити всього лише  за 15 хв!
                         спробуєте?
-                        </div>
+                        </h3>
 
 
                     </div>

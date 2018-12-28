@@ -7,13 +7,13 @@ class SectionTwo extends Component {
             <section className="wrapp_info_section_two">
                 <div className="main-container-two">
 
-                    <div className="title-section-two">
+                    <h2 className="title-section-two">
                     Ми розробили багато цікавих функцій
-                    </div>
-                    <div className="text-section-two">
+                    </h2>
+                    <h3 className="text-section-two">
                     Додавайте корисні для вас слова та фрази в улюблене
                       практикуйте реальні побутові ситуації за допомогою діалогів
-              </div>
+              </h3>
                     <div className="item-section-two">
                         1. Улюблене<br/> 
                         2. Діалоги
