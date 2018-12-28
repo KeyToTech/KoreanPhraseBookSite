@@ -16,8 +16,8 @@ class SectionOne extends Component {
 
                             </div>
                             <div className="content-text">
-                                <h1 className="title">Розділи</h1>
-                                <p className="text"> основні слова та вирази,які допоможуть вам у побутовомуспілкуванні з носіями мови</p>
+                                <h1 className="title-form">Розділи</h1>
+                                <p className="text"> Основні слова та вирази,які допоможуть вам у побутовомуспілкуванні з носіями мови</p>
                             </div>
                             <div className="button-container">
                                 <a href="https://fontawesome.com/icons/check?style=light" className="button">дізнатися більше</a>
@@ -29,8 +29,8 @@ class SectionOne extends Component {
 
                             </div>
                             <div className="content-text">
-                                <h1 className="title">Словник</h1>
-                                <p className="text">більш ніж 900 сліву алфавітному порядку</p>
+                                <h1 className="title-form">Словник</h1>
+                                <p className="text">Більш ніж 900 сліву алфавітному порядку</p>
                             </div>
                             <div className="button-container">
                                 <a href="https://www.google.com.ua/" className="button">дізнатися більше</a>
@@ -41,8 +41,8 @@ class SectionOne extends Component {
 
                             </div>
                             <div className="content-text">
-                                <h1 className="title">Нотатки</h1>
-                                <p className="text">робіть власні нотаткита записуйте все, що хочете запам’ятати</p>
+                                <h1 className="title-form">Нотатки</h1>
+                                <p className="text">Робіть власні нотаткита записуйте все, що хочете запам’ятати</p>
                             </div>
                             <div className="button-container">
                                 <a href="https://www.google.com.ua/" className="button">дізнатися більше</a>

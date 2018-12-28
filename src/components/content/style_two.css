@@ -7,14 +7,14 @@
     background: url("../../res/korea1.png") no-repeat center top/cover;
     background-size: 500px 300px;
     background-position: left center;
-    height: 500px;
+    height: 450px;
 }
 
 .main-container-two{
-   
+  
     padding-left: 50px;
-    height: 500px;
-    width: 52%;
+    height: 100%;
+    width: 40%;
     margin-left: 32%;
     display: flex;
     flex-direction: column;
@@ -22,21 +22,24 @@
 }
 
 .title-section-two {
-    font-size: 33px;
+   
+    font-size: 40px;
     line-height: 1.5;
 }
 
 .text-section-two {
-    width: 50%;
-    font-size: 17px;
+    
+    width: 75%;
+    font-size: 25px;
     color: #727984;
     line-height: 2.0;
     text-align: left;
 }
 
 .item-section-two {
+    
     font-size: 27px;
-    line-height: 2.8;
+    line-height: 2.0;
 }
 
 }

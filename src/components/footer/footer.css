@@ -47,7 +47,7 @@ footer {
 .app_name {
     color: #3a3a3a;
     margin: 0;
-    font-size: 90%;
+    font-size: 25px;
 }
 
 .about_container {
@@ -63,14 +63,14 @@ footer {
 
 .about_name_footer {
     color: #3a3a3a;
-    font-size: 120%;
+    font-size: 25px;
     position: absolute;
 }
 
 .discription_footer {
    
     color: #8e918f;
-    font-size: 100%;
+    font-size: 17px;
     position: absolute;
     margin-top: 70px;
 }
@@ -93,7 +93,7 @@ footer {
 
 .contact_name_footer {
     color: #3a3a3a;
-    font-size: 120%;
+    font-size: 25px;    
     position: absolute;
 }
 
@@ -109,7 +109,7 @@ footer {
 
 .contacts_container p {
     color: #8e918f;
-    font-size: 15px ;
+    font-size: 17px ;
 }
 
 .contacts_container strong {
@@ -132,7 +132,7 @@ footer {
     }
 
 .follow_heading {
-    font-size: 17px;
+    font-size: 25px;
     color: #3a3a3a;
 }
 

@@ -9,11 +9,11 @@ class SectionFour extends Component {
 
                 <div className="main-container-four">
 
-                    <div className="wrap-content">
+                   
 
                         <div className="title-four">
-                        Зручний пошук
-                         </div>
+                            Зручний пошук
+                        </div>
 
                         <div className="content-four">
                         Всього лише за мить допоможе знайти потрібне  вам слово чи фразу
@@ -78,7 +78,9 @@ class SectionFour extends Component {
                             </div>
                         </div>
 
-                    </div>
+
+
+                    
                 </div>
             </section>
         );

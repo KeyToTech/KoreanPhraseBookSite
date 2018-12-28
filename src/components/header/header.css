@@ -140,17 +140,17 @@ nav {
 
 .title {
   color: white;
-  font-size: 30px;
+  font-size: 40px;
   word-spacing: 1.9px;
   letter-spacing: 2px;
-  font-weight:600;
+  
   font-family: 'Open Sans', sans-serif;
 }
 
 .subtitle {
   color: white;
   width: 75%;
-  font-size: 160%;
+  font-size: 25px;
   font-weight: 200;
   line-height: 1.6;
   word-spacing: 2px;

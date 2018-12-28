@@ -3,7 +3,7 @@
 
 .form {
     border: darkblue solid;
-    height: 250px;
+    height: 350px;
 }
 
 .form-container {
@@ -19,6 +19,12 @@
 .subscrive {
    
     color: black;
+    font-size: 40px;
+}
+
+.discription {
+  
+    font-size: 22px;
 }
 
 .subscrive-form {
