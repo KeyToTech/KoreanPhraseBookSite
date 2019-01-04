@@ -26,7 +26,7 @@ const FollowUs = () => (
       {followButton(<i class="fab fa-instagram"></i>, INSTAGRAM_URL)}
     </div>
     <div className='develop_block'>
-      <h2>Developed by: <a href={KTT_WEB_SITE} class="active">KeyToTech</a></h2>
+      <h2>Developed by: <a href={KTT_WEB_SITE} id="keytotech" class="active">KeyToTech</a></h2>
     </div>
   </div>
 )

@@ -4,7 +4,7 @@
 @media only screen and (min-width: 768px) {
 
 footer {
-    height: 330px;
+    height: 350px;
     width: 100%;
     background: white;
     display: flex;
@@ -23,7 +23,6 @@ footer {
 }
 
 .left_content_footer {
-   
     width: 40%;
     position: relative;
 }
@@ -46,12 +45,11 @@ footer {
 .app_name {
     color: #3a3a3a;
     margin: 0;
-    font-size: 25px;
+    font-size: 27px;
 }
 
 .about_container {
-   
-    height: 60%;
+    height: 70%;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -62,18 +60,17 @@ footer {
 
 .about_name_footer {
     color: #3a3a3a;
-    font-size: 25px;
+    font-size: 30px;
     position: absolute;
+    
 }
 
 .discription_footer {
-   
     color: #8e918f;
-    font-size: 17px;
+    font-size: 20px;
     position: absolute;
-    margin-top: 70px;
+    margin-top: 100px;
     width: 75%;
-  
     font-weight: 200;
     line-height: 1.6;
     word-spacing: 2px;
@@ -99,14 +96,14 @@ footer {
 
 .contact_name_footer {
     color: #3a3a3a;
-    font-size: 25px;    
+    font-size: 30px;    
     position: absolute;
 }
 
 .wrap_address {
    
     position: absolute;
-    margin-top: 70px;
+    margin-top: 100px;
 }
 
 .top_item {
@@ -115,12 +112,12 @@ footer {
 
 .contacts_container p {
     color: #8e918f;
-    font-size: 17px ;
+    font-size: 20px ;
 }
 
 .contacts_container strong {
     color: #3a3a3a;
-    font-size: 100% ;
+    font-size: 22px ;
 }
 
 .follow_container {
@@ -138,7 +135,7 @@ footer {
     }
 
 .follow_heading {
-    font-size: 25px;
+    font-size: 30px;
     color: #3a3a3a;
 }
 
@@ -147,13 +144,13 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin-top: 35px;
+    margin-top: 55px;
 }
 
 .follow_item {
     border-radius: 50%;
-    height: 50px;
-    width: 50px;
+    height: 60px;
+    width: 60px;
     background: #f4f5f7;
     text-align: center;
     box-shadow: 0 5px 15px -5px #00000070;
@@ -165,9 +162,9 @@ footer {
 }
 
 .btn i {
-    line-height: 50px;
-    height: 50px;
-    width: 50px;
+    line-height: 60px;
+    height: 60px;
+    width: 60px;
     font-size: 20px;
     color: #3a3a3a;
 }
@@ -184,12 +181,15 @@ footer {
     margin: 0;
     margin-top: 30px;
     color: #3a3a3a;
-    font-size: 17px;
+    font-size: 22px;
+    
 }
 
-.develop_block h2 a {
+#keytotech {
     text-decoration: none;
     color: #9ea075;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
 }
 
 }
