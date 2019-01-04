@@ -43,9 +43,18 @@
 
 .item-section-two {
     
-    font-size: 27px;
+    font-size: 25px;
     line-height: 2.0;
     color: #2a2c30;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.item-section-two ul {
+    margin: 0;
+}
+
+.item-section-two span {
+    margin-left: 15px;
 }
 
 }

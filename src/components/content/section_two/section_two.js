@@ -15,9 +15,13 @@ class SectionTwo extends Component {
                       практикуйте реальні побутові ситуації за допомогою діалогів
               </h3>
                     <div className="item-section-two">
-                        1. Улюблене<br/> 
-                        2. Діалоги
-                     </div>
+                    <ul>
+                        <li>1.<span>Улюблене</span></li>
+                    </ul>
+                    <ul>
+                        <li>2.<span>Діалоги</span></li>
+                    </ul>
+                    </div>
                 </div>
 
 
