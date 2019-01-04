@@ -20,9 +20,7 @@ class Footer extends Component {
             </div>
             <div className="about_container">
               <h1 className="about_name_footer">About Us</h1>
-              <p className="discription_footer">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+              <p className="discription_footer">Завантажуйте Корейський розмовник та спілкуйтесь корейською легко та ефективно!</p>
             </div>
           </div>
           <div className="right_content_footer">

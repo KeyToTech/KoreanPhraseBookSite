@@ -72,6 +72,13 @@ footer {
     font-size: 17px;
     position: absolute;
     margin-top: 70px;
+    width: 75%;
+  
+    font-weight: 200;
+    line-height: 1.6;
+    word-spacing: 2px;
+    letter-spacing: 1.9px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .right_content_footer {
