@@ -79,6 +79,11 @@ li {
 
 }
 
+@media only screen and (min-width: 768px) and (max-width: 1700px)  {
+
+
+}
+
 @media only screen and (min-width: 768px) and (max-width: 1500px) {
 
     .wrapp_info_section_four {
