@@ -8,49 +8,68 @@ class SectionOne extends Component {
         return (
             <section className="wrapp_info_section_one">
 
-               
-                    <div className="row">
+                <div className="tables">
+                
+                    <div className="col">
+                
+                       <div className="table">
 
-                        <div className="collumn-green">
-                            <div className="image">
+                       <h2>Розділи</h2>
 
-                            </div>
-                            <div className="content-text">
-                                <h1 className="title-form">Розділи</h1>
-                                <p className="text"> Основні слова та вирази,які допоможуть вам у побутовомуспілкуванні з носіями мови</p>
-                            </div>
-                            <div className="button-container">
-                                <a href="https://fontawesome.com/icons/check?style=light" className="button">дізнатися більше</a>
-                            </div>
-                        </div>
 
-                        <div className="collumn-blue">
-                            <div className="image">
+                       <h4>Основні слова та вирази,
+                             які допоможуть вам у побутовому
+                                  спілкуванні з носіями мови. 
+                       </h4>
 
-                            </div>
-                            <div className="content-text">
-                                <h1 className="title-form">Словник</h1>
-                                <p className="text">Більш ніж 900 сліву алфавітному порядку</p>
-                            </div>
-                            <div className="button-container">
-                                <a href="https://www.google.com.ua/" className="button">дізнатися більше</a>
-                            </div>
-                      </div>
-                        <div className="collumn-red">
-                            <div className="image">
+                       <a href="#">Дізнатися більше</a>
 
-                            </div>
-                            <div className="content-text">
-                                <h1 className="title-form">Нотатки</h1>
-                                <p className="text">Робіть власні нотаткита записуйте все, що хочете запам’ятати</p>
-                            </div>
-                            <div className="button-container">
-                                <a href="https://www.google.com.ua/" className="button">дізнатися більше</a>
-                            </div>
-                        </div>
 
+                
+                       </div>
 
                     </div>
+
+                    <div className="col">
+                
+                        <div className="table">
+         
+                        <h2>Словник</h2>
+
+                        <h4>
+                        Більш ніж 900 слів
+у алфавітному порядку.
+ 
+                       </h4>
+
+                       <a href="#">Дізнатися більше</a>
+
+                        </div>
+
+                    </div>
+
+                    <div className="col">
+                
+                         <div className="table">
+
+                         <h2>Нотатки</h2>
+
+                         <h4>
+                         Робіть власні нотатки
+та записуйте все, що хочете запам’ятати.
+
+                       </h4>
+
+                       
+                       <a href="#">Дізнатися більше</a>
+
+
+                        </div>
+
+                    </div>
+                
+                </div>
+                 
 
                 
 

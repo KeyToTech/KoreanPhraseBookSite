@@ -6,10 +6,70 @@
 .wrapp_info_section_one {
    
     height: 430px;
-    width: 60%;
+    width: 70%;
     display: flex;
     flex-direction: column;
     margin: 0 auto;
+    color: black;
+}
+
+
+
+.tables {
+    border: red solid;
+    height: 80%;
+    max-width: 80%;
+    display: flex;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.col {
+    border: black solid;
+    height: 100%;
+    flex: 25%;
+    padding: 10px;
+    max-width: 350px;
+    box-sizing: border-box;
+}
+
+.table {
+ 
+    background: #8894a8;
+    height: 70%;
+    border-radius: 20px;
+    padding: 40px 20px;
+    font-family: 'Open Sans', sans-serif;
+    box-shadow: 0 0 5px #00000070;
+}
+
+.table h2 {
+
+    color: black;
+    text-transform: uppercase;
+
+}
+
+.table a {
+
+    text-decoration: none;
+    color: #2c3e50;
+    border: 2px solid #2c3e50;
+    padding: 10px 10px;
+    border-radius: 40px;
+    text-transform: uppercase;
+    font-size: 17px;
+    transition: 0.5s linear;
+    position: absolute;
+}
+
+.table a:hover {
+
+    text-decoration: none;
+    background: #2c3e50;
+    color: white;
+
 }
 
 .row {
