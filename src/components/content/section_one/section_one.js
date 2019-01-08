@@ -14,6 +14,10 @@ class SectionOne extends Component {
                 
                        <div className="table">
 
+                       <div className="circle">
+                       
+                       </div>
+
                        <h2>Розділи</h2>
 
 
@@ -33,6 +37,10 @@ class SectionOne extends Component {
                     <div className="col">
                 
                         <div className="table">
+
+                        <div className="circle">
+                       
+                       </div>
          
                         <h2>Словник</h2>
 
@@ -51,6 +59,10 @@ class SectionOne extends Component {
                     <div className="col">
                 
                          <div className="table">
+
+                         <div className="circle">
+                       
+                       </div>
 
                          <h2>Нотатки</h2>
 
