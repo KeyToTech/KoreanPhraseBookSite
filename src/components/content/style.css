@@ -4,6 +4,7 @@
 @media only screen and (min-width: 768px) {
 
 .wrapp_info_section_one {
+   
     height: 600px;
     width: 70%;
     display: flex;
@@ -17,7 +18,7 @@
 
 .tables {
     height: 75%;
-    width: 85%;
+    width: 86%;
     display: flex;
     margin: 0 auto;
     justify-content: space-around;
@@ -26,14 +27,15 @@
 
 .col {
     height: 100%;
-    padding: 10px 5px;
+    padding: 10px 0px;
     max-width: 350px;
     box-sizing: border-box;
 }
 
 .table {
-    background: #ed6565;
-    height: 80%;
+    background: 
+    rgb(252, 123, 123);
+    height: 85%;
     border-radius: 20px;
     padding: 40px 20px;
     font-family: 'Open Sans', sans-serif;
@@ -63,11 +65,15 @@
     color: white;
     text-transform: uppercase;
     font-size: 33px;
+    margin: 0;
+    margin-top: 35px;
 }
 
 .table h4 {
     font-family: 'Open Sans', sans-serif;
     color: #f7e8e8; 
+    margin: 0;
+    margin-top: 10px;
 }
 
 .table a {
