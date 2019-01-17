@@ -36,6 +36,7 @@
     background: 
     rgb(252, 123, 123);
     height: 85%;
+    width: 80%;
     border-radius: 20px;
     padding: 40px 20px;
     font-family: 'Open Sans', sans-serif;
@@ -105,6 +106,16 @@
 
 @media only screen and (min-width: 768px) and (max-width: 1700px)  {
 
+    .table h2 {
+        font-size: 30px;
+        margin-top: 35px;
+    }
+
+    .table a {
+        font-size: 17px;
+    }
+
+
 
 }
 
@@ -114,6 +125,10 @@
         width: 75%;
     }
 
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1300px) {
 
 }
 
