@@ -6,6 +6,7 @@ const TWITTER_URL = 'https://twitter.com/kor_rozmovnyk?lang=en';
 const INSTAGRAM_URL = 'https://www.instagram.com/korean_phrasebook/';
 const KTT_WEB_SITE = 'http://www.keytotech.com/';
 const APP_DESCRIPTION = 'Завантажуйте Корейський розмовник та спілкуйтесь корейською легко та ефективно!';
+const ADDRESS = "Лемківська 9A, м. Львів, Україна";
 
 function followButton(img, link) {
     return (
@@ -56,7 +57,7 @@ const Footer = () => (
                         <h2 className="title-footer">Контакти</h2>
                         <div className="wrap-items-address">
                             <p className="item"><strong>Наш офіс:</strong></p>
-                            <p className="item"> 16 Collins Street West </p>
+                            <p className="item">{ADDRESS}</p>
                             <p className="item"><strong>Email:</strong><a className="link-email" target="_blank" rel="noopener noreferrer"
                                 href="mailto:sales@keytotech.com">sales@keytotech.com</a> </p>
                         </div>
