@@ -1,20 +1,22 @@
-import React, {Component} from 'react';
-import Header from './components/header/header.js';
-import Content from './components/content/content.js';
-import Footer from './components/footer/footer.js';
+import React, { Component } from 'react';
 import './App.css';
+import Header from './container/header/header.js';
+import Wrap from './container/content/wrap.js';
+import Footer from './container/footer/footer.js';
 
-class App extends React.Component {
-    render() {
-        return (
-            <div>                
-                <Header/>
-                <Content/>
-                <Footer/>
-            </div>
-
-        );
-    }
+class App extends Component {
+  render() {
+    var name = "Owen";
+    return (
+      <div className="App">
+        <Header />
+        <Wrap />
+        <Footer />
+      </div>
+    );
+  }
 }
 
 export default App;
+
+
