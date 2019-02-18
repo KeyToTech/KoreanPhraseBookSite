@@ -16,10 +16,15 @@
     width: 31.0909091%;
 }
 
-.image {
+.image-wrap {
     height: 90px;
     width: 90px;
     margin-top: 10%;
+}
+
+.image {
+    height: 90px;
+    width: 90px;
 }
 
 .text-container {
