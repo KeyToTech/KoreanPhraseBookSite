@@ -30,6 +30,11 @@
     border-radius: 100px;
 }
 
+.image > img {
+    width: inherit;
+    height: inherit;
+}
+
 .text-container {
     text-align: center;
     color: #feffff;
