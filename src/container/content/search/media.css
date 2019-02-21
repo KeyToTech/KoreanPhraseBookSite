@@ -60,7 +60,7 @@
 @media all and (max-width: 980px) {
 
     .wrap-content-section {
-        width: 460px;
+        width: 100%;
         margin-left: 0px;
     }
 }
