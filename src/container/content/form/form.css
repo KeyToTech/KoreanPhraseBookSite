@@ -45,6 +45,14 @@
     background: #d16464;
 }
 
+.subscribe-form input[disabled]{
+    background: #8f8f8f;
+}
+
+.subscribe-form input[disabled]:hover{
+    background: #8f8f8f;
+}
+
 @media all and (max-width: 1920px) {
 
 }
