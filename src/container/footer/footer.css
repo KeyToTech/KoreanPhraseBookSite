@@ -210,7 +210,4 @@
 
 @media all and (max-width: 360px) {
     
-    .container-footer:nth-child(1) {
-        border: red solid;
-    }
 }

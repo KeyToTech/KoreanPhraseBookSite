@@ -56,13 +56,13 @@ function buttons() {
   return (
     <div className="button-wrap">
       <div className="button-android">
-        <a href="https://play.google.com/store/apps/details?id=com.keytotech.koreanphrasebook" >
+        <a target="_blank" href="https://play.google.com/store/apps/details?id=com.keytotech.koreanphrasebook" >
           <img className="android-img" alt="android_img" src={googlePlayBottom} />
         </a>
       </div>
 
       <div className="button-ios">
-        <a href="http://www.keytotech.com/" >
+        <a target="_blank" href="http://www.keytotech.com/" >
           <img className="ios-img" alt="ios_img" src={iosStoreBottom} />
         </a>
       </div>
