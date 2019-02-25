@@ -52,7 +52,7 @@ function menu() {
   )
 }
 
-function buttons() {
+function buttons(showMessage) {
   return (
     <div className="button-wrap">
       <div className="button-android">
@@ -62,7 +62,7 @@ function buttons() {
       </div>
 
       <div className="button-ios">
-        <a target="_blank" href="http://www.keytotech.com/" >
+        <a href="#message" onClick={showMessage}>
           <img className="ios-img" alt="ios_img" src={iosStoreBottom} />
         </a>
       </div>
@@ -70,7 +70,7 @@ function buttons() {
   )
 }
 
-const Header = () => (
+const Header = (props) => (
   <div id="header" className="header">
     {overlay()}
     <div className="wrap-header">
@@ -87,7 +87,7 @@ const Header = () => (
             <h2 className='title'>{title}</h2>
             <p className='subtitle'>{subtitle}</p>
           </div>
-          {buttons()}
+          {buttons(props.showMessage)}
         </div>
         <div className="image-header">
           <img className='app-illustration' alt='app-illustration' src={koreanImg} />
