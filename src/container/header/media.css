@@ -86,7 +86,7 @@
      .image-hd {
         height: 350px;
         position: absolute;
-        left: 50px;
+        left: 130px;
         bottom: 70px;
      }
   
@@ -97,6 +97,10 @@
 
     .menu {
         width: 40%;
+    }
+
+    .image-hd {
+        left: 50px;
     }
 }
 
