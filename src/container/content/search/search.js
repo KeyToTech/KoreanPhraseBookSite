@@ -2,6 +2,7 @@ import React from 'react';
 import '../search/search.css';
 import '../search/media.css';
 import rozdil from '..//..//..//image/rozdil_framed.png';
+import koreans from '..//..//../image/house.png';
 
 var title = "Зручний пошук";
 var discription = "Всього лише за мить допоможе знайти потрібне  вам слово чи фразу шукайте всюди:";
@@ -25,7 +26,7 @@ const Search = () => (
 
         <div className="wrap-screen">
             <div className="screen">
-                <img className="screen-img" src={rozdil} alt="alphabet" />
+                <img className="image-search" src={koreans} alt="alphabet" />
             </div>
         </div>
 
