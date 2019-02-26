@@ -71,11 +71,12 @@ const Header = () => (
           </div>
           {buttons()}
         </div>
-        <div className="image-header">
-          <img className="image-hd" src={koreanImg} alt="image" />
-        </div>
+     
       </div>
     </div>
+    <div className="image-header">
+          <img className="image-hd" src={koreanImg} alt="image" />
+        </div>
   </div>
 );
 

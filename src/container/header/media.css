@@ -4,8 +4,7 @@
     .header {
         height: 630px;
         width: 100%;
-        position: relative;
-     }
+    }
  
     .wrap-header {
          height: 100%;
@@ -17,6 +16,7 @@
      .navigation-tab {
          height: 22.4137931%;
          padding: 0 3.636363645% 0 3.636363645%;
+         z-index: 1;
      }
  
      .logo {
@@ -30,7 +30,7 @@
      }
   
      .menu {
-         width: 45%;
+         width: 530px;
      }
  
      .menu-items {
@@ -76,25 +76,21 @@
  
      .image-header {
        position: absolute;
+       top: 0;
        right: 0;
-       height: 77.5%;
-       width: 50%;
-       
+       height: 100%;
+       width: 43%;
+       z-index: -2;
      }
 
      .image-hd {
-
-        height: 400px;
-        
+        height: 350px;
         position: absolute;
-        left: 100px;
-        bottom: 50px;
+        left: 50px;
+        bottom: 70px;
      }
   
-     .app-illustration {
-        height: 100%;
-        width: 100%;
-     }
+
 }
 
 @media all and (max-width: 1366px) {
@@ -102,6 +98,24 @@
     .menu {
         width: 40%;
     }
+}
+
+
+@media all and (max-width: 1150px) {
+
+    .menu {
+        width: 45%;
+        margin-right: 20px;
+    }
+
+    .image-header {
+        position: absolute;
+        top: 0;
+        right: 0;
+        height: 100%;
+        width: 50%;
+        z-index: -2;
+      }
 }
 
 @media all and (max-width: 980px) {
