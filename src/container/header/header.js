@@ -1,5 +1,5 @@
 import React from 'react';
-import koreanImg from '../../korean2.png';
+import koreanImg from '../../image/header.png';
 import logo from '../../image/logo.png';
 import googlePlayBottom from '../../google-store.png';
 import iosStoreBottom from '../../ios-store.png';
@@ -72,7 +72,7 @@ const Header = () => (
           {buttons()}
         </div>
         <div className="image-header">
-          
+          <img className="image-hd" src={koreanImg} alt="image" />
         </div>
       </div>
     </div>
