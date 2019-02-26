@@ -121,17 +121,30 @@
 @media all and (max-width: 980px) {
 
     .menu {
-        width: 70%;
+        width: 50%;
+        margin-right: 0px;
     }
 
     .item a {
         padding: 10px 15px;
     }
 
-    .image-header {
-        height: 200px;
-        width: 400px;
+    .main-content {
+     
+        margin-top: 15%;
     }
+
+    .image-header {
+        height: 85%;
+    }
+
+    .image-hd {
+        height: 270px;
+        left: 30px;
+        bottom: 70px;
+     }
+
+  
 }
 
 @media all and (max-width: 768px) {
