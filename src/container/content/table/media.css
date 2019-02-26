@@ -1,8 +1,9 @@
 
 #wrap-table {
     height: 400px;
-    width: 100%;
+    width: 1100px;
     padding: 70px 0px;
+    margin: 0 auto;
 }
 
 .tables {
