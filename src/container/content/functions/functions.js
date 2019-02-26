@@ -2,6 +2,7 @@ import React from 'react';
 import '../functions/functions.css';
 import '../functions/media.css';
 import dialogues from '..//..//..//image/dialogs_android.png';
+import image from '..//..//../image/image_function.png';
 
 var title = "Ми розробили багато цікавих функцій";
 var discription = " Додавайте корисні для вас слова та фрази в улюблене практикуйте реальні побутові ситуації за допомогою діалогів";
@@ -24,9 +25,9 @@ function setItem(items) {
 const Function = () => (
     <div id="function-section">
 
-        <div className="    ">
+        <div className="wrap-screen">
             <div className="screen">
-                <img className="screen-img" src={dialogues} alt="alphabet" />
+                <img className="image-section" src={image} alt="alphabet" />
             </div>
         </div>
         <div className="wrap-context-function">
