@@ -7,36 +7,6 @@
         position: relative;
      }
  
-     .main-overlay {
-        top: 0; left: 0;
-        height: 100%;
-        width: 100%;
-     }
- 
-     .top-figure {
-        height: 30%;
-        width: 35%;
-     }
- 
-    .paralelogram {
-        height: 100%;
-        width: 25%;
-    }
- 
-    .triangle {
-         height: 100%;
-         width: 70%;
-    }
-
-     .bottom-figure {
-        height: 200px;
-    }
-    
-    .bottom-paralelogram {
-        width: 350px;
-        height: 200px;
-    }
- 
     .wrap-header {
          height: 100%;
          width: 100%;
@@ -117,14 +87,9 @@
 }
 
 @media all and (max-width: 1366px) {
- 
-    .bottom-figure {
-        height: 170px;
-    }
-    
-    .bottom-paralelogram {
-        width: 300px;
-        height: 100%;
+
+    .menu {
+        width: 40%;
     }
 }
 

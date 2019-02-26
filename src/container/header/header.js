@@ -1,6 +1,6 @@
 import React from 'react';
 import koreanImg from '../../korean2.png';
-import logo from '../../logo.png';
+import logo from '../../image/logo.png';
 import googlePlayBottom from '../../google-store.png';
 import iosStoreBottom from '../../ios-store.png';
 import '../header/header.css';

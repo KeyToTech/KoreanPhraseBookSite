@@ -1,8 +1,4 @@
 
-* {
-    color: black;
-}
-
 .item a {
     font-size: 100%;
 }
@@ -66,7 +62,7 @@
     
     .logo h3 {
         font-size: 17px;
-        color: white;
+        color: #22b0b8;
     }
     
     .menu-items {
@@ -81,26 +77,26 @@
     
     .item a {
         text-decoration: none;
-        color: white;
+        color: #22b0b8;
         font-size: 80%;
         text-transform: uppercase;
-        border: 1px solid rgba(255, 0, 0, 0.0);;
+        border: 1px solid #f7f7f9;
     }
     
     .item .active {
-        border: 1px solid #fff;
+        border: 1px solid #22b0b8;
         border-radius: 100px;  
     }
     
     .item .active:hover {
         border: 1px solid #fff;
-        background: rgb(255, 255, 255) 6%;
+        background: #22b0b8;
         border-radius: 100px;  
-        color: black;
+        color: white;
     }
     
     .item a:hover {
-        border: 1px solid #fff;
+        border: 1px solid #22b0b8;
         border-radius: 100px; 
     }
     
@@ -110,7 +106,7 @@
     }
     
     .info-header {
-       color: white;
+       color: #3a3a3a;
        margin-left: 10%;
     }
     
