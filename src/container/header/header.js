@@ -25,23 +25,6 @@ function setMenu(items) {
     ))
 }
 
-function overlay() {
-  return (
-    <div className="main-overlay">
-      <div className="top-figure">
-        <div className="paralelogram">
-        </div>
-
-        <div className="triangle">
-        </div>
-      </div>
-      <div className="bottom-figure">
-        <div className="bottom-paralelogram"></div>
-      </div>
-    </div>
-  )
-}
-
 function menu() {
   return (
     <div className="menu">
@@ -72,7 +55,6 @@ function buttons() {
 
 const Header = () => (
   <div id="header" className="header">
-    {overlay()}
     <div className="wrap-header">
       <nav className="navigation-tab">
         <div className="logo">
@@ -90,7 +72,7 @@ const Header = () => (
           {buttons()}
         </div>
         <div className="image-header">
-          <img className='app-illustration' alt='app-illustration' src={koreanImg} />
+          
         </div>
       </div>
     </div>

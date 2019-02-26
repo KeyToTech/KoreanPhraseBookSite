@@ -4,6 +4,7 @@
     .header {
         height: 630px;
         width: 100%;
+        position: relative;
      }
  
      .main-overlay {
@@ -103,8 +104,10 @@
      }
  
      .image-header {
-        height: 240px;
-        width: 480px;
+       position: absolute;
+       right: 0;
+       height: 77.5%;
+       width: 50%;
      }
   
      .app-illustration {

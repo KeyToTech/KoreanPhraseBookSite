@@ -1,4 +1,7 @@
 
+* {
+    color: black;
+}
 
 .item a {
     font-size: 100%;
@@ -8,8 +11,8 @@
 
     .header {
         position: relative;
-        background: linear-gradient(150deg, #7e00ff 10%, #05d5ff 75%, #a6ffcb 94%);
-        clip-path: polygon(0 0, 100% 0%, 100% 75%, 0% 100%);
+      
+      
     }
     
     .main-overlay {
@@ -104,11 +107,11 @@
     .wrap-main-content {
         display: flex;
         flex-direction: row;
-        justify-content: space-around;
     }
     
     .info-header {
        color: white;
+       margin-left: 10%;
     }
     
     .subtitle {
@@ -119,6 +122,12 @@
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+        margin-left: 10%;
+    }
+
+    .image-header {
+        background: #7bcbc8;
+        border-bottom-left-radius: 40px;
     }
 }
 
