@@ -2,13 +2,13 @@
 #alphabet-section {
     display: flex;
     
-    justify-content: center;
+    justify-content: end;
     
 }
 
 .container-text-alphabet {
     color: #3a3a3a;
-    margin-top: 120px;
+    margin-top: 90px;
 }
 
 .discription-alphabet {

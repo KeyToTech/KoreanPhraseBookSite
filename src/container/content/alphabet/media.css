@@ -6,8 +6,11 @@
 }
 
 .container-text-alphabet {
-  
-    width: 55%;
+    width: 40%;
+}
+
+.image-alphabet {
+    height: 400px;
 }
 
 .screen-img {
