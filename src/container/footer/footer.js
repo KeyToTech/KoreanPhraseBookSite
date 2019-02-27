@@ -59,7 +59,7 @@ const Footer = () => (
                             <p className="item"><strong>Наш офіс:</strong></p>
                             <p className="item">{ADDRESS}</p>
                             <p className="item"><strong>Email:</strong><a className="link-email" target="_blank" rel="noopener noreferrer"
-                                href="mailto:sales@keytotech.com">sales@keytotech.com</a> </p>
+                                href="mailto:kup@keytotech.com">kup@keytotech.com</a> </p>
                         </div>
                     </div>
                 </div>
