@@ -8,20 +8,20 @@ import notesImage from '../../../image/notes.png';
 
 const wrapContent = [
     {
-        title: "Розділи", 
+        title: "Розділи",
         discription: "Основні слова та вирази, які допоможуть вам у побутовомуспілкуванні з носіями мови.",
         href: "#function-section",
         image: sectionsImage
     },
-    {   
-        title: "Словник", 
-        discription: "Більш ніж 900 слів у алфавітному порядку.", 
+    {
+        title: "Словник",
+        discription: "Більш ніж 900 слів у алфавітному порядку.",
         href: "#alphabet-section",
         image: vocabularyImage
     },
-    {   
-        title: "Нотатки", 
-        discription: "Робіть власні нотаткита записуйте все, що хочете запам’ятати.", 
+    {
+        title: "Нотатки",
+        discription: "Робіть власні нотаткита записуйте все, що хочете запам’ятати.",
         href: "#search-section",
         image: notesImage
     }
@@ -41,8 +41,10 @@ const table = wrapContent.map((table) =>
 
 const Table = () => (
     <div id="wrap-table">
-        <div className="tables">
-            {table}
+        <div className="content-table">
+            <div className="tables">
+                {table}
+            </div>
         </div>
     </div>
 )
