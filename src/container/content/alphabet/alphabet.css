@@ -2,11 +2,13 @@
 #alphabet-section {
     display: flex;
     justify-content: flex-end;
+    font-size: calc(5px + 2vmin);
 }
 
 .container-text-alphabet {
     color: #3a3a3a;
-    margin-top: 90px;
+    margin-top: 180px;
+    margin-right: 50px;
 }
 
 .discription-alphabet {
@@ -23,6 +25,9 @@
 
 @media all and (max-width: 1280px) {
     
+    .container-text-alphabet {
+        margin-top: 100px;
+    }
 }
 
 @media all and (max-width: 1024px) {
@@ -37,6 +42,10 @@
 
     #alphabet-section {
         flex-direction: column;
+    }
+
+    .discription-alphabet {
+        margin: 0 auto;
     }
 
     .screen {

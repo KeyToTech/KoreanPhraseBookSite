@@ -6,11 +6,15 @@
 }
 
 .container-text-alphabet {
-    width: 40%;
+    max-width: 550px;
+}
+
+.discription-alphabet {
+    max-width: 450px;
 }
 
 .image-alphabet {
-    height: 400px;
+    height: 550px;
 }
 
 .screen-img {
@@ -23,12 +27,21 @@
 
 }
 
+@media all and (max-width: 1500px) {
+    .image-alphabet {
+        height: 500px;
+    }
+}
+
 @media all and (max-width: 1366px) {
-    
+ 
 }
 
 @media all and (max-width: 1280px) {
     
+    .image-alphabet {
+        height: 400px;
+    }
 }
 
 @media all and (max-width: 1024px) {
