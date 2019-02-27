@@ -10,7 +10,7 @@
 }
 
 .wrap-content-section {
-    width: 530px;
+    max-width: 450px;
     margin-left: 5%;
 }
 

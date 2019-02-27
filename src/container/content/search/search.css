@@ -68,10 +68,24 @@
 
 @media all and (max-width: 1024px) {
     
+    .image-search {
+        height: 300px;
+    }
+
 }
 
 @media all and (max-width: 980px) {
+
+    #search-section {
+        justify-content: center;
+    }
     
+    .image-search {
+        display: none;
+        height: 200px;
+        margin: 0 auto;
+    }
+
 }
 
 @media all and (max-width: 768px) {

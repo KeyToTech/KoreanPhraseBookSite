@@ -39,7 +39,6 @@ const Search = () => (
                 {setItem(items)}
             </div>
         </div>
-
     </div>
 )
 
