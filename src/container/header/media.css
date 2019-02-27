@@ -28,6 +28,12 @@
          height: 22px;
          width: 22px;
      }
+
+     .logo-img-mb {
+        height: 0px;
+        width: 0px;
+        visibility: hidden;
+    }
   
      .menu {
          width: 530px;
@@ -169,6 +175,13 @@
     .logo-img {
        height: 24px;
        width: 24px;
+       display: none;
+    }
+
+    .logo-img-mb {
+        height: 24px;
+        width: 24px;
+        visibility: visible;
     }
 
     .menu {

@@ -1,6 +1,7 @@
 import React from 'react';
 import koreanImg from '../../image/header.png';
 import logo from '../../image/logo.png';
+import logoMb from '..//..//logo.png';
 import googlePlayBottom from '../../google-store.png';
 import iosStoreBottom from '../../ios-store.png';
 import '../header/header.css';
@@ -59,6 +60,7 @@ const Header = () => (
       <nav className="navigation-tab">
         <div className="logo">
           <img className="logo-img" alt="img" src={logo} />
+          <img className="logo-img-mb" alt="img-mb" src={logoMb} />
           <h3 className="logo-name">{logoName}</h3>
         </div>
         {menu()}

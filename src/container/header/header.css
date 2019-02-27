@@ -160,9 +160,6 @@
 
 @media all and (max-width: 768px) {
 
-  
-
-
     .wrap-header {
         justify-content: space-around;
     }
@@ -173,6 +170,7 @@
     }
 
     .logo h3 {
+        color: white;
         font-size: 23px;
     }
 
