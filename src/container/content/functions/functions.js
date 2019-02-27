@@ -2,7 +2,9 @@ import React from 'react';
 import '../functions/functions.css';
 import '../functions/media.css';
 import dialogues from '..//..//..//image/dialogs_android.png';
-import image from '..//..//../image/image_function.png';
+import functionPictures from '..//..//../image/image_function.png';
+import screen from '..//..//../image/dialogs_android.png';
+
 
 var title = "Ми розробили багато цікавих функцій";
 var discription = " Додавайте корисні для вас слова та фрази в улюблене практикуйте реальні побутові ситуації за допомогою діалогів";
@@ -24,10 +26,12 @@ function setItem(items) {
 
 const Function = () => (
     <div id="function-section">
-
+        <div className="wrap-picture-functions">
+            <img className="functions-pictures" src={functionPictures} alt="alphabet" />
+        </div>
         <div className="wrap-screen">
             <div className="screen">
-                <img className="image-section" src={image} alt="alphabet" />
+                <img className="screen-img" src={screen} alt="alphabet" />
             </div>
         </div>
         <div className="wrap-context-function">

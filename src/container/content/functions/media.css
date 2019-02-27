@@ -45,8 +45,9 @@
     margin-right: 20px;
 }
 
-.image-section {
+.functions-pictures {
     height: 550px;
+    display: none;
 }
 
 @media all and (max-width: 1920px) {
