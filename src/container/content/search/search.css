@@ -6,7 +6,7 @@
 }
 
 .image-search {
-    height: 400px;
+    height: 600px;
 }
 
 .title-search-container {
@@ -40,12 +40,30 @@
 
 }
 
+@media all and (max-width: 1500px) {
+
+    .image-search {
+        height: 500px;
+    }
+
+}
+
 @media all and (max-width: 1366px) {
     
+
+    .image-search {
+        height: 400px;
+    }
+
 }
 
 @media all and (max-width: 1280px) {
     
+
+    .image-search {
+        height: 350px;
+    }
+
 }
 
 @media all and (max-width: 1024px) {

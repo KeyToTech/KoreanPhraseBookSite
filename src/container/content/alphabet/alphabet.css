@@ -1,9 +1,7 @@
 
 #alphabet-section {
     display: flex;
-    
-    justify-content: end;
-    
+    justify-content: flex-end;
 }
 
 .container-text-alphabet {
@@ -13,14 +11,6 @@
 
 .discription-alphabet {
     color: #727984;
-}
-
-.wrap-screen {
-  
-}
-
-.screen {
-
 }
 
 @media all and (max-width: 1920px) {
