@@ -56,7 +56,7 @@
 
 @media all and (max-width: 1500px) {
 
-    .image-section {
+    .functions-pictures {
         height: 500px;
     }
 
@@ -75,7 +75,7 @@
     }
     
  
-    .image-section {
+    .functions-pictures {
         height: 400px;
     }
 

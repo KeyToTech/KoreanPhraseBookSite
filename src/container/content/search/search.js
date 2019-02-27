@@ -1,7 +1,7 @@
 import React from 'react';
 import '../search/search.css';
 import '../search/media.css';
-import rozdil from '..//..//..//image/rozdil_framed.png';
+import screen from '..//..//..//image/rozdil_framed.png';
 import koreans from '..//..//../image/house.png';
 
 var title = "Зручний пошук";
@@ -23,10 +23,12 @@ function setItem(items) {
 
 const Search = () => (
     <div id="search-section" name="search">
-
+        <div className="wrap-picture-search">
+            <img className="search-pictures" src={koreans} alt="alphabet" />
+        </div>
         <div className="wrap-screen">
             <div className="screen">
-                <img className="image-search" src={koreans} alt="alphabet" />
+                <img className="screen-img" src={screen} alt="alphabet" />
             </div>
         </div>
 

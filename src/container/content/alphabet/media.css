@@ -23,7 +23,7 @@
 }
 
 @media all and (max-width: 1500px) {
-    .image-alphabet {
+    .alphabet-pictures {
         height: 500px;
     }
 }
@@ -34,7 +34,7 @@
 
 @media all and (max-width: 1280px) {
     
-    .image-alphabet {
+    .alphabet-pictures {
         height: 400px;
     }
 }
