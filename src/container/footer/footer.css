@@ -29,6 +29,7 @@
     color: black;
     margin: 5px;
     padding: 0;
+    border: inherit;
 }
 
 .follow-us {

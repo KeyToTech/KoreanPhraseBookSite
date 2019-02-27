@@ -1,44 +1,14 @@
 
-
 .item a {
     font-size: 100%;
 }
 
 @media all and (max-width: 1920px){
 
-    .header {
-        position: relative;
-        background: linear-gradient(150deg, #7e00ff 10%, #05d5ff 75%, #a6ffcb 94%);
-        clip-path: polygon(0 0, 100% 0%, 100% 75%, 0% 100%);
-    }
-    
-    .main-overlay {
-        position: absolute;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        z-index: -1;
-    }
-    
-    .top-figure {
-        display: flex;
-        flex-direction: row;
-    }
+    #header {
+       
+     position: relative; 
       
-    .paralelogram {
-        clip-path: polygon(0 0, 100% 0%, 100% 60%, 0 79%);
-        background-color: #7e00ff;
-    }
-        
-    .triangle {
-        clip-path: polygon(0 0, 100% 0%, 100% 0, 0 57%);
-        background-color: #6e00ff;
-    }
-    
-    .bottom-paralelogram {
-        clip-path: polygon(0 40%, 100% 13%, 100% 86%, 0 97%);
-        background-image: linear-gradient(150deg, #0ac3ff, #298cff);
-        transform: rotate(-2deg);
     }
     
     .wrap-header {
@@ -48,6 +18,7 @@
     }
     
     .navigation-tab {
+       
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -63,7 +34,7 @@
     
     .logo h3 {
         font-size: 17px;
-        color: white;
+        color: #22b0b8;
     }
     
     .menu-items {
@@ -75,40 +46,45 @@
     .item {
         list-style: none;
     }
+
+    .item:nth-child(1) {
+        margin-right: 30px;
+    }
     
     .item a {
         text-decoration: none;
         color: white;
         font-size: 80%;
         text-transform: uppercase;
-        border: 1px solid rgba(255, 0, 0, 0.0);;
+        border: 1px solid #7bcbc8;
     }
     
     .item .active {
-        border: 1px solid #fff;
+        border: 1px solid #22b0b8;
+        color: #22b0b8;
         border-radius: 100px;  
     }
     
     .item .active:hover {
-        border: 1px solid #fff;
-        background: rgb(255, 255, 255) 6%;
+        border: 1px solid #22b0b8;
+        background: #22b0b8;
         border-radius: 100px;  
-        color: black;
+        color: white;
     }
     
     .item a:hover {
-        border: 1px solid #fff;
+        border: 1px solid white;
         border-radius: 100px; 
     }
     
     .wrap-main-content {
         display: flex;
         flex-direction: row;
-        justify-content: space-around;
     }
     
     .info-header {
-       color: white;
+       color: #3a3a3a;
+       margin-left: 10%;
     }
     
     .subtitle {
@@ -119,7 +95,34 @@
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+        margin-left: 10%;
     }
+
+    .image-header {
+        background: #7bcbc8;
+        border-bottom-left-radius: 0px;
+    }
+}
+
+@media all and (max-width: 1366px) {
+
+    .item .active {
+        border: 1px solid white;
+        color: white;
+        border-radius: 100px;  
+    }
+    
+    .item .active:hover {
+        border: 1px solid white;
+        background: white;
+        border-radius: 100px;  
+        color: #7bcbc8;
+    }
+
+    .item:nth-child(1) {
+        margin-right: 0px;
+    }
+ 
 }
 
 @media all and (max-width: 1024px) {
@@ -157,15 +160,6 @@
 
 @media all and (max-width: 768px) {
 
-    .header {
-       clip-path: polygon(0 0, 100% 0%, 100% 90%, 0% 100%);
-    }
-
-    .bottom-paralelogram {
-        transform: rotate(-6deg);
-        display: none;
-    }
-
     .wrap-header {
         justify-content: space-around;
     }
@@ -176,6 +170,7 @@
     }
 
     .logo h3 {
+        color: white;
         font-size: 23px;
     }
 
