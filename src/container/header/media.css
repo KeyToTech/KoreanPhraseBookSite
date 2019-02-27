@@ -205,27 +205,25 @@
 
     .info-header {
         margin-left: 0;
-     }
+    }
      
-    
     .image-header {
-   
         left: 0;
         bottom: 0;
         height: 100%;
         width: 100%;
         display: flex;
         flex-direction: column;
-        justify-content: end;
+        justify-content: flex-end;
+        align-items: center;
     }
 
     .image-hd {
-        position: unset;
+        position: initial;
         height: 300px;
-        margin: 0 auto;
-        margin-bottom: 20px;
+        width: 300px;
+        margin-bottom: 40px;
     }
- 
 }
 
 @media all and (max-width: 480px) {

@@ -73,18 +73,18 @@ const Header = () => (
           </div>
           {buttons()}
         </div>
-     
+
       </div>
     </div>
     <div className="image-header">
-          <img className="image-hd" src={koreanImg} alt="image" />
-        </div>
+      <img className="image-hd" src={koreanImg} alt="image" />
+    </div>
   </div>
 );
 
 function scroll() {
   const el = findDOMNode(this.refs.toggle);
-  
+
 
 }
 
