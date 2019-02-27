@@ -2,6 +2,7 @@
 #function-section {
     display: flex;
     flex-direction: row;
+    font-size: calc(5px + 2vmin);
 }
 
 .text-container-function {
@@ -58,7 +59,6 @@
     .wrap-context-function {
         display: flex;
         flex-direction: column;
-        align-items: center;
     }
 }
 
