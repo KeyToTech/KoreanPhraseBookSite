@@ -13,14 +13,9 @@
     max-width: 450px;
 }
 
-.image-alphabet {
+.alphabet-pictures {
     height: 550px;
-}
-
-.screen-img {
-    width: 310px;
-    height: 540px;
-    margin: 0 auto;
+    display: none;
 }
 
 @media all and (max-width: 1920px) {
