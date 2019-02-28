@@ -1,6 +1,6 @@
 import React from 'react';
 import '../footer/footer.css';
-import logo from '..//../image/logo_black.png';
+import logo from '..//../image/logo_dark.png';
 const FACEBOOK_URL = 'https://www.facebook.com/%D0%9A%D0%BE%D1%80%D0%B5%D0%B9%D1%81%D1%8C%D0%BA%D0%B8%D0%B9-%D1%80%D0%BE%D0%B7%D0%BC%D0%BE%D0%B2%D0%BD%D0%B8%D0%BA-334992067059489/?modal=admin_todo_tour';
 const TWITTER_URL = 'https://twitter.com/kor_rozmovnyk?lang=en';
 const INSTAGRAM_URL = 'https://www.instagram.com/korean_phrasebook/';

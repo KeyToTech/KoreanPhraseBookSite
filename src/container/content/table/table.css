@@ -1,4 +1,9 @@
 
+#wrap-table {
+    display: flex;
+    align-items: center;
+}
+
 .tables {
     display: flex;
     flex-direction: row;
