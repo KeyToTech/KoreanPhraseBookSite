@@ -2,7 +2,7 @@ import React from 'react';
 import '../search/search.css';
 import '../search/media.css';
 import screen from '..//..//..//image/rozdil_framed.png';
-import koreans from '..//..//../image/house.png';
+import koreans from '..//..//../image/image_function.png';
 
 var title = "Зручний пошук";
 var discription = "Всього лише за мить допоможе знайти потрібне  вам слово чи фразу шукайте всюди:";
