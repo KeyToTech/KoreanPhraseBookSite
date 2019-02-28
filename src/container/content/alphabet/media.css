@@ -13,7 +13,7 @@
     max-width: 450px;
 }
 
-.alphabet-pictures {
+.pictures {
     height: 550px;
     display: none;
 }
@@ -23,7 +23,7 @@
 }
 
 @media all and (max-width: 1500px) {
-    .alphabet-pictures {
+    .pictures {
         height: 500px;
     }
 }
@@ -34,7 +34,7 @@
 
 @media all and (max-width: 1280px) {
     
-    .alphabet-pictures {
+    .pictures {
         height: 400px;
     }
 }

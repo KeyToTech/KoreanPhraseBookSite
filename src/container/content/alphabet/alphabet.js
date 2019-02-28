@@ -20,7 +20,7 @@ const Alphabet = () => (
         </div>
 
         <div className="wrap-picture-alphabet">
-            <img className="alphabet-pictures" src={alphabetPictures} alt="alphabet" />
+            <img className="pictures" src={alphabetPictures} alt="alphabet" />
         </div>
     </div>
 )

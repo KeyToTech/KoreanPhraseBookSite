@@ -27,7 +27,7 @@ function setItem(items) {
 const Function = () => (
     <div id="function-section">
         <div className="wrap-picture-functions">
-            <img className="functions-pictures" src={functionPictures} alt="alphabet" />
+            <img className="pictures" src={functionPictures} alt="alphabet" />
         </div>
         <div className="wrap-screen">
             <div className="screen">
