@@ -6,13 +6,21 @@
 }
 
 .container-text-alphabet {
+    border: red solid;
     color: #3a3a3a;
     margin-top: 180px;
-    margin-right: 50px;
 }
 
 .discription-alphabet {
     color: #727984;
+}
+
+.wrap-screen-alphabet {
+    border: green solid;
+}
+
+.alphabet-pictures {
+    display: none;
 }
 
 @media all and (max-width: 1920px) {

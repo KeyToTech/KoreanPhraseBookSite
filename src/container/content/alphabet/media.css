@@ -13,19 +13,14 @@
     max-width: 450px;
 }
 
-.pictures {
-    height: 550px;
-    display: none;
-}
+
 
 @media all and (max-width: 1920px) {
 
 }
 
 @media all and (max-width: 1500px) {
-    .pictures {
-        height: 500px;
-    }
+ 
 }
 
 @media all and (max-width: 1366px) {
@@ -34,9 +29,7 @@
 
 @media all and (max-width: 1280px) {
     
-    .pictures {
-        height: 400px;
-    }
+ 
 }
 
 @media all and (max-width: 1024px) {

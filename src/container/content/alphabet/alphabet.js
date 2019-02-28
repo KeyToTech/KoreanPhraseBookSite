@@ -13,14 +13,14 @@ const Alphabet = () => (
             <h2 className="title-alphabet">{title}</h2>
             <p className="discription-alphabet">{discription}</p>
         </div>
-        <div className="wrap-screen">
+        <div className="wrap-screen-alphabet">
             <div className="screen">
                 <img className="screen-img" src={alphabet} alt="alphabet" />
             </div>
         </div>
 
         <div className="wrap-picture-alphabet">
-            <img className="pictures" src={alphabetPictures} alt="alphabet" />
+            <img className="alphabet-pictures" src={alphabetPictures} alt="alphabet" />
         </div>
     </div>
 )

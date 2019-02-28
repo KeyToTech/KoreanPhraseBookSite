@@ -26,7 +26,7 @@ const Search = () => (
         <div className="wrap-picture-search">
             <img className="search-pictures" src={koreans} alt="alphabet" />
         </div>
-        <div className="wrap-screen">
+        <div className="wrap-screen-search">
             <div className="screen">
                 <img className="screen-img" src={screen} alt="alphabet" />
             </div>
