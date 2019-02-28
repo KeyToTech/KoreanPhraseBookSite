@@ -29,6 +29,9 @@
 
 @media all and (max-width: 1280px) {
     
+    .container-text-alphabet {
+        max-width: 450px;
+    }
  
 }
 

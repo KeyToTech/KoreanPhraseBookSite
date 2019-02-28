@@ -3,12 +3,12 @@
     display: flex;
     justify-content: flex-end;
     font-size: calc(5px + 2vmin);
+    position: relative;
 }
 
 .container-text-alphabet {
-    border: red solid;
     color: #3a3a3a;
-    margin-top: 180px;
+    margin-top: 100px;
 }
 
 .discription-alphabet {
@@ -16,11 +16,16 @@
 }
 
 .wrap-screen-alphabet {
-    border: green solid;
+    margin-right: 170px; 
 }
 
 .alphabet-pictures {
-    display: none;
+    height: 650px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    opacity: 0.30;
 }
 
 @media all and (max-width: 1920px) {
@@ -33,9 +38,6 @@
 
 @media all and (max-width: 1280px) {
     
-    .container-text-alphabet {
-        margin-top: 100px;
-    }
 }
 
 @media all and (max-width: 1024px) {
@@ -43,7 +45,18 @@
 }
 
 @media all and (max-width: 980px) {
+
+    #alphabet-section {
+        justify-content: center;
+    }
     
+    .alphabet-pictures {
+        display: none;
+    }
+
+    .wrap-screen-alphabet {
+         margin-right: 0px; 
+    }
 }
 
 @media all and (max-width: 768px) {
