@@ -4,36 +4,6 @@
     .header {
         height: 630px;
         width: 100%;
-     }
- 
-     .main-overlay {
-        top: 0; left: 0;
-        height: 100%;
-        width: 100%;
-     }
- 
-     .top-figure {
-        height: 30%;
-        width: 35%;
-     }
- 
-    .paralelogram {
-        height: 100%;
-        width: 25%;
-    }
- 
-    .triangle {
-         height: 100%;
-         width: 70%;
-    }
-
-     .bottom-figure {
-        height: 200px;
-    }
-    
-    .bottom-paralelogram {
-        width: 350px;
-        height: 200px;
     }
  
     .wrap-header {
@@ -46,6 +16,7 @@
      .navigation-tab {
          height: 22.4137931%;
          padding: 0 3.636363645% 0 3.636363645%;
+         z-index: 1;
      }
  
      .logo {
@@ -57,9 +28,15 @@
          height: 22px;
          width: 22px;
      }
+
+     .logo-img-mb {
+        height: 0px;
+        width: 0px;
+        visibility: hidden;
+    }
   
      .menu {
-         width: 55%;
+         width: 530px;
      }
  
      .menu-items {
@@ -78,12 +55,13 @@
  
      .main-content {
          height: 100%;
-         width: 36.3636364%;
+         width: 46.3636364%;
+         margin-top: 7%;
      }
  
      .button-wrap {
      
-        width: 85%;
+        width: 65%;
      }
  
      .button-android {
@@ -103,54 +81,87 @@
      }
  
      .image-header {
-        height: 240px;
-        width: 480px;
+       position: absolute;
+       top: 0;
+       right: 0;
+       height: 100%;
+       width: 43%;
+       z-index: -2;
+     }
+
+     .image-hd {
+        height: 350px;
+        position: absolute;
+        left: 130px;
+        bottom: 70px;
      }
   
-     .app-illustration {
-        height: 100%;
-        width: 100%;
-     }
+
 }
 
 @media all and (max-width: 1366px) {
- 
-    .bottom-figure {
-        height: 170px;
+
+    .menu {
+        width: 40%;
     }
-    
-    .bottom-paralelogram {
-        width: 300px;
+
+    .image-hd {
+        left: 50px;
+    }
+}
+
+
+@media all and (max-width: 1150px) {
+
+    .menu {
+        width: 45%;
+        margin-right: 20px;
+    }
+
+    .image-header {
+        position: absolute;
+        top: 0;
+        right: 0;
         height: 100%;
-    }
+        width: 50%;
+        z-index: -2;
+      }
 }
 
 @media all and (max-width: 980px) {
 
     .menu {
-        width: 70%;
+        width: 50%;
+        margin-right: 0px;
     }
 
     .item a {
         padding: 10px 15px;
     }
 
-    .image-header {
-        height: 200px;
-        width: 400px;
+    .main-content {
+     
+        margin-top: 15%;
     }
+
+    .image-header {
+        height: 85%;
+    }
+
+    .image-hd {
+        height: 270px;
+        left: 30px;
+        bottom: 70px;
+     }
+
+  
 }
 
 @media all and (max-width: 768px) {
 
     .header {
-        height: 1300px;
+        height: 1100px;
         width: 100%;
-    }
-
-    .top-figure {
-        height: 200px;
-        width: 55%;
     }
  
     .navigation-tab {
@@ -164,6 +175,13 @@
     .logo-img {
        height: 24px;
        width: 24px;
+       display: none;
+    }
+
+    .logo-img-mb {
+        height: 24px;
+        width: 24px;
+        visibility: visible;
     }
 
     .menu {
@@ -181,13 +199,30 @@
 
     .main-content {
        height: 30%;
-       width: 70%;
+       width: 90%;
+       margin: 0;
     }
-    
+
+    .info-header {
+        margin-left: 0;
+    }
+     
     .image-header {
-       margin-top: 15%;
-       height: 230px;
-       width: 460px;
+        left: 0;
+        bottom: 0;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    .image-hd {
+        position: initial;
+        height: 300px;
+        width: 300px;
+        margin-bottom: 40px;
     }
 }
 
@@ -197,14 +232,9 @@
         height: 300px;
         width: 90%;
     }
-
-    .image-header {
-        height: 185px;
-        width: 390px;
-    }
 }
 
-@media all and (max-width: 480px) {
+@media all and (max-width: 360px) {
 
     .image-header {
         height: 160px;

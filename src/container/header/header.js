@@ -1,6 +1,7 @@
 import React from 'react';
-import koreanImg from '../../korean2.png';
-import logo from '../../logo.png';
+import koreanImg from '../../image/header.png';
+import logo from '../../image/logo.png';
+import logoMb from '..//..//logo.png';
 import googlePlayBottom from '../../google-store.png';
 import iosStoreBottom from '../../ios-store.png';
 import '../header/header.css';
@@ -25,23 +26,6 @@ function setMenu(items) {
     ))
 }
 
-function overlay() {
-  return (
-    <div className="main-overlay">
-      <div className="top-figure">
-        <div className="paralelogram">
-        </div>
-
-        <div className="triangle">
-        </div>
-      </div>
-      <div className="bottom-figure">
-        <div className="bottom-paralelogram"></div>
-      </div>
-    </div>
-  )
-}
-
 function menu() {
   return (
     <div className="menu">
@@ -52,7 +36,7 @@ function menu() {
   )
 }
 
-function buttons() {
+function buttons(showMessage) {
   return (
     <div className="button-wrap">
       <div className="button-android">
@@ -62,7 +46,7 @@ function buttons() {
       </div>
 
       <div className="button-ios">
-        <a target="_blank" href="http://www.keytotech.com/" >
+        <a href="#message" onClick={showMessage}>
           <img className="ios-img" alt="ios_img" src={iosStoreBottom} />
         </a>
       </div>
@@ -70,13 +54,13 @@ function buttons() {
   )
 }
 
-const Header = () => (
+const Header = (props) => (
   <div id="header" className="header">
-    {overlay()}
     <div className="wrap-header">
       <nav className="navigation-tab">
         <div className="logo">
           <img className="logo-img" alt="img" src={logo} />
+          <img className="logo-img-mb" alt="img-mb" src={logoMb} />
           <h3 className="logo-name">{logoName}</h3>
         </div>
         {menu()}
@@ -87,19 +71,20 @@ const Header = () => (
             <h2 className='title'>{title}</h2>
             <p className='subtitle'>{subtitle}</p>
           </div>
-          {buttons()}
+          {buttons(props.showMessage)}
         </div>
-        <div className="image-header">
-          <img className='app-illustration' alt='app-illustration' src={koreanImg} />
-        </div>
+
       </div>
+    </div>
+    <div className="image-header">
+      <img className="image-hd" src={koreanImg} alt="image" />
     </div>
   </div>
 );
 
 function scroll() {
   const el = findDOMNode(this.refs.toggle);
-  
+
 
 }
 
