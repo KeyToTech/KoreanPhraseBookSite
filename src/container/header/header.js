@@ -1,5 +1,6 @@
 import React from 'react';
 import koreanImg from '../../image/header.png';
+import koreanImgSecond from '../../image/image_header1.png';
 import logo from '../../image/logo.png';
 import logoMb from '..//..//logo.png';
 import googlePlayBottom from '../../google-store.png';
@@ -78,6 +79,7 @@ const Header = (props) => (
     </div>
     <div className="image-header">
       <img className="image-hd" src={koreanImg} alt="image" />
+      <img className="image-hd-second" src={koreanImgSecond} alt="image" />
     </div>
   </div>
 );
