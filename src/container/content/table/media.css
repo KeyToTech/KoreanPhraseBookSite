@@ -1,19 +1,22 @@
 
 #wrap-table {
-    height: 400px;
+    height: auto;
     width: 100%;
     padding: 70px 0px;
 }
 
 .tables {
-    height: 91%;
-    width: 90%;
+    border: red solid;
+    height: auto;
+    max-width: 954px;
     margin: 0 auto;
+    display: flex;
+    flex-flow: row wrap;
 }
 
 .table {
-    height: 100%;
-    width: 31.0909091%;
+    height: 350px;
+    width: 290px;
 }
 
 .image {
@@ -23,7 +26,7 @@
 }
 
 .text-container {
-    height: 160px;
+    height: 145px;
     width: 90%;
     margin-top: 5%;
 }
