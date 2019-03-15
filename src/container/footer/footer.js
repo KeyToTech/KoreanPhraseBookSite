@@ -56,10 +56,11 @@ const Footer = () => (
                     <div className="wrap-contact">
                         <h2 className="title-footer">Контакти</h2>
                         <div className="wrap-items-address">
-                            <p className="item"><strong>Наш офіс:</strong></p>
-                            <p className="item">{ADDRESS}</p>
-                            <p className="item"><strong>Email:</strong><a className="link-email" target="_blank" rel="noopener noreferrer"
-                                href="mailto:kup@keytotech.com">kup@keytotech.com</a> </p>
+                            <p className="item-f"><strong>Наш офіс:</strong></p>
+                            <p className="item-f">{ADDRESS}</p>
+                            <p className="item-f"><strong>Email:</strong><a className="link-email" target="_blank" rel="noopener noreferrer"
+                                href="mailto:kup@keytotech.com">kup@keytotech.com</a>
+                            </p>
                         </div>
                     </div>
                 </div>
