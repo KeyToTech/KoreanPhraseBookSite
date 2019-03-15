@@ -63,13 +63,13 @@
 @media all and (max-width: 768px) {
 
     #wrap-table {
-        height: 1250px;
+        height: auto;
         width: 100%;
         padding: 70px 0px;
     }
 
     .tables {
-        height: 95%;
+        height: auto;
         width: 90%;
     }
 
