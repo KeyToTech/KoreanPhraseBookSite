@@ -6,7 +6,6 @@
 }
 
 .tables {
-    border: red solid;
     padding: 40px 0;
     height: auto;
     max-width: 954px;
@@ -75,8 +74,8 @@
     }
 
     .table {
-        height: 31%;
-        width: 330px;
+        height: 350px;
+        width: 290px;
     }
 
     .text-container {
