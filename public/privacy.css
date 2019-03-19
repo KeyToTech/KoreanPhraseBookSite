@@ -1,0 +1,38 @@
+.privacy-content {
+    width: 1100px;
+    margin: 0 auto;
+    color: #3a3a3a;
+}
+
+.logo-container {
+    width: 220px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-name {
+    font-size: 17px;
+    color: #3a3a3a;
+    font-family: 'Poppins', sans-serif;
+}
+
+.logo {
+    height: 30px;
+    width: 30px;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    margin-top: 40px;
+}
+
+h2 {
+    font-family: 'Poppins', sans-serif;
+}
+
+p {
+    font-family: 'Lato', sans-serif;    
+    font: 30px;
+}
