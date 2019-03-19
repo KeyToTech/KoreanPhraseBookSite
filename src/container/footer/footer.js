@@ -49,6 +49,7 @@ const Footer = () => (
                     <div className="wrap-info">
                         <h2 className="title-footer">Про нас</h2>
                         <p className="content-footer">{APP_DESCRIPTION}</p>
+                        <a href='#privacy-root' className="t-privacy">Privacy policy</a>
                     </div>
                 </div>
 
