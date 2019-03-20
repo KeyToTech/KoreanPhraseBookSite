@@ -3,6 +3,10 @@
     font-size: 100%;
 }
 
+.link {
+    text-decoration: none;
+}
+
 @media all and (max-width: 1920px){
 
     #header {

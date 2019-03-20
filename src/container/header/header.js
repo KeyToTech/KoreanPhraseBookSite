@@ -7,6 +7,7 @@ import iosStoreBottom from '../../ios-store.png';
 import '../header/header.css';
 import '../header/media.css';
 import { findDOMNode } from 'react-dom';
+import { Link } from 'react-router-dom';
 var logoName = "Korean Phrase";
 var title = "Корейський розмовник";
 var subtitle = "Завантажуйте Корейський розмовник та спілкуйтесь корейською легко та ефективно!";
@@ -58,11 +59,11 @@ const Header = (props) => (
   <div id="header" className="header">
     <div className="wrap-header">
       <nav className="navigation-tab">
-        <div className="logo">
+        <a href="index.html" className="link"><div className="logo">
           <img className="logo-img" alt="img" src={logo} />
           <img className="logo-img-mb" alt="img-mb" src={logoMb} />
           <h3 className="logo-name">{logoName}</h3>
-        </div>
+        </div></a>
         {menu()}
       </nav>
       <div className="wrap-main-content">
