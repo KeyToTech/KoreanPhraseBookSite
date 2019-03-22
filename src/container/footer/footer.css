@@ -46,6 +46,10 @@
     text-align: center;
 }
 
+.title-footer {
+   
+}
+
 .f-item {
     height: 45px;
     width: 45px;
@@ -116,6 +120,7 @@
     }
 
     .container-footer:nth-child(3) {
+        height: 200px;
         flex-basis: 200px;
     }
 
@@ -124,6 +129,14 @@
         display: flex;
         justify-content: space-around;
         margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
+    .wrap-follow {
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
     }
 
     .wrap-contact {
