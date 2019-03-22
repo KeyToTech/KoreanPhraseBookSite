@@ -7,7 +7,6 @@ import iosStoreBottom from '../../ios-store.png';
 import '../header/header.css';
 import '../header/media.css';
 import { findDOMNode } from 'react-dom';
-import { Link } from 'react-router-dom';
 var logoName = "Korean Phrase";
 var title = "Корейський розмовник";
 var subtitle = "Завантажуйте Корейський розмовник та спілкуйтесь корейською легко та ефективно!";
