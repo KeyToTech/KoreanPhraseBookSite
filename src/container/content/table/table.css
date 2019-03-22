@@ -6,7 +6,7 @@
 }
 
 .table {
-    border-radius: 15px;
+    border-radius: 5px;
     color: black;
     display: flex;
     flex-direction: column;
