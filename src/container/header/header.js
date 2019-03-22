@@ -46,7 +46,7 @@ function buttons(showMessage) {
       </div>
 
       <div className="button-ios">
-        <a href="#message" onClick={showMessage}>
+        <a href="https://itunes.apple.com/us/app/%D0%BA%D0%BE%D1%80%D0%B5%D0%B9%D1%81%D1%8C%D0%BA%D0%B8%D0%B9-%D1%80%D0%BE%D0%B7%D0%BC%D0%BE%D0%B2%D0%BD%D0%B8%D0%BA/id1456473272" target="_blank">
           <img className="ios-img" alt="ios_img" src={iosStoreBottom} />
         </a>
       </div>
@@ -71,7 +71,7 @@ const Header = (props) => (
             <h2 className='title'>{title}</h2>
             <p className='subtitle'>{subtitle}</p>
           </div>
-          {buttons(props.showMessage)}
+          {buttons()}
         </div>
 
       </div>
@@ -84,8 +84,6 @@ const Header = (props) => (
 
 function scroll() {
   const el = findDOMNode(this.refs.toggle);
-
-
 }
 
 export default Header;

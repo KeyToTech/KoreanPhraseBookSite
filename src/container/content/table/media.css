@@ -1,19 +1,23 @@
 
 #wrap-table {
-    height: 400px;
+    height: auto;
     width: 100%;
     padding: 70px 0px;
 }
 
 .tables {
-    height: 91%;
-    width: 90%;
+    padding: 40px 0;
+    height: auto;
+    max-width: 954px;
     margin: 0 auto;
+    display: flex;
+    flex-flow: row wrap;
 }
 
 .table {
-    height: 100%;
-    width: 31.0909091%;
+    height: 350px;
+    width: 290px;
+    margin: 10px 5px;
 }
 
 .image {
@@ -23,7 +27,7 @@
 }
 
 .text-container {
-    height: 160px;
+    height: 145px;
     width: 90%;
     margin-top: 5%;
 }
@@ -59,19 +63,19 @@
 @media all and (max-width: 768px) {
 
     #wrap-table {
-        height: 1250px;
+        height: auto;
         width: 100%;
         padding: 70px 0px;
     }
 
     .tables {
-        height: 95%;
+        height: auto;
         width: 90%;
     }
 
     .table {
-        height: 31%;
-        width: 330px;
+        height: 350px;
+        width: 290px;
     }
 
     .text-container {
