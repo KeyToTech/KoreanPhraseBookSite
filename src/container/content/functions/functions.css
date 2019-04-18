@@ -1,4 +1,3 @@
-
 #function-section {
     display: flex;
     flex-direction: row;
@@ -26,43 +25,79 @@
 }
 
 .container-items ul li h2 {
-     font-size: 15px;
+    font-size: 15px;
 }
 
-@media all and (max-width: 1920px) {
-
+.wrapper {
+    position: relative;
 }
 
-@media all and (max-width: 1366px) {
-    
+.screen-img {
+    z-index: 1;
 }
 
-@media all and (max-width: 1280px) {
-    
+.background-phones-f {
+    width: 400px;
+    display: none;
 }
 
-@media all and (max-width: 1024px) {
-    
+.background-circle-mf {
+    width: 220px;
+    position: absolute;
+    z-index: -1;
+    top: -30px;
+    left: -60px;
 }
 
-@media all and (max-width: 980px) {
-    
+.background-circle-df {
+    width: 300px;
+    position: absolute;
+    bottom: -50px;
+    right: -80px;
+    z-index: -1;
 }
 
-@media all and (max-width: 768px) {
-    
+.background-circle-sf {
+    width: 100px;
+    position: absolute;
+    z-index: -1;
+    right: -80px;
+    top: -50px;
+}
+
+@media all and (max-width: 1920px) {}
+
+@media all and (max-width: 1366px) {}
+
+@media all and (max-width: 1280px) {}
+
+@media all and (max-width: 1024px) {}
+
+@media all and (max-width: 980px) {}
+
+@media screen and (max-width: 768px) {
     #function-section {
         flex-direction: column-reverse;
         align-items: center;
     }
-
     .wrap-context-function {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
+    .background-circle-mf {
+        top: 0px;
+    }
 }
 
 @media all and (max-width: 480px) {
-    
+    .background-circle-mf {
+        display: none;
+    }
+    .background-circle-df {
+        display: none;
+    }
+    .background-circle-sf {
+        display: none;
+    }
 }

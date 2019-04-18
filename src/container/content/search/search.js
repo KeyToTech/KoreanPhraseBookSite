@@ -2,6 +2,9 @@ import React from 'react';
 import '../search/search.css';
 import '../search/media.css';
 import rozdil from '..//..//..//image/rozdil_framed.png';
+import middleCircle from '..//../../image/middle_circle.png';
+import smallCircle from '..//../../image/small_circle.png';
+import doubleCircle from '..//../../image/double_circle.png';
 
 var title = "Зручний пошук";
 var discription = "Всього лише за мить допоможе знайти потрібне  вам слово чи фразу шукайте всюди:";
@@ -23,7 +26,10 @@ function setItem(items) {
 const Search = () => (
     <div id="search-section" name="search">
 
-        <div className="wrap-screen">
+        <div className="wrapper">
+            <img className='background-circle-ms' src={middleCircle} alt="background" />
+            <img className='background-circle-ds' src={doubleCircle} alt="background" />
+            <img className='background-circle-ss' src={smallCircle} alt="background" />
             <div className="screen">
                 <img className="screen-img" src={rozdil} alt="alphabet" />
             </div>
