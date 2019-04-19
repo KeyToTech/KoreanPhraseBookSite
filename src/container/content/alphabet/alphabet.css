@@ -1,9 +1,6 @@
-
 #alphabet-section {
     display: flex;
-    
     justify-content: center;
-    
 }
 
 .container-text-alphabet {
@@ -16,45 +13,53 @@
 }
 
 .wrap-screen {
-  
+    position: relative;
 }
 
-.screen {
-
+.background-circle-ma {
+    width: 220px;
+    position: absolute;
+    z-index: -1;
+    top: -30px;
+    right: -60px;
 }
 
-@media all and (max-width: 1920px) {
-
+.background-circle-da {
+    width: 300px;
+    position: absolute;
+    bottom: -50px;
+    left: -80px;
+    z-index: -1;
 }
 
-@media all and (max-width: 1366px) {
-    
+.background-circle-sa {
+    width: 100px;
+    position: absolute;
+    z-index: -1;
+    left: -80px;
+    top: -50px;
 }
 
-@media all and (max-width: 1280px) {
-    
-}
+.screen {}
 
-@media all and (max-width: 1024px) {
-    
-}
+@media all and (max-width: 1920px) {}
 
-@media all and (max-width: 980px) {
-    
-}
+@media all and (max-width: 1366px) {}
+
+@media all and (max-width: 1280px) {}
+
+@media all and (max-width: 1024px) {}
+
+@media all and (max-width: 980px) {}
 
 @media all and (max-width: 768px) {
-
     #alphabet-section {
         flex-direction: column;
     }
-
     .screen {
         display: flex;
         justify-content: center;
     }
 }
 
-@media all and (max-width: 480px) {
-    
-}
+@media all and (max-width: 480px) {}
