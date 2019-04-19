@@ -13,11 +13,9 @@ const Alphabet = () => (
             <p className="discription-alphabet">{discription}</p>
         </div>
         <div className="wrap-screen">
-
             <div className="screen">
                 <img className="screen-img" src={alphabet} alt="alphabet" />
             </div>
-
         </div>
     </div>
 )
