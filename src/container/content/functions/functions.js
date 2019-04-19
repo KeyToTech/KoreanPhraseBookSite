@@ -2,6 +2,10 @@ import React from 'react';
 import '../functions/functions.css';
 import '../functions/media.css';
 import dialogues from '..//..//..//image/dialogs_android.png';
+import background from '..//..//..//image/background.png';
+import middleCircle from '..//../../image/middle_circle.png';
+import smallCircle from '..//../../image/small_circle.png';
+import doubleCircle from '..//../../image/double_circle.png';
 
 var title = "Ми розробили багато цікавих функцій";
 var discription = " Додавайте корисні для вас слова та фрази в улюблене практикуйте реальні побутові ситуації за допомогою діалогів";
@@ -24,7 +28,11 @@ function setItem(items) {
 const Function = () => (
     <div id="function-section">
 
-        <div className="    ">
+        <div className="wrapper">
+            <img className='background-phones-f' src={background} alt="background" />
+            <img className='background-circle-mf' src={middleCircle} alt="background" /> 
+            <img className='background-circle-df' src={doubleCircle} alt="background" /> 
+            <img className='background-circle-sf' src={smallCircle} alt="background" />
             <div className="screen">
                 <img className="screen-img" src={dialogues} alt="alphabet" />
             </div>
