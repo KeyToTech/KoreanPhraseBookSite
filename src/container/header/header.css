@@ -2,9 +2,6 @@
     font-size: 100%;
 }
 
-.android {
-    border: red solid;
-}
 
 @media all and (max-width: 1920px) {
     #header {
@@ -76,7 +73,7 @@
         font-size: 20px;
     }
     .button-wrap {
-        border: red solid;
+        margin-top: 70px;
         display: flex;
         flex-direction: row;
         justify-content: space-between;

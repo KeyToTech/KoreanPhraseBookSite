@@ -40,7 +40,9 @@ function buttons(showMessage) {
   return (
     <div className="button-wrap">
       <div className="button-android">
-        <a className='android'> Android button </a>
+        <a target="_blank" href="https://play.google.com/store/apps/details?id=com.keytotech.koreanphrasebook" >
+          <img className="android-img" alt="android_img" src={googlePlayBottom} />
+        </a>
       </div>
 
       <div className="button-ios">
