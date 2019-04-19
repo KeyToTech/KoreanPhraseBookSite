@@ -2,8 +2,8 @@ import React from 'react';
 import koreanImg from '../../image/header.png';
 import logo from '../../image/logo.png';
 import logoMb from '..//..//logo.png';
-import googlePlayBottom from '../../google-store.png';
-import iosStoreBottom from '../../ios-store.png';
+import googlePlayBottom from '..//../image/google_play.png';
+import iosStoreBottom from '..//..//image/ios.png';
 import '../header/header.css';
 import '../header/media.css';
 import { findDOMNode } from 'react-dom';
@@ -40,9 +40,7 @@ function buttons(showMessage) {
   return (
     <div className="button-wrap">
       <div className="button-android">
-        <a target="_blank" href="https://play.google.com/store/apps/details?id=com.keytotech.koreanphrasebook" >
-          <img className="android-img" alt="android_img" src={googlePlayBottom} />
-        </a>
+        <a className='android'> Android button </a>
       </div>
 
       <div className="button-ios">

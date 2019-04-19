@@ -60,11 +60,12 @@
      }
  
      .button-wrap {
-     
+        height: 50px;  
         width: 65%;
      }
  
      .button-android {
+        border: green solid;
         width: 40%;
      }
  
