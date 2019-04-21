@@ -40,7 +40,7 @@ const table = wrapContent.map((table) =>
 );
 
 const Table = () => (
-    <div id="wrap-table">
+    <div id="categories">
         <div className="tables">
             {table}
         </div>
