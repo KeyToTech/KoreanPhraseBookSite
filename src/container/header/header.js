@@ -13,7 +13,7 @@ var subtitle = "Завантажуйте Корейський розмовник
 
 const items = [
   { class: "item", href: "#header", name: "Головна", active: "active" },
-  { class: "item", href: "#сategories", name: "Категорії" },
+  { class: "item", href: "#categories", name: "Категорії" },
   { class: "item", href: "#function-section", name: "Функції" },
   { class: "item", href: "#wrap-form", name: "Оновлення" },
 ]
