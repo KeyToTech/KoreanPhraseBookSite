@@ -33,7 +33,7 @@ class App extends Component {
   }
 
   render() {
-    let content = <Wrap />;
+    let content = <Wrap language={this.state.language} />;
     if (this.state.showMessage) {
       content = <Message showWrap={this.showWrap} />;
     }

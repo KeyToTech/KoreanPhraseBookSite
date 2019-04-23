@@ -8,41 +8,64 @@ import notesImage from '../../../image/notes.png';
 
 const wrapContent = [
     {
-        title: "Розділи", 
+        title: "Розділи",
         discription: "Основні слова та вирази, які допоможуть вам у побутовомуспілкуванні з носіями мови.",
         href: "#function-section",
-        image: sectionsImage
+        image: sectionsImage,
+        button: "Дізнатися більше",
+        kTitle: "챕터",
+        kDiscription: "새로운 단어들이나 문장들을 쉽게 배울수 있습니다",
+        kButton: "더 알아보기",
     },
-    {   
-        title: "Словник", 
-        discription: "Більш ніж 900 слів у алфавітному порядку.", 
+    {
+        title: "Словник",
+        discription: "Більш ніж 900 слів у алфавітному порядку.",
         href: "#alphabet-section",
-        image: vocabularyImage
+        image: vocabularyImage,
+        button: "Дізнатися більше",
+        kTitle: "사전",
+        kDiscription: "알파벳 순서로 900 단어 이상",
+        kButton: "더 알아보기",
     },
-    {   
-        title: "Нотатки", 
-        discription: "Робіть власні нотаткита записуйте все, що хочете запам’ятати.", 
+    {
+        title: "Нотатки",
+        discription: "Робіть власні нотаткита записуйте все, що хочете запам’ятати.",
         href: "#search-section",
-        image: notesImage
+        image: notesImage,
+        button: "Дізнатися більше",
+        kTitle: "메모",
+        kDiscription: "자주 사용되는 단어나 잊고 싶지 않는 것도 작성하면 됩니다",
+        kButton: "더 알아보기",
     }
 ]
 var button = "Дізнатися більше";
 
-const table = wrapContent.map((table) =>
-    <div className="table">
-        <div className="image"><img src={table.image} /></div>
-        <div className="text-container">
-            <h2 className="title">{table.title}</h2>
-            <p className="discription">{table.discription}</p>
+const table = (language) => wrapContent.map((table) => 
+    language == true
+        ?
+        <div className="table">
+            <div className="image"><img src={table.image} /></div>
+            <div className="text-container">
+                <h2 className="title">{table.title}</h2>
+                <p className="discription">{table.discription}</p>
+            </div>
+            <a className="button" href={table.href}>{button}</a>
         </div>
-        <a className="button" href={table.href}>{button}</a>
-    </div>
+        :
+        <div className="table">
+            <div className="image"><img src={table.image} /></div>
+            <div className="text-container">
+                <h2 className="title">{table.kTitle}</h2>
+                <p className="discription">{table.kDiscription}</p>
+            </div>
+            <a className="button" href={table.href}>{table.kButton}</a>
+        </div>
 );
 
-const Table = () => (
+const Table = (props) => (
     <div id="wrap-table">
         <div className="tables">
-            {table}
+            {table(props.language)}
         </div>
     </div>
 )
