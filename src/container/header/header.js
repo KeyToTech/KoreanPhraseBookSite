@@ -7,30 +7,41 @@ import iosStoreBottom from '../../ios-store.png';
 import '../header/header.css';
 import '../header/media.css';
 import { findDOMNode } from 'react-dom';
-var logoName = "Korean Phrase";
+var logoName = "한국어 회화집";
 var title = "Корейський розмовник";
 var subtitle = "Завантажуйте Корейський розмовник та спілкуйтесь корейською легко та ефективно!";
+var logoNameKorean = "한국어 회화집";
+var titleKorean = "한국어 회화집";
+var subtitleKorean = "한국어로 의사 소통을 훨씬 쉽고 효과적으로 하기 위한 애플리케이션. 다운로드하세요!";
+
 
 const items = [
-  { class: "item", href: "#header", name: "Головна", active: "active" },
-  { class: "item", href: "#wrap-table", name: "Категорії" },
-  { class: "item", href: "#function-section", name: "Функції" },
-  { class: "item", href: "#wrap-form", name: "Оновлення" },
+  { class: "item", href: "#header", name: "Головна", nKorean: "메인", active: "active" },
+  { class: "item", href: "#wrap-table", name: "Категорії", nKorean: "카테고리" },
+  { class: "item", href: "#function-section", name: "Функції", nKorean: "가능", },
+  { class: "item", href: "#wrap-form", name: "Оновлення", nKorean: "업데이트", },
 ]
 
-function setMenu(items) {
+function setMenu(items, language) {
   var item;
-  return (
-    item = items.map((item) =>
-      <li className={item.class}><a href={item.href} class={item.active}>{item.name}</a></li>
-    ))
+  if (language == true) {
+    return (
+      item = items.map((item) =>
+        <li className={item.class}><a href={item.href} class={item.active}>{item.name}</a></li>
+      ))
+  } else {
+    return (
+      item = items.map((item) =>
+        <li className={item.class}><a href={item.href} class={item.active}>{item.nKorean}</a></li>
+      ))
+  }
 }
 
-function menu() {
+function menu(language) {
   return (
     <div className="menu">
       <ul className="menu-items">
-        {setMenu(items)}
+        {setMenu(items, language)}
       </ul>
     </div>
   )
@@ -54,28 +65,57 @@ function buttons(showMessage) {
   )
 }
 
+function changeLanguage(language) {
+  if (language == true) {
+    return (
+      <div className="wrap-header">
+        <nav className="navigation-tab">
+          <div className="logo">
+            <img className="logo-img" alt="img" src={logo} />
+            <img className="logo-img-mb" alt="img-mb" src={logoMb} />
+            <h3 className="logo-name">{logoName}</h3>
+          </div>
+          {menu(language)}
+        </nav>
+        <div className="wrap-main-content">
+          <div className="main-content">
+            <div className="info-header">
+              <h2 className='title'>{title}</h2>
+              <p className='subtitle'>{subtitle}</p>
+            </div>
+            {buttons()}
+          </div>
+        </div>
+      </div>
+    )
+  } else {
+    return (
+      <div className="wrap-header">
+        <nav className="navigation-tab">
+          <div className="logo">
+            <img className="logo-img" alt="img" src={logo} />
+            <img className="logo-img-mb" alt="img-mb" src={logoMb} />
+            <h3 className="logo-name">{logoNameKorean}</h3>
+          </div>
+          {menu(language)}
+        </nav>
+        <div className="wrap-main-content">
+          <div className="main-content">
+            <div className="info-header">
+              <h2 className='title'>{titleKorean}</h2>
+              <p className='subtitle'>{subtitleKorean}</p>
+            </div>
+            {buttons()}
+          </div>
+        </div>
+      </div>
+    )
+  }
+}
+
 const Header = (props) => (
   <div id="header" className="header">
-    <div className="wrap-header">
-      <nav className="navigation-tab">
-        <div className="logo">
-          <img className="logo-img" alt="img" src={logo} />
-          <img className="logo-img-mb" alt="img-mb" src={logoMb} />
-          <h3 className="logo-name">{logoName}</h3>
-        </div>
-        {menu()}
-      </nav>
-      <div className="wrap-main-content">
-        <div className="main-content">
-          <div className="info-header">
-            <h2 className='title'>{title}</h2>
-            <p className='subtitle'>{subtitle}</p>
-          </div>
-          {buttons()}
-        </div>
-
-      </div>
-    </div>
+    {changeLanguage(props.language)}
     <div className="image-header">
       <img className="image-hd" src={koreanImg} alt="image" />
     </div>
