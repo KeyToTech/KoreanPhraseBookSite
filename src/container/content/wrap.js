@@ -7,7 +7,6 @@ import Search from "../content/search/search.js";
 import Form from "../content/form/form.js";
 
 class Wrap extends Component {
-
     render() {
         var timer = this.props.setName;
         return (

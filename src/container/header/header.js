@@ -115,6 +115,12 @@ function changeLanguage(language) {
 
 const Header = (props) => (
   <div id="header" className="header">
+    <div className="container-btn-translation">
+      <div className="wrap-btn">
+        <button href='#ukr' onClick={props.click} className="btn-tr">UKR</button>
+        <button href='#kor' onClick={props.click} className="btn-tr">KOR</button>
+      </div>
+    </div>
     {changeLanguage(props.language)}
     <div className="image-header">
       <img className="image-hd" src={koreanImg} alt="image" />

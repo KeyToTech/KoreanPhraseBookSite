@@ -39,13 +39,7 @@ class App extends Component {
     }
     return (
       <div className="App">
-        <div className="container-btn-translation">
-          <div className="wrap-btn">
-            <button href='#ukr' onClick={this.changeLanguage} className="btn-primary btn style-btn">Українська</button>
-            <button href='#kor' onClick={this.changeLanguage} className="btn btn-primary btn style-btn">Корейська</button>
-          </div>
-        </div>
-        <Header language={this.state.language} showMessage={this.showMessage} />
+        <Header click={this.changeLanguage} language={this.state.language} showMessage={this.showMessage} />
         {content}
         <Footer />
       </div>
