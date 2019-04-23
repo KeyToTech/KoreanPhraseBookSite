@@ -17,7 +17,6 @@ const items = ["Улюблене", "Діалоги"];
 const kItems = ["즐겨찾기", "대화"];
 
 function setItem(items, language) {
-    console.log(language)
     if (language == true) {
         return (
             item = items.map((item, index) =>

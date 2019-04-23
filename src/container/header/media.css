@@ -14,14 +14,13 @@
     }
  
      .navigation-tab {
-         height: 22.4137931%;
          padding: 0 3.636363645% 0 3.636363645%;
          z-index: 1;
      }
  
      .logo {
          height: 60px;
-         width: 145px;
+         width: 135px;
      }
  
      .logo-img {

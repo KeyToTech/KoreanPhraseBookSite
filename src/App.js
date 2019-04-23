@@ -27,9 +27,26 @@ class App extends Component {
   }
 
   changeLanguage = () => {
-    this.setState(
-      { language: !this.state.language }
-    )
+    var btnUkr = document.getElementById('ukr');
+    var btnKor = document.getElementById('kor');
+
+    if (btnUkr.value == 'ukr' && this.state.language == true) {
+      this.setState(
+        { language: !this.state.language }
+      )
+      btnUkr.disabled = true;
+      btnUkr.classList.add("active-language");
+      btnKor.classList.remove("active-language")
+      btnKor.disabled = false;
+    } if (btnKor.value == 'kor' && this.state.language == false) {
+      this.setState(
+        { language: !this.state.language }
+      )
+      btnKor.disabled = true;
+      btnUkr.disabled = false;
+      btnKor.classList.add("active-language");
+      btnUkr.classList.remove("active-language")
+    }
   }
 
   render() {
@@ -41,7 +58,7 @@ class App extends Component {
       <div className="App">
         <Header click={this.changeLanguage} language={this.state.language} showMessage={this.showMessage} />
         {content}
-        <Footer />
+        <Footer language={this.state.language} />
       </div>
     );
   }

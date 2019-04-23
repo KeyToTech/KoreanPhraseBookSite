@@ -36,12 +36,12 @@ function itemLink() {
     )
 }
 
-const Footer = () => (
+const Footer = (props) => (
     <div className="footer">
         <div className="wrap-footer">
             <div className="container-logo">
                 <img src={logo} alt="logo-img" className="logo-footer" />
-                <h2 className="app-name">Корейський розмовник</h2>
+                <h2 className="app-name">한국어 회화집</h2>
             </div>
 
             <div className="wrap-block">

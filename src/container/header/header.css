@@ -20,7 +20,7 @@
     border-radius: 15px;
 }
 
-.btn-tr:hover {
+.active-language, .btn-tr:hover {
     background: white;
     outline: none;
     color: #7bcbc8;
