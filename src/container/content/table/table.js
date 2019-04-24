@@ -40,7 +40,7 @@ const wrapContent = [
 ]
 var button = "Дізнатися більше";
 
-const table = (language) => wrapContent.map((table) => 
+const table = (language, strings) => wrapContent.map((table) =>
     language == true
         ?
         <div className="table">
@@ -62,10 +62,22 @@ const table = (language) => wrapContent.map((table) =>
         </div>
 );
 
+function tables(strings) {
+    strings.titleT.map((item) =>
+        <div className="table">
+            <div className="text-container">
+                <h2 className="title">{item}</h2>
+            </div>
+        </div>
+    )
+
+}
+
 const Table = (props) => (
     <div id="wrap-table">
         <div className="tables">
-            {table(props.language)}
+
+            {table(props.language, props.strings)}
         </div>
     </div>
 )
