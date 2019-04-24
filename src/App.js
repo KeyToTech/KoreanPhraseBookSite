@@ -6,12 +6,20 @@ import Footer from './container/footer/footer.js';
 import Message from './container/message/message';
 
 class App extends Component {
+
+
+
   constructor(props) {
     super(props);
     this.state = {
       showMessage: false,
-      language: true,
+      native: true,
+      start: true,
+      btnU: document.getElementById('ukr'),
+      btnK: document.getElementById('kor'),
     }
+    this.changeLanguageSiteKor = this.changeLanguageSiteKor.bind(this);
+    this.changeLanguageSiteUkr = this.changeLanguageSiteUkr.bind(this);
   }
 
   showMessage = () => {
@@ -26,43 +34,56 @@ class App extends Component {
     })
   }
 
-  changeLanguage = () => {
-    var btnUkr = document.getElementById('ukr');
-    var btnKor = document.getElementById('kor');
+  changeLanguageSiteUkr() {
+    var btnU = document.getElementById('ukr');
+    var btnK = document.getElementById('kor');
+    btnK.disabled = false;
+    btnK.classList.remove('active-language')
+    btnU.disabled = true;
+    btnU.classList.add('active-language')
+    this.setState({
+      native: !this.state.native
+    })
+  }
 
-    if (btnUkr.value == 'ukr' && this.state.language == true) {
-      this.setState(
-        { language: !this.state.language }
-      )
-      btnUkr.disabled = true;
-      btnUkr.classList.add("active-language");
-      btnKor.classList.remove("active-language")
-      btnKor.disabled = false;
-    } if (btnKor.value == 'kor' && this.state.language == false) {
-      this.setState(
-        { language: !this.state.language }
-      )
-      btnKor.disabled = true;
-      btnUkr.disabled = false;
-      btnKor.classList.add("active-language");
-      btnUkr.classList.remove("active-language")
-    }
+  changeLanguageSiteKor() {
+    var btnU = document.getElementById('ukr');
+    var btnK = document.getElementById('kor');
+    btnK.disabled = true;
+    btnK.classList.add('active-language')
+    btnU.disabled = false;
+    btnU.classList.remove('active-language')
+    this.setState({
+      native: !this.state.native
+    })
   }
 
   componentDidMount() {
-     document.getElementById('ukr').disabled = true;
+    if (this.state.start) {
+      var button = document.getElementById('ukr');
+      button.disabled = true;
+      button.classList.add('active-language')
+      this.setState({
+        start: !this.state.start
+      })
+    }
   }
 
   render() {
-    let content = <Wrap language={this.state.language} />;
+    let content = <Wrap language={this.state.native} />;
     if (this.state.showMessage) {
       content = <Message showWrap={this.showWrap} />;
     }
     return (
       <div className="App">
-        <Header click={this.changeLanguage} language={this.state.language} showMessage={this.showMessage} />
+        <Header
+          changeLanguageSiteUkr={this.changeLanguageSiteUkr}
+          changeLanguageSiteKor={this.changeLanguageSiteKor}
+          language={this.state.native}
+          showMessage={this.showMessage}
+        />
         {content}
-        <Footer language={this.state.language} />
+        <Footer language={this.state.native} />
       </div>
     );
   }
