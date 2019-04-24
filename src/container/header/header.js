@@ -14,7 +14,6 @@ var logoNameKorean = "한국어 회화집";
 var titleKorean = "한국어 회화집";
 var subtitleKorean = "한국어로 의사 소통을 훨씬 쉽고 효과적으로 하기 위한 애플리케이션. 다운로드하세요!";
 
-
 const items = [
   { class: "item", href: "#header", name: "Головна", nKorean: "메인", active: "active" },
   { class: "item", href: "#wrap-table", name: "Категорії", nKorean: "카테고리" },
