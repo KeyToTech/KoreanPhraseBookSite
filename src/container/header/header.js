@@ -7,13 +7,7 @@ import iosStoreBottom from '../../ios-store.png';
 import '../header/header.css';
 import '../header/media.css';
 import { findDOMNode } from 'react-dom';
-var logoName = "한국어 회화집";
-var title = "Корейський розмовник";
-var subtitle = "Завантажуйте Корейський розмовник та спілкуйтесь корейською легко та ефективно!";
 var logoNameKorean = "한국어 회화집";
-var titleKorean = "한국어 회화집";
-var subtitleKorean = "한국어로 의사 소통을 훨씬 쉽고 효과적으로 하기 위한 애플리케이션. 다운로드하세요!";
-
 
 const items = [
   { class: "item", href: "#header", name: "Головна", nKorean: "메인", active: "active" },
@@ -65,7 +59,7 @@ function buttons(showMessage) {
   )
 }
 
-function changeLanguage(language) {
+function changeLanguage(strings, language) {
   if (language == true) {
     return (
       <div className="wrap-header">
@@ -73,15 +67,15 @@ function changeLanguage(language) {
           <div className="logo">
             <img className="logo-img" alt="img" src={logo} />
             <img className="logo-img-mb" alt="img-mb" src={logoMb} />
-            <h3 className="logo-name">{logoName}</h3>
+            <h3 className="logo-name">{logoNameKorean}</h3>
           </div>
           {menu(language)}
         </nav>
         <div className="wrap-main-content">
           <div className="main-content">
             <div className="info-header">
-              <h2 className='title'>{title}</h2>
-              <p className='subtitle'>{subtitle}</p>
+              <h2 className='title'>{strings.title}</h2>
+              <p className='subtitle'>{strings.description}</p>
             </div>
             {buttons()}
           </div>
@@ -102,8 +96,8 @@ function changeLanguage(language) {
         <div className="wrap-main-content">
           <div className="main-content">
             <div className="info-header">
-              <h2 className='title'>{titleKorean}</h2>
-              <p className='subtitle'>{subtitleKorean}</p>
+              <h2 className='title'>{strings.title}</h2>
+              <p className='subtitle'>{strings.description}</p>
             </div>
             {buttons()}
           </div>
@@ -121,7 +115,7 @@ const Header = (props) => (
         <button id="kor" value="kor" onClick={props.changeLanguageSiteKor} className="btn-tr">KOR</button>
       </div>
     </div>
-    {changeLanguage(props.language)}
+    {changeLanguage(props.strings, props.language)}
     <div className="image-header">
       <img className="image-hd" src={koreanImg} alt="image" />
     </div>

@@ -4,10 +4,9 @@ import Header from './container/header/header.js';
 import Wrap from './container/content/wrap.js';
 import Footer from './container/footer/footer.js';
 import Message from './container/message/message';
+import strings from '../src/components/localization/languages';
 
 class App extends Component {
-
-
 
   constructor(props) {
     super(props);
@@ -37,6 +36,7 @@ class App extends Component {
   changeLanguageSiteUkr() {
     var btnU = document.getElementById('ukr');
     var btnK = document.getElementById('kor');
+    strings.setLanguage('ukr');
     btnK.disabled = false;
     btnK.classList.remove('active-language')
     btnU.disabled = true;
@@ -49,6 +49,7 @@ class App extends Component {
   changeLanguageSiteKor() {
     var btnU = document.getElementById('ukr');
     var btnK = document.getElementById('kor');
+    strings.setLanguage('kor');
     btnK.disabled = true;
     btnK.classList.add('active-language')
     btnU.disabled = false;
@@ -80,6 +81,7 @@ class App extends Component {
           changeLanguageSiteUkr={this.changeLanguageSiteUkr}
           changeLanguageSiteKor={this.changeLanguageSiteKor}
           language={this.state.native}
+          strings={strings}
           showMessage={this.showMessage}
         />
         {content}
