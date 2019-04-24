@@ -117,8 +117,8 @@ const Header = (props) => (
   <div id="header" className="header">
     <div className="container-btn-translation">
       <div className="wrap-btn">
-        <button id="ukr" value="ukr" onClick={props.click} className="btn-tr">UKR</button>
-        <button id="kor" value="kor" onClick={props.click} className="btn-tr">KOR</button>
+        <button id="ukr" value="ukr" onClick={props.changeLanguageSiteUkr} className="btn-tr">UKR</button>
+        <button id="kor" value="kor" onClick={props.changeLanguageSiteKor} className="btn-tr">KOR</button>
       </div>
     </div>
     {changeLanguage(props.language)}
