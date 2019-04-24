@@ -49,6 +49,10 @@ class App extends Component {
     }
   }
 
+  componentDidMount() {
+     document.getElementById('ukr').disabled = true;
+  }
+
   render() {
     let content = <Wrap language={this.state.language} />;
     if (this.state.showMessage) {
