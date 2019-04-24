@@ -40,16 +40,16 @@ const wrapContent = [
 ]
 var button = "Дізнатися більше";
 
-const table = (language, strings) => wrapContent.map((table) =>
-    language == true
+const table = (language, strings) => strings.Table.tables.map((table) =>
+    language
         ?
         <div className="table">
-            <div className="image"><img src={table.image} /></div>
+         
             <div className="text-container">
                 <h2 className="title">{table.title}</h2>
-                <p className="discription">{table.discription}</p>
+                <p className="discription">{table.description}</p>
             </div>
-            <a className="button" href={table.href}>{button}</a>
+            <a className="button" href={table.href}>{strings.Table.btnTable}</a>
         </div>
         :
         <div className="table">
