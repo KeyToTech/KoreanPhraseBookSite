@@ -4,7 +4,7 @@ import LocalizedStrings from 'react-localization';
 let strings = new LocalizedStrings({
     ukr: {
         link: ['Головна', 'Категорії', 'Функції', 'Оновлення'],
-        title: 'Корейський розмовник',
+        title: 'Корейськиsaй розмовник',
         description: 'Завантажуйте Корейський розмовник та спілкуйтесь корейською легко та ефективно!',
         Table: {
             tables: [
