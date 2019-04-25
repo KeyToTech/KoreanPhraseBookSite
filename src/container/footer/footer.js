@@ -8,7 +8,7 @@ const KTT_WEB_SITE = 'http://www.keytotech.com/';
 const APP_DESCRIPTION = 'Завантажуйте Корейський розмовник та спілкуйтесь корейською легко та ефективно!';
 const APP_DESCRIPTION_KOR = '쉽고 효과적으로 한국어로 의사 소통을하십시오!';
 const ADDRESS = "Лемківська 9A, м. Львів, Україна";
-const ADDRESS_KOR = "Лемківська 9A, м. Львів, Україна";
+const ADDRESS_KOR = "Lemkivska Street 9A, Lviv, Ukraine";
 
 function followButton(img, link) {
     return (
@@ -98,8 +98,7 @@ const changeLandguage = (language) => (
                 <div className="wrap-contact">
                     <h2 className="title-footer">연락처</h2>
                     <div className="wrap-items-address">
-                        <p className="item"><strong>Наш офіс:</strong></p>
-                        <p className="item">{ADDRESS}</p>
+                        <p className="item">{ADDRESS_KOR}</p>
                         <p className="item"><strong>Email:</strong><a className="link-email" target="_blank" rel="noopener noreferrer"
                             href="mailto:kup@keytotech.com">kup@keytotech.com</a> </p>
                     </div>
