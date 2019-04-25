@@ -32,7 +32,14 @@ const ukr = {
     subscribeForm: 'Підписатися',
     descriptionForm: 'Отримуйте наші оновлення з пропозиціями та планами!',
     placeHolderForm: 'Введіть електронну пошту',
-    btnForm: 'Підписатися'
+    btnForm: 'Підписатися',
+    aboutUs: 'Про нас',
+    contacts: 'Контакти',
+    followUs: 'Стежте за нами',
+    descriptionFooter: 'Завантажуйте Корейський розмовник та спілкуйтесь корейською легко та ефективно!',
+    titleAddress: 'Наш офіс:',
+    address: 'Лемківська 9A, м. Львів, Україна',
+    copyright: 'Розроблено'
 }
 
 export default ukr;

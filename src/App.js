@@ -82,7 +82,7 @@ class App extends Component {
           showMessage={this.showMessage}
         />
         {content}
-        <Footer language={this.state.native} strings={strings} />
+        <Footer language={this.state.language}/>
       </div>
     );
   }

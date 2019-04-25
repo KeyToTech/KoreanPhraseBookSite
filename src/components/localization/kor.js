@@ -32,7 +32,14 @@ const kor = {
     subscribeForm: '구독하기',
     descriptionForm: '제안 및 계획에 대한 업데이트!',
     placeHolderForm: '이메일을 입력하십시오',
-    btnForm: '구독하기'
+    btnForm: '구독하기',
+    aboutUs: '회사 소개',
+    contacts: '연락처',
+    followUs: '팔로우하세요',
+    descriptionFooter: '쉽고 효과적으로 한국어로 의사 소통을하십시오!',
+    titleAddress: '',
+    address: 'Lemkivska Street 9A, Lviv, Ukraine',
+    copyright: '개발'
 }
 
 export default kor;

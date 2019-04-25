@@ -18,11 +18,11 @@ function followButton(img, link) {
     )
 }
 
-function itemLink() {
+function itemLink(language) {
     return (
         <div className="wrap-follow">
             <div className="follow-us">
-                <h2 className='title-footer'>Стежте за нами</h2>
+                <h2 className='title-footer'>{language.followUs}</h2>
             </div>
             <div className="follow-items">
                 {followButton(<i class="fab fa-facebook-f"></i>, FACEBOOK_URL)}
@@ -30,7 +30,7 @@ function itemLink() {
                 {followButton(<i class="fab fa-instagram"></i>, INSTAGRAM_URL)}
             </div>
             <div className='develop-block'>
-                <h4>Розроблено: <a target="_blank" rel="noopener noreferrer" href={KTT_WEB_SITE} id="keytotech" class="active">KeyToTech</a></h4>
+                <h4>{language.copyright} <a target="_blank" rel="noopener noreferrer" href={KTT_WEB_SITE} id="keytotech" class="active">KeyToTech</a></h4>
             </div>
         </div>
     )
@@ -47,18 +47,18 @@ const Footer = (props) => (
             <div className="wrap-block">
                 <div className="container-footer">
                     <div className="wrap-info">
-                        <h2 className="title-footer">Про нас</h2>
-                        <p className="content-footer">{APP_DESCRIPTION}</p>
+                        <h2 className="title-footer">{props.language.aboutUs}</h2>
+                        <p className="content-footer">{props.language.descriptionFooter}</p>
                         <a href='privacy.html' className="t-privacy">Privacy policy</a>
                     </div>
                 </div>
 
                 <div className="container-footer">
                     <div className="wrap-contact">
-                        <h2 className="title-footer">Контакти</h2>
+                        <h2 className="title-footer">{props.language.contacts}</h2>
                         <div className="wrap-items-address">
-                            <p className="item"><strong>Наш офіс:</strong></p>
-                            <p className="item">{ADDRESS}</p>
+                            <p className="item"><strong>{props.language.titleAddress}</strong></p>
+                            <p className="item">{props.language.address}</p>
                             <p className="item"><strong>Email:</strong><a className="link-email" target="_blank" rel="noopener noreferrer"
                                 href="mailto:kup@keytotech.com">kup@keytotech.com</a> </p>
                         </div>
@@ -66,7 +66,7 @@ const Footer = (props) => (
                 </div>
 
                 <div className="container-footer">
-                    {itemLink()}
+                    {itemLink(props.language)}
                 </div>
             </div>
         </div>
