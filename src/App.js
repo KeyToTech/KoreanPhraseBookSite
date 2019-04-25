@@ -12,8 +12,7 @@ class App extends Component {
     super(props);
     this.state = {
       showMessage: false,
-      native: true,
-      start: true,
+      activeBtnUkr: true,
       btnU: document.getElementById('ukr'),
       btnK: document.getElementById('kor'),
     }
@@ -41,9 +40,6 @@ class App extends Component {
     btnK.classList.remove('active-language')
     btnU.disabled = true;
     btnU.classList.add('active-language')
-    this.setState({
-      native: !this.state.native
-    })
   }
 
   changeLanguageSiteKor() {
@@ -54,18 +50,15 @@ class App extends Component {
     btnK.classList.add('active-language')
     btnU.disabled = false;
     btnU.classList.remove('active-language')
-    this.setState({
-      native: !this.state.native
-    })
   }
 
   componentDidMount() {
-    if (this.state.start) {
+    if (this.state.activeBtnUkr) {
       var button = document.getElementById('ukr');
       button.disabled = true;
       button.classList.add('active-language')
       this.setState({
-        start: !this.state.start
+        activeBtnUkr: !this.state.activeBtnUkr
       })
     }
   }
@@ -80,8 +73,7 @@ class App extends Component {
         <Header
           changeLanguageSiteUkr={this.changeLanguageSiteUkr}
           changeLanguageSiteKor={this.changeLanguageSiteKor}
-          language={this.state.native}
-          strings={strings}
+          language={strings}
           showMessage={this.showMessage}
         />
         {content}

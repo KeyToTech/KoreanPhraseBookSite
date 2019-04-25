@@ -59,54 +59,6 @@ function buttons(showMessage) {
   )
 }
 
-function changeLanguage(strings, language) {
-  if (language == true) {
-    return (
-      <div className="wrap-header">
-        <nav className="navigation-tab">
-          <div className="logo">
-            <img className="logo-img" alt="img" src={logo} />
-            <img className="logo-img-mb" alt="img-mb" src={logoMb} />
-            <h3 className="logo-name">{logoNameKorean}</h3>
-          </div>
-          {menu(language)}
-        </nav>
-        <div className="wrap-main-content">
-          <div className="main-content">
-            <div className="info-header">
-              <h2 className='title'>{strings.title}</h2>
-              <p className='subtitle'>{strings.description}</p>
-            </div>
-            {buttons()}
-          </div>
-        </div>
-      </div>
-    )
-  } else {
-    return (
-      <div className="wrap-header">
-        <nav className="navigation-tab">
-          <div className="logo">
-            <img className="logo-img" alt="img" src={logo} />
-            <img className="logo-img-mb" alt="img-mb" src={logoMb} />
-            <h3 className="logo-name">{logoNameKorean}</h3>
-          </div>
-          {menu(language)}
-        </nav>
-        <div className="wrap-main-content">
-          <div className="main-content">
-            <div className="info-header">
-              <h2 className='title'>{strings.title}</h2>
-              <p className='subtitle'>{strings.description}</p>
-            </div>
-            {buttons()}
-          </div>
-        </div>
-      </div>
-    )
-  }
-}
-
 const Header = (props) => (
   <div id="header" className="header">
     <div className="container-btn-translation">
@@ -115,7 +67,25 @@ const Header = (props) => (
         <button id="kor" value="kor" onClick={props.changeLanguageSiteKor} className="btn-tr">KOR</button>
       </div>
     </div>
-    {changeLanguage(props.strings, props.language)}
+    <div className="wrap-header">
+      <nav className="navigation-tab">
+        <div className="logo">
+          <img className="logo-img" alt="img" src={logo} />
+          <img className="logo-img-mb" alt="img-mb" src={logoMb} />
+          <h3 className="logo-name">{logoNameKorean}</h3>
+        </div>
+        {menu(language)}
+      </nav>
+      <div className="wrap-main-content">
+        <div className="main-content">
+          <div className="info-header">
+            <h2 className='title'>{strings.title}</h2>
+            <p className='subtitle'>{strings.description}</p>
+          </div>
+          {buttons()}
+        </div>
+      </div>
+    </div>
     <div className="image-header">
       <img className="image-hd" src={koreanImg} alt="image" />
     </div>
