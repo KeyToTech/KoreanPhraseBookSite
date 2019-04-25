@@ -6,14 +6,6 @@ import middleCircle from '..//../../image/middle_circle.png';
 import smallCircle from '..//../../image/small_circle.png';
 import doubleCircle from '..//../../image/double_circle.png';
 
-function setItem(items) {
-    items.map((item) =>
-        <li>
-            <h2><span className="item"><i class="fas fa-check"></i>{item} {console.log(item)}</span></h2>
-        </li>
-    )
-}
-
 const Search = (props) => (
     <div id="search-section" name="search">
         <div className="wrapper">
@@ -31,12 +23,15 @@ const Search = (props) => (
             </div>
             <div className="wrap-items">
                 <ul>
-                    {console.log(props.language.itemsSearch)}
-                    {setItem(props.language.itemsSearch)}
+                    {props.language.itemsSearch.map((item) =>
+                        <li>
+                            <h2><span className="item"><i class="fas fa-check"></i>{item} {console.log(item)}</span></h2>
+                        </li>)
+                    }
                 </ul>
-            </div>
-        </div>
-    </div>
+            </div >
+        </div >
+    </div >
 )
 
 export default Search;
