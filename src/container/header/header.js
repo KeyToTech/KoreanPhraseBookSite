@@ -13,7 +13,7 @@ const href = ['#header', '#wrap-table', '#function-section', '#wrap-form']
 function setMenu(items, href) {
   return (
     items.map((item, index) =>
-      <li className='item'><a href={href[index]} class='active'>{item} {console.log(item)}</a></li>
+      <li className='item'><a href={href[index]} class={index == 0 ? 'active' : ''}>{item}</a></li>
     ))
 }
 

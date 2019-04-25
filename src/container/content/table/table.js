@@ -6,21 +6,22 @@ import sectionsImage from '../../../image/sections.png';
 import vocabularyImage from '../../../image/vocabulary.png';
 import notesImage from '../../../image/notes.png';
 
+const images = [sectionsImage, vocabularyImage, notesImage];
 
-const table = (language, strings) => strings.Table.tables.map((table) =>
+const table = (table) => table.tables.map((table) =>
     <div className="table">
         <div className="text-container">
             <h2 className="title">{table.title}</h2>
             <p className="discription">{table.description}</p>
         </div>
-        <a className="button" href={table.href}>{strings.Table.btnTable}</a>
+        <a className="button" href={table.href}>{table.btnTable}</a>
     </div>
 );
 
 const Table = (props) => (
     <div id="wrap-table">
         <div className="tables">
-            {table(props.language, props.strings)}
+            {table(props.language.Table)}
         </div>
     </div>
 )

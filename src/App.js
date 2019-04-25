@@ -69,7 +69,7 @@ class App extends Component {
   }
 
   render() {
-    let content = <Wrap language={this.state.native} strings={strings} />;
+    let content = <Wrap language={this.state.language} />;
     if (this.state.showMessage) {
       content = <Message showWrap={this.showWrap} />;
     }
@@ -81,7 +81,6 @@ class App extends Component {
           language={this.state.language}
           showMessage={this.showMessage}
         />
-        {this.changeLanguageSiteUkr}
         {content}
         <Footer language={this.state.native} strings={strings} />
       </div>
