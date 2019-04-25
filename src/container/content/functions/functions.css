@@ -20,6 +20,14 @@
     color: #3a3a3a;
 }
 
+ul {
+    margin-top: 50px;
+    height: 55px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 .container-items ul li {
     list-style: none;
 }
