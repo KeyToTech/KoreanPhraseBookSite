@@ -5,8 +5,6 @@ const FACEBOOK_URL = 'https://www.facebook.com/%D0%9A%D0%BE%D1%80%D0%B5%D0%B9%D1
 const TWITTER_URL = 'https://twitter.com/kor_rozmovnyk?lang=en';
 const INSTAGRAM_URL = 'https://www.instagram.com/korean_phrasebook/';
 const KTT_WEB_SITE = 'http://www.keytotech.com/';
-const APP_DESCRIPTION = 'Завантажуйте Корейський розмовник та спілкуйтесь корейською легко та ефективно!';
-const ADDRESS = "Лемківська 9A, м. Львів, Україна";
 
 function followButton(img, link) {
     return (
@@ -41,7 +39,7 @@ const Footer = (props) => (
         <div className="wrap-footer">
             <div className="container-logo">
                 <img src={logo} alt="logo-img" className="logo-footer" />
-                <h2 className="app-name">한국어 회화집</h2>
+                <h2 className="app-name">국어 회화집</h2>
             </div>
 
             <div className="wrap-block">
