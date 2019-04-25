@@ -17,39 +17,14 @@ const kItems = ["기본 표현", "숫자", "음식", "쇼핑", "대학교", "교
 var item = "";
 var kItem = "";
 
-function setItem(items, language) {
-    if (language == true) {
-        return (
-            item = items.map((item) =>
-                <li>
-                    <h2>  <span className="item"><i class="fas fa-check"></i>{item}</span></h2>
-                </li>
-            )
-        )
-    } else {
-        return (
-            kItem = kItems.map((item) =>
-                <li>
-                    <h2>  <span className="item"><i class="fas fa-check"></i>{item}</span></h2>
-                </li>
-            )
-        )
-    }
-}
+function setItem(items) {
+    items.map((item) =>
+        <li>
+            <h2>  <span className="item"><i class="fas fa-check"></i>{item}</span></h2>
+        </li>
+    )
 
-const changeLanguage = (language) => (
-    language == true
-        ?
-        <div className="title-search-container">
-            <h2 className="title-search">{title}</h2>
-            <p className="discription-search">{discription}</p>
-        </div>
-        :
-        <div className="title-search-container">
-            <h2 className="title-search">{kTitle}</h2>
-            <p className="discription-search">{kDiscription}</p>
-        </div>
-)
+}
 
 const Search = (props) => (
     <div id="search-section" name="search">
@@ -62,10 +37,13 @@ const Search = (props) => (
             </div>
         </div>
         <div className="wrap-content-section">
-            {changeLanguage(props.language)}
+            <div className="title-search-container">
+                <h2 className="title-search">{props.language.titleSearch}</h2>
+                <p className="discription-search">{props.language.descriptionSearch}</p>
+            </div>
             <div className="wrap-items">
                 <ul>
-                    {setItem(items, props.language)}
+                    {setItem(props.language.itemsSearch)}
                 </ul>
             </div>
         </div>
