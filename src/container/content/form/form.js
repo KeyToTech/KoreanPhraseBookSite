@@ -2,16 +2,6 @@ import React from 'react';
 import '../form/form.css';
 import '../form/media.css';
 
-var subscribe = "Підписатися";
-var discription = "Отримуйте наші оновлення з пропозиціями та планами!";
-var placeholder = "Введіть електронну пошту";
-var btnValue = "Підписатися";
-
-var kSubscribe = "구독하기";
-var kDiscription = "제안 및 계획에 대한 업데이트";
-var kPlaceholder = "이메일을 입력하십시오";
-var kBtnValue = "구독하기";
-
 class Form extends React.PureComponent {
     constructor(props) {
         super(props);
