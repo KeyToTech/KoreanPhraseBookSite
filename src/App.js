@@ -4,7 +4,6 @@ import Header from './container/header/header.js';
 import Wrap from './container/content/wrap.js';
 import Footer from './container/footer/footer.js';
 import Message from './container/message/message';
-import strings from '../src/components/localization/languages';
 import ukr from '../src/components/localization/ukr';
 import kor from '../src/components/localization/kor';
 
