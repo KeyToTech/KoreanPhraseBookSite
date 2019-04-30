@@ -1,5 +1,5 @@
 import React from 'react';
-import koreanImg from '../../image/header.png';
+import koreanImg from '../../image/image_header.png';
 import logo from '../../image/logo.png';
 import logoMb from '..//..//logo.png';
 import googlePlayBottom from '../../google-store.png';
@@ -7,30 +7,21 @@ import iosStoreBottom from '../../ios-store.png';
 import '../header/header.css';
 import '../header/media.css';
 import { findDOMNode } from 'react-dom';
-var logoName = "Korean Phrase";
-var title = "Корейський розмовник";
-var subtitle = "Завантажуйте Корейський розмовник та спілкуйтесь корейською легко та ефективно!";
 
-const items = [
-  { class: "item", href: "#header", name: "Головна", active: "active" },
-  { class: "item", href: "#wrap-table", name: "Категорії" },
-  { class: "item", href: "#function-section", name: "Функції" },
-  { class: "item", href: "#wrap-form", name: "Оновлення" },
-]
+const href = ['#header', '#wrap-table', '#function-section', '#wrap-form']
 
-function setMenu(items) {
-  var item;
+function setMenu(items, href) {
   return (
-    item = items.map((item) =>
-      <li className={item.class}><a href={item.href} class={item.active}>{item.name}</a></li>
+    items.map((item, index) =>
+      <li className='item'><a href={href[index]} class={index == 0 ? 'active' : ''}>{item}</a></li>
     ))
 }
 
-function menu() {
+function menu(items) {
   return (
     <div className="menu">
       <ul className="menu-items">
-        {setMenu(items)}
+        {setMenu(items, href)}
       </ul>
     </div>
   )
@@ -44,7 +35,6 @@ function buttons(showMessage) {
           <img className="android-img" alt="android_img" src={googlePlayBottom} />
         </a>
       </div>
-
       <div className="button-ios">
         <a href="https://itunes.apple.com/us/app/%D0%BA%D0%BE%D1%80%D0%B5%D0%B9%D1%81%D1%8C%D0%BA%D0%B8%D0%B9-%D1%80%D0%BE%D0%B7%D0%BC%D0%BE%D0%B2%D0%BD%D0%B8%D0%BA/id1456473272" target="_blank">
           <img className="ios-img" alt="ios_img" src={iosStoreBottom} />
@@ -56,24 +46,29 @@ function buttons(showMessage) {
 
 const Header = (props) => (
   <div id="header" className="header">
+    <div className="container-btn-translation">
+      <div className="wrap-btn">
+        <button id="ukr" value="ukr" onClick={props.changeLanguageSiteUkr} className="btn-tr">UKR</button>
+        <button id="kor" value="kor" onClick={props.changeLanguageSiteKor} className="btn-tr">KOR</button>
+      </div>
+    </div>
     <div className="wrap-header">
       <nav className="navigation-tab">
         <div className="logo">
           <img className="logo-img" alt="img" src={logo} />
           <img className="logo-img-mb" alt="img-mb" src={logoMb} />
-          <h3 className="logo-name">{logoName}</h3>
+          <h3 className="logo-name">{props.language.logoName}</h3>
         </div>
-        {menu()}
+        {menu(props.language.links)}
       </nav>
       <div className="wrap-main-content">
         <div className="main-content">
           <div className="info-header">
-            <h2 className='title'>{title}</h2>
-            <p className='subtitle'>{subtitle}</p>
+            <h2 className='title'>{props.language.title}</h2>
+            <p className='subtitle'>{props.language.description}</p>
           </div>
           {buttons()}
         </div>
-
       </div>
     </div>
     <div className="image-header">
