@@ -31,8 +31,6 @@
     }
     .wrap-header {
         z-index: 1;
-        display: flex;
-        flex-direction: column;
     }
     .navigation-tab {
         display: flex;
@@ -53,13 +51,12 @@
     .menu-items {
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
     }
     .item {
         list-style: none;
     }
     .item:nth-child(1) {
-        margin-right: 30px;
+        margin-right: 50px;
     }
     .item a {
         text-decoration: none;
@@ -108,9 +105,6 @@
 
 @media all and (max-width: 1366px) {
 
-    .item:nth-child(1) {
-        margin-right: 0px;
-    }
 }
 
 @media all and (max-width: 1024px) {
@@ -120,6 +114,20 @@
 }
 
 @media all and (max-width: 980px) {
+    .item:nth-child(1) {
+        margin-right: 0px;
+    }
+    .item .active {
+        border: 1px solid white;
+        color: white;
+        border-radius: 100px;
+    }
+    .item .active:hover {
+        border: 1px solid white;
+        background: white;
+        border-radius: 100px;
+        color: #22b0b8;
+    }
     .item a {
         font-size: 70%;
     }
