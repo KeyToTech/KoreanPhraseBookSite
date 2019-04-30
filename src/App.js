@@ -9,8 +9,6 @@ import kor from '../src/components/localization/kor';
 
 class App extends Component {
 
-  btn;
-
   constructor(props) {
     super(props);
     this.state = {
