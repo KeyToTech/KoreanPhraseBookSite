@@ -9,13 +9,17 @@ import kor from '../src/components/localization/kor';
 
 class App extends Component {
 
+  btn;
+
   constructor(props) {
     super(props);
     this.state = {
       showMessage: false,
-      activeBtnUkr: true,
+      active: true,
       language: ukr,
+      disabled: true
     }
+
     this.changeLanguageSiteKor = this.changeLanguageSiteKor.bind(this);
     this.changeLanguageSiteUkr = this.changeLanguageSiteUkr.bind(this);
   }
@@ -33,36 +37,46 @@ class App extends Component {
   }
 
   changeLanguageSiteUkr() {
-    var btnU = document.getElementById('ukr');
-    var btnK = document.getElementById('kor');
     this.setState({
       language: ukr,
-    })
-    btnK.disabled = false;
-    btnK.classList.remove('active-language')
-    btnU.disabled = true;
-    btnU.classList.add('active-language');
+    });
+    this.activeButton(this.getElementBtnU());
+    this.disableButton(this.getElementBtnK());
   }
 
   changeLanguageSiteKor() {
-    var btnU = document.getElementById('ukr');
-    var btnK = document.getElementById('kor');
     this.setState({
       language: kor,
     })
-    btnK.disabled = true;
-    btnK.classList.add('active-language')
-    btnU.disabled = false;
-    btnU.classList.remove('active-language')
+    this.activeButton(this.getElementBtnK());
+    this.disableButton(this.getElementBtnU());
+  }
+
+  activeButton(button) {
+    button.disabled = true;
+    button.classList.add('active-language');
+  }
+
+  disableButton(button) {
+    button.disabled = false;
+    button.classList.remove('active-language')
+  }
+
+  getElementBtnU() {
+    return document.getElementById('ukr');
+  }
+
+  getElementBtnK() {
+    return document.getElementById('kor');
   }
 
   componentDidMount() {
-    if (this.state.activeBtnUkr) {
-      var button = document.getElementById('ukr');
-      button.disabled = true;
+    var button = this.getElementBtnU();
+    if (this.state.active) {
+      button.disabled = this.state.disabled;
       button.classList.add('active-language')
       this.setState({
-        activeBtnUkr: !this.state.activeBtnUkr
+        active: !this.state.active
       })
     }
   }
@@ -81,7 +95,7 @@ class App extends Component {
           showMessage={this.showMessage}
         />
         {content}
-        <Footer language={this.state.language}/>
+        <Footer language={this.state.language} />
       </div>
     );
   }

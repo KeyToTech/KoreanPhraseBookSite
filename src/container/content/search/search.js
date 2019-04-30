@@ -25,7 +25,7 @@ const Search = (props) => (
                 <ul>
                     {props.language.itemsSearch.map((item) =>
                         <li>
-                            <h2><span className="item"><i class="fas fa-check"></i>{item} {console.log(item)}</span></h2>
+                            <h2><span className="item"><i class="fas fa-check"></i>{item}</span></h2>
                         </li>)
                     }
                 </ul>
