@@ -7,31 +7,22 @@ import middleCircle from '..//../../image/middle_circle.png';
 import smallCircle from '..//../../image/small_circle.png';
 import doubleCircle from '..//../../image/double_circle.png';
 
-var title = "Ми розробили багато цікавих функцій";
-var discription = " Додавайте корисні для вас слова та фрази в улюблене практикуйте реальні побутові ситуації за допомогою діалогів";
-var item = "";
-var i = 0;
-const items = ["Улюблене", "Діалоги"];
-
 function setItem(items) {
     return (
-        item = items.map((item) =>
-            <ul>
-                <li>
-                    <h2>  <span className="item">{++i}.  {item}</span></h2>
-                </li>
-            </ul>
+        items.map((item) =>
+            <li>
+                <h2><span className="item">{item}</span></h2>
+            </li>
         )
     )
 }
 
-const Function = () => (
+const Function = (props) => (
     <div id="function-section">
-
         <div className="wrapper">
             <img className='background-phones-f' src={background} alt="background" />
-            <img className='background-circle-mf' src={middleCircle} alt="background" /> 
-            <img className='background-circle-df' src={doubleCircle} alt="background" /> 
+            <img className='background-circle-mf' src={middleCircle} alt="background" />
+            <img className='background-circle-df' src={doubleCircle} alt="background" />
             <img className='background-circle-sf' src={smallCircle} alt="background" />
             <div className="screen">
                 <img className="screen-img" src={dialogues} alt="alphabet" />
@@ -39,11 +30,13 @@ const Function = () => (
         </div>
         <div className="wrap-context-function">
             <div className="text-container-function">
-                <h2 className="title-function">{title}</h2>
-                <p className="discription-function">{discription}</p>
+                <h2 className="title-function">{props.language.titleFunctins}</h2>
+                <p className="discription-function">{props.language.descriptionFunctions}</p>
             </div>
             <div className="container-items">
-                {setItem(items)}
+                <ul>
+                    {setItem(props.language.itemsFunctions)}
+                </ul>
             </div>
         </div>
     </div>

@@ -6,26 +6,8 @@ import middleCircle from '..//../../image/middle_circle.png';
 import smallCircle from '..//../../image/small_circle.png';
 import doubleCircle from '..//../../image/double_circle.png';
 
-var title = "Зручний пошук";
-var discription = "Всього лише за мить допоможе знайти потрібне  вам слово чи фразу шукайте всюди:";
-const items = ["Основні вирази", "Числа", "Їжа", "Покупки", "Університет", "Транспорт", "Час", "Зв’язок", "Додаткові матеріали", "Словник"];
-var item = "";
-
-function setItem(items) {
-    return (
-        item = items.map((item) =>
-            <ul>
-                <li>
-                    <h2>  <span className="item"><i class="fas fa-check"></i>{item}</span></h2>
-                </li>
-            </ul>
-        )
-    )
-}
-
-const Search = () => (
+const Search = (props) => (
     <div id="search-section" name="search">
-
         <div className="wrapper">
             <img className='background-circle-ms' src={middleCircle} alt="background" />
             <img className='background-circle-ds' src={doubleCircle} alt="background" />
@@ -34,18 +16,22 @@ const Search = () => (
                 <img className="screen-img" src={rozdil} alt="alphabet" />
             </div>
         </div>
-
         <div className="wrap-content-section">
             <div className="title-search-container">
-                <h2 className="title-search">{title}</h2>
-                <p className="discription-search">{discription}</p>
+                <h2 className="title-search">{props.language.titleSearch}</h2>
+                <p className="discription-search">{props.language.descriptionSearch}</p>
             </div>
             <div className="wrap-items">
-                {setItem(items)}
-            </div>
-        </div>
-
-    </div>
+                <ul>
+                    {props.language.itemsSearch.map((item) =>
+                        <li>
+                            <h2><span className="item"><i class="fas fa-check"></i>{item}</span></h2>
+                        </li>)
+                    }
+                </ul>
+            </div >
+        </div >
+    </div >
 )
 
 export default Search;

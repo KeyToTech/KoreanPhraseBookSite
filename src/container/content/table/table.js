@@ -6,43 +6,24 @@ import sectionsImage from '../../../image/sections.png';
 import vocabularyImage from '../../../image/vocabulary.png';
 import notesImage from '../../../image/notes.png';
 
-const wrapContent = [
-    {
-        title: "Розділи", 
-        discription: "Основні слова та вирази, які допоможуть вам у побутовомуспілкуванні з носіями мови.",
-        href: "#function-section",
-        image: sectionsImage
-    },
-    {   
-        title: "Словник", 
-        discription: "Більш ніж 900 слів у алфавітному порядку.", 
-        href: "#alphabet-section",
-        image: vocabularyImage
-    },
-    {   
-        title: "Нотатки", 
-        discription: "Робіть власні нотаткита записуйте все, що хочете запам’ятати.", 
-        href: "#search-section",
-        image: notesImage
-    }
-]
-var button = "Дізнатися більше";
+const images = [sectionsImage, vocabularyImage, notesImage];
+const href = ['#function-section', '#alphabet-section', '#search-section'];
 
-const table = wrapContent.map((table) =>
+const table = (Table) => Table.tables.map((table, index) =>
     <div className="table">
-        <div className="image"><img src={table.image} /></div>
+        <div className="image"><img src={images[index]} /></div>
         <div className="text-container">
             <h2 className="title">{table.title}</h2>
-            <p className="discription">{table.discription}</p>
+            <p className="discription">{table.description}</p>
         </div>
-        <a className="button" href={table.href}>{button}</a>
+        <a className="button" href={href[index]}>{Table.btnTable}</a>
     </div>
 );
 
-const Table = () => (
+const Table = (props) => (
     <div id="wrap-table">
         <div className="tables">
-            {table}
+            {table(props.language.Table)}
         </div>
     </div>
 )
