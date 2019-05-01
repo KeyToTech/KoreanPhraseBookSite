@@ -1,4 +1,7 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![Hits-of-Code](https://hitsofcode.com/github/KeyToTech/KoreanPhraseBookSite)](https://hitsofcode.com/view/github/KeyToTech/KoreanPhraseBookSite)
+
+Landing page for https://kupua.herokuapp.com 
+
 
 ## Available Scripts
 
