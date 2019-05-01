@@ -1,6 +1,6 @@
 [![Hits-of-Code](https://hitsofcode.com/github/KeyToTech/KoreanPhraseBookSite)](https://hitsofcode.com/view/github/KeyToTech/KoreanPhraseBookSite)
 
-Landing page for https://kupua.herokuapp.com 
+# Landing page for https://kupua.herokuapp.com 
 
 
 ## Available Scripts
