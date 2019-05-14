@@ -1,3 +1,5 @@
+[![codebeat badge](https://codebeat.co/badges/63751f83-67c3-482a-a693-6482ed82ba7d)](https://codebeat.co/projects/github-com-keytotech-koreanphrasebooksite-master)
+
 [![Hits-of-Code](https://hitsofcode.com/github/KeyToTech/KoreanPhraseBookSite)](https://hitsofcode.com/view/github/KeyToTech/KoreanPhraseBookSite)
 
 # Landing page for https://kupua.herokuapp.com 
