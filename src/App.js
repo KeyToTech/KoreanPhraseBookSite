@@ -16,24 +16,24 @@ class App extends Component {
       showMessage: false,
       active: true,
       language: ukr,
-      disabled: true,
-      number: 5
+      disabled: true
     }
 
     this.changeLanguageSiteKor = this.changeLanguageSiteKor.bind(this);
     this.changeLanguageSiteUkr = this.changeLanguageSiteUkr.bind(this);
   }
 
-  componentDidMount() {
-    const rootRef = firebase.database().ref().child('react');
-    const numberRef = rootRef.child('number');
-    numberRef.on('value', snap => {
-      this.setState({
-         ...this.state,
-         number: snap.val()
-      })
-    })
-  }
+  // componentDidMount() {
+  //   const rootRef = firebase.database().ref().child('alphabet');
+  //   const numberRef = rootRef.child('-LOxU1aNcYK5NY0Zjs8e');
+  //   numberRef.on('value', snap => {
+  //     console.log(snap.val());
+  //     this.setState({
+  //        ...this.state,
+  //        object: snap.val()
+  //     })
+  //   })
+  // }
 
   showMessage = () => {
     this.setState({
@@ -81,16 +81,16 @@ class App extends Component {
     return document.getElementById('kor');
   }
 
-  // componentDidMount() {
-  //   var button = this.getElementBtnU();
-  //   if (this.state.active) {
-  //     button.disabled = this.state.disabled;
-  //     button.classList.add('active-language')
-  //     this.setState({
-  //       active: !this.state.active
-  //     })
-  //   }
-  // }
+  componentDidMount() {
+    var button = this.getElementBtnU();
+    if (this.state.active) {
+      button.disabled = this.state.disabled;
+      button.classList.add('active-language')
+      this.setState({
+        active: !this.state.active
+      })
+    }
+  }
 
   render() {
     let content = <Wrap language={this.state.language} />;
@@ -99,17 +99,14 @@ class App extends Component {
     }
     return (
       <div className="App">
-
-       {this.state.number}
-
-        {/* <Header
+       <Header
           changeLanguageSiteUkr={this.changeLanguageSiteUkr}
           changeLanguageSiteKor={this.changeLanguageSiteKor}
           language={this.state.language}
           showMessage={this.showMessage}
         />
         {content}
-        <Footer language={this.state.language} /> */}
+        <Footer language={this.state.language} /> 
       </div>
     );
   }

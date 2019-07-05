@@ -2,9 +2,9 @@ import React, { Component } from 'react';
 import '../table/table.css';
 import '../table/media.css';
 
-import sectionsImage from '../../../image/sections.png';
-import vocabularyImage from '../../../image/vocabulary.png';
-import notesImage from '../../../image/notes.png';
+import sectionsImage from '../../../assets/image/sections.png';
+import vocabularyImage from '../../../assets/image/vocabulary.png';
+import notesImage from '../../../assets/image/notes.png';
 
 const images = [sectionsImage, vocabularyImage, notesImage];
 const href = ['#function-section', '#alphabet-section', '#search-section'];

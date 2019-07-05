@@ -1,10 +1,10 @@
 import React from 'react';
 import '../search/search.css';
 import '../search/media.css';
-import rozdil from '..//..//..//image/rozdil_framed.png';
-import middleCircle from '..//../../image/middle_circle.png';
-import smallCircle from '..//../../image/small_circle.png';
-import doubleCircle from '..//../../image/double_circle.png';
+import rozdil from '../../../assets/image/rozdil_framed.png';
+import middleCircle from '../../../assets/image/middle_circle.png';
+import smallCircle from '../../../assets/image/small_circle.png';
+import doubleCircle from '../../../assets/image/double_circle.png';
 
 const Search = (props) => (
     <div id="search-section" name="search">

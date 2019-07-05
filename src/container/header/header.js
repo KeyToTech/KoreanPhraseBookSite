@@ -1,5 +1,5 @@
 import React from 'react';
-import koreanImg from '../../image/image_header.png';
+import koreanImg from '../../assets/image/image_header.png';
 import logo from '../../assets/logo.png';
 import logoMb from '../../assets/logo.png';
 import googlePlayBottom from '../../assets/google-store.png';
