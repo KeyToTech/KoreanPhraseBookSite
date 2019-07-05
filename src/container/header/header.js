@@ -1,9 +1,9 @@
 import React from 'react';
 import koreanImg from '../../image/image_header.png';
-import logo from '../../image/logo.png';
-import logoMb from '..//..//logo.png';
-import googlePlayBottom from '../../google-store.png';
-import iosStoreBottom from '../../ios-store.png';
+import logo from '../../assets/logo.png';
+import logoMb from '../../assets/logo.png';
+import googlePlayBottom from '../../assets/google-store.png';
+import iosStoreBottom from '../../assets/ios-store.png';
 import '../header/header.css';
 import '../header/media.css';
 import { findDOMNode } from 'react-dom';
