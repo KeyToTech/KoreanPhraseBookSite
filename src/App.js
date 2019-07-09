@@ -7,6 +7,8 @@ import Message from "./container/message/message";
 import ukr from "../src/components/localization/ukr";
 import kor from "../src/components/localization/kor";
 import * as firebase from "firebase";
+import { connect } from "react-redux";
+import Alphabet from "./components/Alphabet/Alphabet";
 
 class App extends Component {
   constructor(props) {
@@ -97,6 +99,7 @@ class App extends Component {
     if (this.state.showMessage) {
       content = <Message showWrap={this.showWrap} />;
     }
+    console.log(this.props.alphabet);
     return (
       <div className="App">
         <Header
@@ -106,6 +109,7 @@ class App extends Component {
           showMessage={this.showMessage}
         />
         {/* {content} */}
+        <Alphabet alphabet={this.props.alphabet} />
 
         <Footer language={this.state.language} />
       </div>
@@ -113,4 +117,11 @@ class App extends Component {
   }
 }
 
-export default App;
+const mapStateToProps = state => {
+  const { alphabet } = state.alphabet;
+  return {
+    alphabet: alphabet
+  };
+};
+
+export default connect(mapStateToProps)(App);
