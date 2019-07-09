@@ -1,12 +1,13 @@
 import React from "react";
 import "./Alphabet.css";
+import AlphabetTable from "./AlphabetTable/AlphabetTable";
 
 const Alphabet = ({ alphabet }) => {
   return (
     <div className="alphabet-area">
       {alphabet &&
         alphabet.map(item => {
-          return <p>{item.koreanLetter}</p>;
+          return <AlphabetTable item={item} />;
         })}
     </div>
   );
