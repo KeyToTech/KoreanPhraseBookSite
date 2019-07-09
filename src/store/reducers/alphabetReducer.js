@@ -1,25 +1,34 @@
+import { alphabetConstants } from "../constants/alphabetConstants";
+
 const initState = {
-  alphabet: [
-    {
-      koreanLetter: "ㄱ",
-      translateLetter: "к / ґ",
-      uid: "97a6c7da-bec2-4df1-9f39-f9e60a6fbcec"
-    },
-    {
-      koreanLetter: "32",
-      translateLetter: "f / ґ",
-      uid: "97a6fsda-bec2-4df1-9f39-f9e60a6fbcec"
-    },
-    {
-      koreanLetter: "1",
-      translateLetter: "s / ґ",
-      uid: "97a6cfsd-bec2-4df1-9f39-f9e60a6fbcec"
-    }
-  ]
+  loading: false,
+  alphabet: [],
+  error: false
 };
 
 const alphabetReducer = (state = initState, action) => {
-  return state;
+  switch (action.type) {
+    case alphabetConstants.REQUESTED_ALPHABET:
+      return {
+        loading: true,
+        alphabet: [],
+        error: false
+      };
+    case alphabetConstants.REQUESTED_ALPHABET_SUCCEEDED:
+      return {
+        loading: false,
+        alphabet: action.alphabet,
+        error: false
+      };
+    case alphabetConstants.REQUESTED_ALPHABET_FAILED:
+      return {
+        loading: false,
+        alphabet: [],
+        error: true
+      };
+    default:
+      return state;
+  }
 };
 
 export default alphabetReducer;
