@@ -23,18 +23,7 @@ class App extends Component {
     this.changeLanguageSiteUkr = this.changeLanguageSiteUkr.bind(this);
   }
 
-  componentDidMount() {
-    const rootRef = firebase.database().ref("alphabet");
-
-    const numberRef = rootRef.child("-LOxU1aNcYK5NY0Zjs8e");
-    numberRef.on("value", snap => {
-      console.log(snap.val());
-      this.setState({
-        ...this.state,
-        object: snap.val()
-      });
-    });
-  }
+  componentDidMount() {}
 
   showMessage = () => {
     this.setState({

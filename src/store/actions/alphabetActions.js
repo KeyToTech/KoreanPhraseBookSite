@@ -1,31 +1,16 @@
 import { alphabetConstants } from "../constants/alphabetConstants";
+import fbConfig from "../../data/config/fbConfig";
 
 export const getAlphabet = () => {
-  return dispatch => {
+  return (dispatch, { getFirebase, getFirestore }) => {
     dispatch(request());
-    setTimeout(() => {
-      dispatch(
-        success({
-          alphabet: [
-            {
-              koreanLetter: "ㄱ",
-              translateLetter: "к / ґ",
-              uid: "97a6c7da-bec2-4df1-9f39-f9e60a6fbcec"
-            },
-            {
-              koreanLetter: "32",
-              translateLetter: "f / ґ",
-              uid: "97a6fsda-bec2-4df1-9f39-f9e60a6fbcec"
-            },
-            {
-              koreanLetter: "1",
-              translateLetter: "s / ґ",
-              uid: "97a6cfsd-bec2-4df1-9f39-f9e60a6fbcec"
-            }
-          ]
-        })
-      );
-    }, 3000);
+    const data = fbConfig.database().ref("alphabet");
+    data.on("value", snap => {
+      const alphabetObject = snap.val();
+      if (alphabetObject) {
+        dispatch(success(alphabetObject));
+      } else dispatch(failure());
+    });
   };
 };
 
@@ -38,6 +23,6 @@ function success(alphabet) {
   return { type: alphabetConstants.REQUESTED_ALPHABET_SUCCEEDED, alphabet };
 }
 // eslint-disable-next-line
-function failure(error) {
-  return { type: alphabetConstants.REQUESTED_ALPHABET_FAILED, error };
+function failure() {
+  return { type: alphabetConstants.REQUESTED_ALPHABET_FAILED };
 }

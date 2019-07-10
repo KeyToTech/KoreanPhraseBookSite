@@ -3,6 +3,8 @@ import "./Alphabet.css";
 import AlphabetTable from "./AlphabetTable/AlphabetTable";
 import { connect } from "react-redux";
 import { getAlphabet } from "../../store/actions/alphabetActions";
+import { compose } from "redux";
+import { firebaseConnect, isLoaded, isEmpty } from "react-redux-firebase";
 
 class Alphabet extends React.Component {
   componentDidMount() {
@@ -10,16 +12,16 @@ class Alphabet extends React.Component {
   }
 
   render() {
-    console.log(this.props.alphabet);
     const { loading, alphabet, error } = this.props;
+    console.log(error);
     return (
       <div className="alphabet-area">
         {loading ? (
           <div>Loading...</div>
         ) : (
-          alphabet.alphabet &&
-          alphabet.alphabet.map(item => {
-            return <AlphabetTable item={item} />;
+          alphabet &&
+          Object.keys(alphabet).map(key => {
+            return <AlphabetTable key={key} item={alphabet[key]} />;
           })
         )}
       </div>
