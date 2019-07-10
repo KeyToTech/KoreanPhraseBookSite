@@ -13,6 +13,7 @@ class Alphabet extends React.Component {
 
   render() {
     const { loading, alphabet, error } = this.props;
+    console.log(error);
     return (
       <div className="alphabet-area">
         {loading ? (

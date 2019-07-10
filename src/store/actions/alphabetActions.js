@@ -6,7 +6,10 @@ export const getAlphabet = () => {
     dispatch(request());
     const data = fbConfig.database().ref("alphabet");
     data.on("value", snap => {
-      dispatch(success(snap.val()));
+      const alphabetObject = snap.val();
+      if (alphabetObject) {
+        dispatch(success(alphabetObject));
+      } else dispatch(failure());
     });
   };
 };
