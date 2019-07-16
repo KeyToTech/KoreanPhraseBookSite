@@ -6,8 +6,6 @@ import Footer from "./container/footer/footer.js";
 import Message from "./container/message/message";
 import ukr from "../src/components/localization/ukr";
 import kor from "../src/components/localization/kor";
-import * as firebase from "firebase";
-import Alphabet from "./components/Alphabet/Alphabet";
 
 class App extends Component {
   constructor(props) {
@@ -22,8 +20,6 @@ class App extends Component {
     this.changeLanguageSiteKor = this.changeLanguageSiteKor.bind(this);
     this.changeLanguageSiteUkr = this.changeLanguageSiteUkr.bind(this);
   }
-
-  componentDidMount() {}
 
   showMessage = () => {
     this.setState({
@@ -71,23 +67,23 @@ class App extends Component {
     return document.getElementById("kor");
   }
 
-  // componentDidMount() {
-  //   var button = this.getElementBtnU();
-  //   if (this.state.active) {
-  //     button.disabled = this.state.disabled;
-  //     button.classList.add('active-language')
-  //     this.setState({
-  //       active: !this.state.active
-  //     })
-  //   }
-  // }
+  componentDidMount() {
+    var button = this.getElementBtnU();
+    if (this.state.active) {
+      button.disabled = this.state.disabled;
+      button.classList.add("active-language");
+      this.setState({
+        active: !this.state.active
+      });
+    }
+  }
 
   render() {
     let content = <Wrap language={this.state.language} />;
     if (this.state.showMessage) {
       content = <Message showWrap={this.showWrap} />;
     }
-    console.log(this.props.alphabet);
+
     return (
       <div className="App">
         <Header
@@ -96,9 +92,7 @@ class App extends Component {
           language={this.state.language}
           showMessage={this.showMessage}
         />
-        {/* {content} */}
-        <Alphabet />
-
+        {content}
         <Footer language={this.state.language} />
       </div>
     );
