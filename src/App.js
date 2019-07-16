@@ -1,14 +1,13 @@
-import React, { Component } from 'react';
-import './App.css';
-import Header from './container/header/header.js';
-import Wrap from './container/content/wrap.js';
-import Footer from './container/footer/footer.js';
-import Message from './container/message/message';
-import ukr from '../src/components/localization/ukr';
-import kor from '../src/components/localization/kor';
+import React, { Component } from "react";
+import "./App.css";
+import Header from "./container/header/header.js";
+import Wrap from "./container/content/wrap.js";
+import Footer from "./container/footer/footer.js";
+import Message from "./container/message/message";
+import ukr from "../src/components/localization/ukr";
+import kor from "../src/components/localization/kor";
 
 class App extends Component {
-
   constructor(props) {
     super(props);
     this.state = {
@@ -16,7 +15,7 @@ class App extends Component {
       active: true,
       language: ukr,
       disabled: true
-    }
+    };
 
     this.changeLanguageSiteKor = this.changeLanguageSiteKor.bind(this);
     this.changeLanguageSiteUkr = this.changeLanguageSiteUkr.bind(this);
@@ -25,18 +24,18 @@ class App extends Component {
   showMessage = () => {
     this.setState({
       showMessage: true
-    })
-  }
+    });
+  };
 
   showWrap = () => {
     this.setState({
       showMessage: false
-    })
-  }
+    });
+  };
 
   changeLanguageSiteUkr() {
     this.setState({
-      language: ukr,
+      language: ukr
     });
     this.activeButton(this.getElementBtnU());
     this.disableButton(this.getElementBtnK());
@@ -44,38 +43,38 @@ class App extends Component {
 
   changeLanguageSiteKor() {
     this.setState({
-      language: kor,
-    })
+      language: kor
+    });
     this.activeButton(this.getElementBtnK());
     this.disableButton(this.getElementBtnU());
   }
 
   activeButton(button) {
     button.disabled = true;
-    button.classList.add('active-language');
+    button.classList.add("active-language");
   }
 
   disableButton(button) {
     button.disabled = false;
-    button.classList.remove('active-language')
+    button.classList.remove("active-language");
   }
 
   getElementBtnU() {
-    return document.getElementById('ukr');
+    return document.getElementById("ukr");
   }
 
   getElementBtnK() {
-    return document.getElementById('kor');
+    return document.getElementById("kor");
   }
 
   componentDidMount() {
     var button = this.getElementBtnU();
     if (this.state.active) {
       button.disabled = this.state.disabled;
-      button.classList.add('active-language')
+      button.classList.add("active-language");
       this.setState({
         active: !this.state.active
-      })
+      });
     }
   }
 
@@ -84,6 +83,7 @@ class App extends Component {
     if (this.state.showMessage) {
       content = <Message showWrap={this.showWrap} />;
     }
+
     return (
       <div className="App">
         <Header
@@ -100,5 +100,3 @@ class App extends Component {
 }
 
 export default App;
-
-

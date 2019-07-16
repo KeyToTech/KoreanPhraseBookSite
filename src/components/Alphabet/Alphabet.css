@@ -1,0 +1,7 @@
+.alphabet-area {
+    padding: 60px 20px;
+    background: #a2dbde;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

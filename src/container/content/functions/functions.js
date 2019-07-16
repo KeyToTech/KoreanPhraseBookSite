@@ -1,11 +1,11 @@
 import React from 'react';
 import '../functions/functions.css';
 import '../functions/media.css';
-import dialogues from '..//..//..//image/dialogs_android.png';
-import background from '..//..//..//image/background.png';
-import middleCircle from '..//../../image/middle_circle.png';
-import smallCircle from '..//../../image/small_circle.png';
-import doubleCircle from '..//../../image/double_circle.png';
+import dialogues from '../../../assets/image/dialogs_android.png';
+import background from '../../../assets/image/background.png';
+import middleCircle from '../../../assets/image/middle_circle.png';
+import smallCircle from '../../../assets/image/small_circle.png';
+import doubleCircle from '../../../assets/image/double_circle.png';
 
 function setItem(items) {
     return (

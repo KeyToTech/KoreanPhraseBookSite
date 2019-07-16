@@ -46,6 +46,7 @@
     }
     .button-wrap {
         width: 65%;
+        margin-top: 60px;
     }
     .button-android {
         width: 40%;

@@ -1,7 +1,7 @@
 import React from 'react';
 import '../alphabet/alphabet.css';
 import '../alphabet/media.css';
-import alphabet from '..//..//..//image/alphabet_framed.png';
+import alphabet from '../../../assets/image/alphabet_framed.png';
 
 const Alphabet = (props) => (
         <div id="alphabet-section">
