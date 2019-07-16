@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import koreanImg from "../../image/image_header.png";
 import logo from "../../image/logo.png";
 import logoMb from "..//..//logo.png";
@@ -79,11 +80,13 @@ const Header = props => (
     </div>
     <div className="wrap-header">
       <nav className="navigation-tab">
-        <div className="logo">
-          <img className="logo-img" alt="img" src={logo} />
-          <img className="logo-img-mb" alt="img-mb" src={logoMb} />
-          <h3 className="logo-name">{props.language.logoName}</h3>
-        </div>
+        <Link to="/" className="link-home">
+          <div className="logo">
+            <img className="logo-img" alt="img" src={logo} />
+            <img className="logo-img-mb" alt="img-mb" src={logoMb} />
+            <h3 className="logo-name">{props.language.logoName}</h3>
+          </div>
+        </Link>
         {menu(props.language.links)}
       </nav>
       <div className="wrap-main-content">

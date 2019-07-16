@@ -6,6 +6,7 @@ import Footer from "./container/footer/footer.js";
 import Message from "./container/message/message";
 import ukr from "../src/components/localization/ukr";
 import kor from "../src/components/localization/kor";
+import PrivacyPolicy from "../src/container/content/privacy/PrivacyPolicy";
 import { Route } from "react-router-dom";
 
 class App extends Component {
@@ -93,6 +94,7 @@ class App extends Component {
           showMessage={this.showMessage}
         />
         <Route path="/" exact render={() => React.cloneElement(content)} />
+        <Route path="/privacy-policy" component={PrivacyPolicy} />
         <Footer language={this.state.language} />
       </div>
     );
