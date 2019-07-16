@@ -6,9 +6,17 @@
     margin-bottom: 100px;
 }
 
+.main-container {
+    margin-top: 80px;
+}
+
+.container {
+    height: 80px;
+    margin: 10px 0;
+}
+
 h1 {
     font-family: 'Poppins', sans-serif;
-    margin-top: 40px;
 }
 
 h2 {
@@ -18,9 +26,4 @@ h2 {
 p {
     font-family: 'Lato', sans-serif;
     font: 30px;
-}
-
-.redirection {
-    text-decoration: none;
-    color: #3a3a3a;
 }
