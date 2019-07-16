@@ -27,7 +27,7 @@ const containers = [
   }
 ];
 
-const container = () =>
+const Container = () =>
   containers.map(({ title, description }) => {
     return (
       <div className="container">
@@ -40,7 +40,9 @@ const container = () =>
 const PrivacyPolicy = props => (
   <div className="privacy-content">
     <h1>Privacy Policy</h1>
-    <div className="main-container">{container}</div>
+    <div className="main-container">
+      <Container />
+    </div>
   </div>
 );
 
