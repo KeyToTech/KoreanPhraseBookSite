@@ -50,10 +50,12 @@ function itemLink(language) {
 const Footer = props => (
   <div className="footer">
     <div className="wrap-footer">
-      <div className="container-logo">
-        <img src={logo} alt="logo-img" className="logo-footer" />
-        <h2 className="app-name">국어 회화집</h2>
-      </div>
+      <Link to="/" className="link-home">
+        <div className="container-logo">
+          <img src={logo} alt="logo-img" className="logo-footer" />
+          <h2 className="app-name">국어 회화집</h2>
+        </div>
+      </Link>
 
       <div className="wrap-block">
         <div className="container-footer">
