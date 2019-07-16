@@ -33,6 +33,11 @@ h2 {
 }
 
 p {
-    font-family: 'Lato', sans-serif;    
+    font-family: 'Lato', sans-serif;
     font: 30px;
+}
+
+.redirection {
+    text-decoration: none;
+    color: #3a3a3a;
 }
